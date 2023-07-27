@@ -1,0 +1,23 @@
+@media  screen and (min-width: 1025px){
+
+.hide_{
+    transform: translateX(-18rem);
+}
+
+.show_{
+    transform: translateX(0rem);
+    transition: 1.95s;
+}
+
+.hide_1{
+    transform: translateY(6rem);
+    opacity: 0;
+}
+
+.show_1{
+    transform: translateY(0);
+    transition: 1.6s;
+    opacity: 1;
+}
+
+}

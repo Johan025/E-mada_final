@@ -1,0 +1,698 @@
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("assets/demo_coneriascript-webfont.woff2") format("woff2"), url("assets/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("assets/abrilfatface-regular-webfont.woff2") format("woff2"), url("assets/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("assets/yesevaone-regular-webfont.woff2") format("woff2"), url("assets/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("assets/battora-webfont.woff2") format("woff2"), url("assets/battora-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("assets/alfaslabone-regular-webfont.woff2") format("woff2"), url("assets/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("assets/alegreya-variablefont_wght-webfont.woff2") format("woff2"), url("assets/alegreya-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  font-family: "alegreyaregular";
+}
+
+@media screen and (min-width: 1025px) {
+  .signup {
+    width: 22rem;
+    height: 25rem;
+    position: absolute;
+    left: 63vw;
+    top: 10rem;
+    background-color: rgba(97, 55, 14, 0.842);
+    border-radius: 15px;
+    display: none;
+  }
+  .signup h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    font-weight: 800;
+    width: 20vw;
+    color: #fff;
+  }
+  .signup .userName {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 6.5rem;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+  }
+  .signup .email2 {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 11rem;
+  }
+  .signup .password2 {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 15.6rem;
+  }
+  .signup button {
+    position: absolute;
+    top: 19.6rem;
+    border-radius: 15px;
+    width: 15rem;
+    height: 2.1rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 4.3rem;
+  }
+  .signup p {
+    font-size: 17px;
+    position: absolute;
+    top: 21.4rem;
+    left: 2.4rem;
+    color: #fff;
+  }
+  .signup a {
+    font-size: 17px;
+    position: absolute;
+    top: 22.4rem;
+    left: 14.5rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .login {
+    width: 22rem;
+    height: 25rem;
+    position: absolute;
+    left: 63vw;
+    top: 10rem;
+    background-color: rgba(97, 55, 14, 0.842);
+    border-radius: 15px;
+    display: block;
+  }
+  .login h1 {
+    font-size: 33px;
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    font-weight: 800;
+    width: 20vw;
+    color: #fff;
+  }
+  .login .email {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 8rem;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+  }
+  .login .password {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 13rem;
+  }
+  .login button {
+    position: absolute;
+    top: 17.6rem;
+    border-radius: 15px;
+    width: 15rem;
+    height: 2.1rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 4.3rem;
+  }
+  .login p {
+    font-size: 17px;
+    position: absolute;
+    top: 20.4rem;
+    left: 1rem;
+    color: #fff;
+  }
+  .login a {
+    font-size: 17px;
+    position: absolute;
+    top: 21.4rem;
+    left: 16.7rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+  .desc {
+    position: absolute;
+    top: 13rem;
+    left: -2vw;
+  }
+  .desc h1 {
+    font-size: 45px;
+    color: #fff;
+    width: 60vw;
+    font-family: "yeseva_oneregular";
+  }
+  .desc p {
+    font-size: 21px;
+    color: #fff;
+    width: 60vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .desc button {
+    position: absolute;
+    top: 11rem;
+    border-radius: 15px;
+    width: 12rem;
+    height: 2.6rem;
+    background-color: rgba(150, 107, 26, 0);
+    border: 1.4px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    left: 6vw;
+    cursor: pointer;
+  }
+  .desc button:hover {
+    background-color: rgba(150, 107, 26, 0.63);
+  }
+}
+@media screen and (min-width: 1025px) {
+  .i1 {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 41.75rem;
+  }
+  .i2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .hide_ {
+    transform: translateX(-18rem);
+  }
+  .show_ {
+    transform: translateX(0rem);
+    transition: 1.95s;
+  }
+  .hide_1 {
+    transform: translateY(6rem);
+    opacity: 0;
+  }
+  .show_1 {
+    transform: translateY(0);
+    transition: 1.6s;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  * {
+    box-sizing: border-box;
+  }
+  #sign, #login {
+    display: none;
+    opacity: 0;
+  }
+  .i2 {
+    width: 99vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: block;
+  }
+  .i1 {
+    display: none;
+  }
+  .login {
+    width: 95vw;
+    height: 25rem;
+    position: absolute;
+    left: 3vw;
+    top: 12rem;
+    background-color: rgba(97, 55, 14, 0.842);
+    border-radius: 15px;
+  }
+  .login h1 {
+    font-size: 35px;
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    font-weight: 800;
+    width: 70vw;
+    color: #fff;
+  }
+  .login .email {
+    width: 75vw;
+    border-radius: 16px;
+    height: 2.4rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 8rem;
+    left: 10vw;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+  }
+  .login .password {
+    width: 75vw;
+    border-radius: 16px;
+    height: 2.4rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 10vw;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 13rem;
+  }
+  .login button {
+    position: absolute;
+    top: 17.6rem;
+    border-radius: 15px;
+    width: 75vw;
+    height: 2.5rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 10vw;
+  }
+  .login p {
+    font-size: 17px;
+    position: absolute;
+    top: 20.4rem;
+    left: 1rem;
+    color: #fff;
+  }
+  .login a {
+    font-size: 17px;
+    position: absolute;
+    top: 21.4rem;
+    left: 16.7rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+  .signup {
+    width: 95vw;
+    height: 26rem;
+    position: absolute;
+    left: 3vw;
+    top: 12rem;
+    background-color: rgba(97, 55, 14, 0.842);
+    border-radius: 15px;
+    display: none;
+  }
+  .signup h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    font-weight: 800;
+    width: 70vw;
+    color: #fff;
+  }
+  .signup .userName {
+    width: 75vw;
+    border-radius: 16px;
+    height: 2.4rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 6.5rem;
+    left: 9vw;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+  }
+  .signup .email2 {
+    width: 75vw;
+    border-radius: 16px;
+    height: 2.4rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 9vw;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 11rem;
+  }
+  .signup .password2 {
+    width: 75vw;
+    border-radius: 16px;
+    height: 2.4rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 9vw;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 15.6rem;
+  }
+  .signup button {
+    position: absolute;
+    top: 19.6rem;
+    border-radius: 15px;
+    width: 75vw;
+    height: 2.5rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 9vw;
+  }
+  .signup p {
+    font-size: 17px;
+    position: absolute;
+    top: 22.4rem;
+    left: 2.4rem;
+    color: #fff;
+  }
+  .signup a {
+    font-size: 17px;
+    position: absolute;
+    top: 23.4rem;
+    left: 14.5rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+  .desc {
+    position: absolute;
+    top: 4.5rem;
+    left: 7vw;
+  }
+  .desc h1 {
+    font-size: 35px;
+    color: #fff;
+    width: 85vw;
+    font-family: "yeseva_oneregular";
+  }
+  .desc p {
+    display: none;
+  }
+  .desc button {
+    display: none;
+  }
+}
+@media screen and (min-width: 764px) and (max-width: 1023px) {
+  .i1 {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+  }
+  .i2 {
+    display: none;
+  }
+  #sign, #login {
+    display: none;
+    opacity: 0;
+  }
+  .desc {
+    position: absolute;
+    top: 10rem;
+    left: 20vw;
+  }
+  .desc h1 {
+    font-size: 39px;
+    color: #fff;
+    width: 60vw;
+    font-family: "yeseva_oneregular";
+  }
+  .desc p {
+    font-size: 21px;
+    color: #fff;
+    width: 60vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .desc button {
+    position: absolute;
+    top: 11rem;
+    border-radius: 15px;
+    width: 12rem;
+    height: 2.6rem;
+    background-color: rgba(150, 107, 26, 0);
+    border: 1.4px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    left: 6vw;
+    cursor: pointer;
+  }
+  .desc button:hover {
+    background-color: rgba(150, 107, 26, 0.63);
+  }
+  .login {
+    width: 45vw;
+    height: 25rem;
+    position: absolute;
+    left: 27vw;
+    top: 24rem;
+    background-color: rgba(97, 55, 14, 0.842);
+    border-radius: 15px;
+    display: block;
+  }
+  .login h1 {
+    font-size: 33px;
+    position: absolute;
+    top: 2rem;
+    left: -3vw;
+    font-weight: 800;
+    width: 50vw;
+    color: #fff;
+  }
+  .login .email {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 8rem;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+  }
+  .login .password {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 13rem;
+  }
+  .login button {
+    position: absolute;
+    top: 17.6rem;
+    border-radius: 15px;
+    width: 15rem;
+    height: 2.1rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 4.3rem;
+  }
+  .login p {
+    font-size: 17px;
+    position: absolute;
+    top: 20.4rem;
+    left: 1rem;
+    color: #fff;
+  }
+  .login a {
+    font-size: 17px;
+    position: absolute;
+    top: 21.4rem;
+    left: 16.7rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+  .signup {
+    width: 45vw;
+    height: 26rem;
+    position: absolute;
+    left: 27vw;
+    top: 24rem;
+    background-color: rgba(97, 55, 14, 0.842);
+    border-radius: 15px;
+    display: none;
+  }
+  .signup h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 1rem;
+    left: -2.5vw;
+    font-weight: 800;
+    width: 50vw;
+    color: #fff;
+  }
+  .signup .userName {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 6.5rem;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+  }
+  .signup .email2 {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 11rem;
+  }
+  .signup .password2 {
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border: 1.9px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 15.6rem;
+  }
+  .signup button {
+    position: absolute;
+    top: 19.6rem;
+    border-radius: 15px;
+    width: 15rem;
+    height: 2.1rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 4.3rem;
+  }
+  .signup p {
+    font-size: 17px;
+    position: absolute;
+    top: 21.4rem;
+    left: 2.4rem;
+    color: #fff;
+  }
+  .signup a {
+    font-size: 17px;
+    position: absolute;
+    top: 22.4rem;
+    left: 14.5rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("assets/abrilfatface-regular-webfont.woff2") format("woff2"), url("assets/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("assets/yesevaone-regular-webfont.woff2") format("woff2"), url("assets/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("assets/battora-webfont.woff2") format("woff2"), url("assets/battora-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("assets/alfaslabone-regular-webfont.woff2") format("woff2"), url("assets/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("assets/alegreya-variablefont_wght-webfont.woff2") format("woff2"), url("assets/alegreya-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="est.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <title>E-MADA VISITE/EST</title>
+</head>
+<body> 
+  <div id="map"></div>
+  <div class="est_couverture">
+   
+    <h2 class="couverture">L' est de Madagascar</h2>
+     <div class="detail_date">
+      <i class="fa fa-calendar"></i>
+      <h3>A peu prés 11 jours</h3>
+    </div>
+
+    <div class="detail_trajet">
+      <i class=" fa fa-map-marker"></i>
+      <h3>Antananarivo ~ Sainte-Marie</h3>
+    </div>
+
+    <h3></h3>
+    <div class="couverture_est"><img src="./../menu/assets/image/sainte-marie.jpg" alt=""></div>    
+    <div class="legende_est">Explorez le Nord de Madagascar</div>
+    <div class="description_est">Le plus grand lémurien INDRI INDRI du parc Andasibe, avec son cri magique le matin. Réserve exotique de Madagascar qui vous donne l'occasion de voir      différents caméléons, reptiles, réserve de Vakona que vous avez possibilité de voir approcher les lémuriens sans oublier<br> la marche nocturne qui vous donne l'occasion de voir les microcèbes ou lémuriens souris, les plus petits lémuriens du monde avec 50g de >poids , grenouille , caméléon …
+    </div>
+
+</div>
+
+<div class="border_princ"></div>
+
+<div class="border1"></div>     
+    <div class="Andasibe">
+
+        <div class="legende-andasibe"> <i class=""></i><i class="fa fa-map-marker"></i><h1>Andasibe</h1></div>
+        <p class="desc_Andasibe">Constitué de forêts denses, le Parc National d'Andasibe est une aire naturelle protégée. Habité par les lémuriens, ce parc naturel abrite aussi de nombreuses autres espèces animales. L'écosystème de ce lieu est varié avec une faune et une flore tout en couleurs : orchydées, goyaviers, bambous et eucalyptus. Une visite naturellement verdoyante!</p>
+
+        <img src="./photo/p2.jpg" alt="">
+ </div>
+   
+ <div class="border2"></div>  
+      <div class="Palmarium">
+           
+          <div class="legende-palmarium"> <i class=""></i><i class="fa fa-map-marker"></i><h1>Palmarium</h1></div>
+          <p class="desc_Palmarium">Situé au nord de lîle, le Parc National d'Ankarana s'étend sur 18 220 hectares. Cette réserve naturelle et animale recense plus de 60 espèces différentes de reptiles et amphibiens, 96 espèces d'oiseaux et plus de 330 espèces végétales. Région montagneuse constituée de calcaire, le massif s'achève à l'ouest avec une falaise impressionnante s'étendant sur 25 kilomètres de long et surnomée "le mur de l'Ankarana".</p>
+          <img class="Palmarium_img" src="./photo/palmarium/photo palmarium.jpg" alt="">
+      </div>
+
+      <div class="border3"></div>  
+      <div class="Foulpointe" id="foulpointe">
+          
+          <div class="legende-foulpointe"> <i class=""></i><i class="fa fa-map-marker"></i><h1>Foulpointe</h1></div>
+          <p class="desc_foulpointe">Nosy Komba qui veut dire « Île aux lémuriens » est la deuxième principale île de l’archipel de Nosy Be. Elle est également connue pour abriter de nombreux lémuriens considérés comme sacrés par les habitants de l’île. Venez découvrir les paysages grandioses qui la façonnent ainsi que les nombreuses activités et sports nautiques que l’on peut y faire.Nosy Komba est l’île la plus peuplée après Nosy Be avec près de 4000 habitants, elle n’est seulement qu’à 15 minutes de Hell Ville en bateau.</p>
+          <img class="Foulpointe_img" src="./photo/Foulpointe/foulpointe1.jpg" alt="">
+      </div>
+
+      <div class="border4"></div>  
+      <div class="Sm" id="sm">
+          
+          <div class="legende-sm"> <i class=""></i><i class="fa fa-map-marker"></i><h1>Sainte-marie</h1></div>
+          <p class="desc_sm">Nosy Komba qui veut dire « Île aux lémuriens » est la deuxième principale île de l’archipel de Nosy Be. Elle est également connue pour abriter de nombreux lémuriens considérés comme sacrés par les habitants de l’île. Venez découvrir les paysages grandioses qui la façonnent ainsi que les nombreuses activités et sports nautiques que l’on peut y faire.Nosy Komba est l’île la plus peuplée après Nosy Be avec près de 4000 habitants, elle n’est seulement qu’à 15 minutes de Hell Ville en bateau.</p>
+          <img class="Sm_img" src="./../menu/assets/image/sainte-marie.jpg" alt="">
+      </div>
+
+
+    
+    
+     <header id="header" class="header">
+      <div class="header_contain">
+      <ul id="ul">
+        <li><a href="./../menu/menu.php"  target="_self"><i class="fa fa-home"></i> ACCUEIL</a></li>
+        <!-- <li><a href="#c" target="_self" id="circuit">Nos services</a></li> -->
+          <li><a href="../menu/menu.php#circ"  class="a1" target="_self" id="circuit">NOS DESTINATIONS</a></li>
+        <li><a href="../menu/menu.php#blog" target="_self" id="circuit">BLOG</a></li>
+        <li><a href="./../menu/menu.php#propos" target="_self"><i class="fa fa-info">  A PROPOS</i></a></li>
+        <li><a  href="./../recherche_hotel/hotel.php" target="_self"><i class="fa fa-search" id="search"> Rechercher</i></a></li>
+      </ul>
+      </div>
+      <div class="icone_menu"><i class="fa fa-bars"></i></div>
+      <div class="logo"> <img src="../menu/assets/image/logo_.png" alt=""> E-MADA <span>VISIT</span></div>
+    </header>
+  <script src="../javascript/menuEffect.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="./../javascript/map_Est.js"></script>
+  
+</body>
+<footer>
+  <img src="../menu/assets/image/logo.png" alt="" class="logo">
+  <div class="info">
+   <h1>Nous contacter</h1>
+      <div class="phone"> <img src="../menu/assets/image/telephone.png" alt=""><p>038 19 580 04</p></div>
+     <div class="email"><img src="../menu/assets/image/lettre20x20.png" alt=""><p> Loickemadesemadisson@gmail.com</p></div>
+     <div class="github"><img src="" alt=""></div>
+  </div>
+
+  <div class="circ">
+      <h1>Circuits</h1>
+      <h3>Nord</h3>
+      <h3>Sud</h3>
+      <h3>Est</h3>
+      <h3>Ouest</h3>
+
+  </div>
+
+  <div class="raccourci">
+   <h1>menu</h1>
+   <h3>home</h3>
+   <h3>nos destinations</h3>
+   <h3>a propos</h3>
+   <h3>blog</h3>
+
+</div>
+
+<div class="reference">
+ <h1>Notre reference</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam est molestiae </p>
+
+</div>
+
+<div class="border_"></div>
+<p class="copright">copyright @2023 E-MADA VISIT by Johan .All Rights reserved</p>
+<div class="icones">
+ <img src="../menu/assets/image/FaceBook.png" alt="">
+ <img src="../menu/assets/image/twitter.png" alt="">
+ <img src="../menu/assets/image/Pinterest.png">
+ <img src="../menu/assets/image/insta.png" alt="">
+ <img src="../menu/assets/image/github.png" alt="">
+</div>
+</footer>
+
+<!-- <footer>
+  <div class="footer_up">
+    <div>
+      <input type="text" name="coms"  class="input_coms" placeholder="laissez un commentaire"/>
+      <input type="submit" name="envoyer_coms" class="submit_coms" value="envoyer"/>
+    </div> 
+  </div>
+ 
+  <div class="sommaire">
+     <div class="titre">lien</div>
+         <a href="#">Accueil</a>
+         <a href="#propos">a propos</a>
+         <a href="">services</a>
+         <a href="">destinations</a>
+         <a href="">blog</a>
+         <a href="">Us et coûtumes</a>
+         <a href="">rechercher</a>
+  </div>
+
+    <div class="sommaire_circuit">
+     <div class="titre">destinations</div>
+         <a href="">NORD</a>
+         <a href="">SUD</a>
+         <a href="">EST</a>
+         <a href="">OUEST</a>
+         <a href="">CENTRE</a>
+  </div>
+
+    <div class="suivre">Nous suivre</div>
+    <div class="follow">
+    <div class="facebook"><i class="fa fa-facebook"></i></div>
+    <div class="twitter"><i class="fa fa-twitter"></i></div>
+    <div class="instagram"><i class="fa fa-instagram"></i></div>
+    <div class="youtube"><i class="fa fa-youtube"></i></div>
+    
+
+  </div>
+  <div class="contact">Nous contacter</div>
+  <div class="contact_1">Adresse: LOT III A 40 D TER AMBOHIDROA <br>Email: Loickemadesemadisson@gmail.com<br>Numéro de
+    téléphone: 0381958004</div>
+  <div class="product">
+    PRODUCT by JOHAN
+  </div>
+</footer> -->
+</html>

@@ -1,0 +1,42 @@
+@media screen and (min-width: 1024px) {
+
+.blog{
+    position: absolute;
+    top: 265rem;
+
+      h3{
+        position: absolute;
+        left: 39vw;
+        top: 14rem;
+        text-align: center;
+        font-size: 24px;
+        color: $color_1;
+       font-family: 'coneria_script_demoregular';
+        font-style: italic;
+        font-weight: 800;
+      }
+
+       .contain{
+      .img{
+         width: 29vw;
+         height: 25rem;
+        
+         border-radius: 12px;
+         position: absolute;
+         top: -25rem;
+         left: 33vw;
+      }
+
+      p{
+        font-size: 26px;
+        width: 30vw;
+        position: absolute;
+        top: 1rem;
+        left: 32vw;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+      }
+    }
+}
+
+}

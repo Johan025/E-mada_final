@@ -1,0 +1,130 @@
+@media screen and (min-width: 1025px) {
+     .NosyKomba{
+
+        display: block;
+        border-radius: 6.5px;
+        @include div(16.6rem, 50vw,5vw, 116rem,rgb(233, 232, 232)) ;
+    
+        .legende-nosyKomba{
+            position: relative;
+            top: 00rem;
+          
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(25px, 1rem, -0.9vw, 800, 50vw);
+                 }
+     
+                 i{
+                   font-size: 38.4px;
+                   color: #ca0404;
+                   margin-left: -15vw;
+                   margin-top:1.6rem;
+                 }
+         }
+     
+         .desc_nosyKomba{
+             width: 44vw;
+             position: absolute;
+             top: 4rem;
+             font-size: 18.5px;
+             left: 0.4vw;
+            }
+     
+            .Komba_img{
+             @include image-relative(18rem, 33vw, 48.5vw, -6rem, 5px);
+            } 
+     }
+
+     .border3{
+        @include border(20vw, 3px, $color-3, 124rem, 49vw);
+
+     }
+
+     .NosyIranja{
+        display: block;
+        border-radius: 6.5px;
+        @include div(20rem, 47vw, 50vw, 141rem,rgb(233, 232, 232)) ;
+    
+       
+    
+        .legende-nosyIranja {
+           position: relative;
+           top: 00rem;
+         
+                h1{
+                   color: #ca0404;
+                   font-family:'lumanosimoregular';
+                   @include h(25px, 1rem, -2.5vw, 800, 50vw);
+                }
+    
+                i{
+                  font-size: 38.4px;
+                  color: #ca0404;
+                  margin-left: -15vw;
+                  margin-top:1.6rem;
+                }
+        }
+    
+        .desc_nosyIranja{
+            width: 44vw;
+            position: absolute;
+            top: 4rem;
+            font-size: 18.5px;
+            left: 1.4vw;
+           }
+    
+           .Iranja_img{
+            @include image-relative(18rem, 33vw, -46.5vw, -3.2rem, 5px);
+           } 
+    }
+    
+    .border4{
+        @include border(20vw, 3px, $color-3, 150.9rem, 36.6vw);
+   
+       }
+
+       .NosyTanikely{
+
+        display: block;
+        border-radius: 6.5px;
+        @include div(17.6rem, 50vw, 4vw, 170rem,rgb(233, 232, 232)) ;
+    
+        .legende-nosyTanikely{
+            position: relative;
+            top: 00rem;
+          
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(25px, 1rem, -0.9vw, 800, 50vw);
+                 }
+     
+                 i{
+                   font-size: 38.4px;
+                   color: #ca0404;
+                   margin-left: -15vw;
+                   margin-top:1.6rem;
+                 }
+         }
+     
+         .desc_nosyTanikely{
+             width: 44vw;
+             position: absolute;
+             top: 4rem;
+             font-size: 18.5px;
+             left: 0.4vw;
+            }
+     
+            .Tanikely_img{
+             @include image-relative(18rem, 33vw, 48.5vw, -4.3rem, 5px);
+            } 
+     }
+
+     .border5{
+        @include border(20vw, 3px, $color-3, 178.5rem, 48vw);
+        
+     }
+    
+    
+}

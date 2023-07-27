@@ -1,0 +1,60 @@
+@media screen and (min-width: 1025px) {
+  
+.galeriePhoto{ 
+       position: absolute;
+       top: 158rem;
+   
+           
+          h1{ 
+            @include h(25px, 7rem, 25vw, 500, 45vw);
+            font-family:'yeseva_oneregular';
+            font-size: 50px;
+            font-weight: bold;
+            color: $color-2;
+          }
+
+          h3{
+               margin-top: -7.8rem;
+          }
+
+          .border8{
+            border-radius: 5px;
+            @include border(1.6cm, 9px, $color_1, 12.5rem, 46vw);
+            text-align: center;
+         }
+
+         .lign1{
+              position: absolute;
+              top: 17rem;
+              display: flex;
+
+               img{
+                   width: 24.67vw;
+                   height: 15rem;
+               }
+         }
+
+         .lign2{
+            position: absolute;
+            top: 31.8rem;
+            display: flex;
+
+             img{
+                 width: 24.71vw;
+                 height: 15rem;
+             }
+       }
+
+       .all{
+             border: 0 solid;
+             width: 24.9vw;
+             height: 8rem;
+             background-color: rgb(187, 187, 187);
+             font-size: 28px;
+             padding-top: 6rem;
+             padding-left: -8rem;
+             position: absolute;
+             top: 46.8rem;
+       }
+      }
+}

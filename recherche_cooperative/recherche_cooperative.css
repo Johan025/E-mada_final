@@ -1,0 +1,985 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("assets/demo_coneriascript-webfont.woff2") format("woff2"), url("assets/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("assets/abrilfatface-regular-webfont.woff2") format("woff2"), url("assets/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("assets/yesevaone-regular-webfont.woff2") format("woff2"), url("assets/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("assets/battora-webfont.woff2") format("woff2"), url("assets/battora-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("assets/alfaslabone-regular-webfont.woff2") format("woff2"), url("assets/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("assets/alegreya-variablefont_wght-webfont.woff2") format("woff2"), url("assets/alegreya-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  font-family: "alegreyaregular";
+}
+
+@font-face {
+  font-family: "lumanosimoregular";
+  src: url("./assets/lumanosimo-regular-webfont.woff2") format("woff2"), url("./assets/lumanosimo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("assets/demo_coneriascript-webfont.woff2") format("woff2"), url("assets/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("../assets/abrilfatface-regular-webfont.woff2") format("woff2"), url("../assets/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("../assets/yesevaone-regular-webfont.woff2") format("woff2"), url("../assets/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("../assets/battora-webfont.woff2") format("woff2"), url("../assets/battora-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("../assets/alfaslabone-regular-webfont.woff2") format("woff2"), url("../assets/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("../assets/alegreya-variablefont_wght-webfont.woff2") format("woff2"), url("../assets/alegreya-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (min-width: 1023px) {
+  .header {
+    background-color: #f2f2f2;
+    position: fixed;
+    z-index: 30;
+    width: 100%;
+    left: 0;
+    height: 2.2cm;
+    margin: 0;
+    padding: 0;
+    top: 0vh;
+    right: 0cm;
+    transition: 1s;
+    z-index: 20;
+  }
+  ul {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    float: right;
+    right: 4vw;
+    top: 0.5cm;
+  }
+  .header_contain {
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    right: -32rem;
+    top: 0.46cm;
+    transition: 0.5s;
+  }
+  .header_contain ul li a {
+    position: relative;
+    right: 38vw;
+    top: -13px;
+    text-decoration: none;
+    color: #254E7A;
+    font-size: 18.6px;
+    padding: 9px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .header_contain ul li a:hover {
+    background-color: rgb(244, 191, 17);
+    color: black;
+    border-radius: 8px;
+  }
+  .header_contain ul li a #search {
+    color: #254E7A;
+  }
+  .header_contain ul li a #search:hover {
+    color: black;
+  }
+  li {
+    margin: 4.5px;
+  }
+  #search {
+    color: rgb(0, 0, 0);
+  }
+  header ul li .a1 {
+    border: 0px solid;
+    background-color: #27749e;
+    color: black;
+    border-radius: 8px;
+    padding: 7px;
+  }
+  #search:hover {
+    color: black;
+  }
+  .logo {
+    position: absolute;
+    left: 8vw;
+    font-size: 31px;
+    top: 1.5rem;
+    color: #113f70;
+    font-family: "yeseva_oneregular";
+  }
+  .logo span {
+    color: #072b51;
+    font-family: "yeseva_oneregular";
+  }
+  .logo img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -1.2rem;
+    margin-left: -5rem;
+  }
+  .icone_menu i {
+    color: rgb(3, 19, 84);
+    font-size: 33px;
+    display: none;
+    cursor: pointer;
+    border: 2px solid rgb(4, 7, 108);
+    padding: 7px;
+    border-radius: 50%;
+  }
+  .icone_menu i:hover {
+    background-color: rgb(138, 117, 0);
+    color: black;
+  }
+  .contact {
+    border: 1.5px solid #113f70;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 42px;
+    margin-left: 2rem;
+  }
+  .up- {
+    width: 70px;
+    height: 40px;
+    position: fixed;
+    top: 350em;
+    right: -325em;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    width: 99.9vw;
+    height: 2.2cm;
+    left: 0;
+    background-color: #f2f2f2;
+  }
+  .logo {
+    font-size: 27px;
+    left: 19vw;
+    top: 1.7rem;
+    position: absolute;
+    color: #113f70;
+    font-family: "yeseva_oneregular";
+  }
+  .logo span {
+    color: #072b51;
+    font-family: "yeseva_oneregular";
+    font-size: 27px;
+  }
+  .logo img {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: -1.2rem;
+    margin-left: -4rem;
+  }
+  .header_contain {
+    width: 100vw;
+    height: 0rem;
+    position: absolute;
+    left: 0rem;
+    top: 5.2rem;
+    background-color: rgb(22, 98, 211);
+    transition: 0.3s;
+  }
+  .header_contain ul {
+    display: block;
+    position: absolute;
+    left: 35vw;
+    top: -25rem;
+    width: 65vw;
+  }
+  .header_contain ul li {
+    margin-top: 22px;
+  }
+  .header_contain ul li a {
+    color: #241b1b;
+    font-size: 19px;
+    padding: -25px;
+    width: -5rem;
+    position: relative;
+    right: 19vw;
+    width: 70vw;
+  }
+  .header_contain ul li .a1 {
+    background-color: antiquewhite;
+  }
+  .header_contain ul .contact {
+    border: 1.5px solid #113f70;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 20.4px;
+    margin-left: 0rem;
+  }
+  .header_contain ul i {
+    color: #000000;
+  }
+  .icone_menu i {
+    position: relative;
+    float: right;
+    display: flex;
+    top: 1.3rem;
+    right: 4vw;
+    z-index: 6;
+    border: 2px solid rgb(4, 7, 108);
+    padding: 7px;
+    font-size: 29px;
+    border-radius: 30%;
+  }
+  .icone_menu i:hover {
+    background-color: rgb(138, 117, 0);
+    color: black;
+  }
+  .hideshow {
+    height: 24.5rem;
+  }
+  .h2 {
+    transform: translateY(28rem);
+    position: absolute;
+    top: 2.6rem;
+    transition: 0.06s;
+  }
+}
+@media screen and (min-width: 764px) and (max-width: 1023px) {
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    width: 99.9vw;
+    height: 2.2cm;
+    left: 0;
+    background-color: #f2f2f2;
+  }
+  .logo {
+    font-size: 28.5px;
+    left: 12vw;
+    top: 1.7rem;
+    position: absolute;
+    color: #113f70;
+    font-family: "yeseva_oneregular";
+  }
+  .logo span {
+    color: #072b51;
+    font-family: "yeseva_oneregular";
+    font-size: 27px;
+  }
+  .logo img {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: -1.2rem;
+    margin-left: -4.5rem;
+  }
+  .header_contain {
+    width: 100vw;
+    height: 0rem;
+    position: absolute;
+    left: 0rem;
+    top: 5.2rem;
+    background-color: rgb(22, 98, 211);
+    transition: 0.3s;
+  }
+  .header_contain ul {
+    display: block;
+    position: absolute;
+    left: 35vw;
+    top: -25rem;
+    width: 65vw;
+  }
+  .header_contain ul li {
+    margin-top: 22px;
+  }
+  .header_contain ul li a {
+    color: #241b1b;
+    font-size: 19px;
+    padding: -25px;
+    width: -5rem;
+    position: relative;
+    right: 19vw;
+    width: 70vw;
+  }
+  .header_contain ul li .a1 {
+    background-color: antiquewhite;
+  }
+  .header_contain ul .contact {
+    border: 1.5px solid #113f70;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 20.4px;
+    margin-left: 0rem;
+  }
+  .header_contain ul i {
+    color: #000000;
+  }
+  .icone_menu i {
+    position: relative;
+    float: right;
+    display: flex;
+    top: 1.3rem;
+    right: 4vw;
+    z-index: 6;
+    border: 2px solid rgb(4, 7, 108);
+    padding: 7px;
+    font-size: 29px;
+    border-radius: 30%;
+  }
+  .icone_menu i:hover {
+    background-color: rgb(138, 117, 0);
+    color: black;
+  }
+  .hideshow {
+    height: 24.5rem;
+  }
+  .h2 {
+    transform: translateY(28rem);
+    position: absolute;
+    top: 2.6rem;
+    transition: 0.06s;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .couverture {
+    position: absolute;
+    top: 5rem;
+    width: 98.85vw;
+    left: 0;
+    height: 36.7rem;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  .couverture {
+    position: absolute;
+    top: 5rem;
+    width: 100vw;
+    left: 0;
+    height: 36.7rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contain {
+    width: 55rem;
+    position: relative;
+    left: 15vw;
+    top: 8.5rem;
+    height: 30rem;
+    background-color: #254E7A;
+    border-radius: 12px;
+  }
+  .contain img {
+    width: 17rem;
+    position: absolute;
+    left: 2rem;
+    top: 11rem;
+    height: 17rem;
+  }
+  .contain .h1 {
+    width: 20vw;
+    font-size: 25.4px;
+    font-family: "yeseva_oneregular";
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    top: 4rem;
+    left: 2vw;
+  }
+  .contain .contain_ {
+    width: 35rem;
+    height: 30rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .contain .contain_ .p1 {
+    position: absolute;
+    left: 15vw;
+    top: 1.6rem;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(4, 82, 137);
+    font-family: "coneria_script_demoregular";
+    font-style: italic;
+    font-weight: 800;
+  }
+  .contain .contain_ .p2 {
+    position: absolute;
+    left: 3vw;
+    top: 36.6rem;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(4, 82, 137);
+    font-family: "coneria_script_demoregular";
+    font-style: italic;
+    font-weight: 800;
+  }
+  .contain .contain_ .ddesc {
+    font-size: 27px;
+    position: absolute;
+    width: 40vw;
+    top: 4.6rem;
+    left: 2vw;
+    color: #000;
+    font-family: "lumanosimoregular";
+  }
+  .contain .contain_ .ddesc2 {
+    font-size: 27px;
+    position: absolute;
+    width: 40vw;
+    top: 40rem;
+    left: -7vw;
+    color: #000;
+    font-family: "lumanosimoregular";
+  }
+  .contain .contain_ #depart {
+    position: absolute;
+    top: 13rem;
+    left: 3rem;
+    border-left: 0;
+    background-color: rgba(37, 78, 122, 0);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid black;
+    width: 13rem;
+    font-size: 18px;
+  }
+  .contain .contain_ #arrivée {
+    position: absolute;
+    top: 13rem;
+    left: 18rem;
+    border-left: 0;
+    background-color: rgba(37, 78, 122, 0);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid black;
+    width: 13rem;
+    font-size: 18px;
+  }
+  .contain .contain_ #affichage_ {
+    width: 38vw;
+    height: 20rem;
+    position: absolute;
+    top: 48rem;
+    color: #0c0c0c;
+    left: -6.6vw;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 27px;
+    background-color: #adaeaf;
+  }
+  .contain .contain_ input[type=submit] {
+    position: absolute;
+    top: 17rem;
+    left: 10.7rem;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 75px;
+    border: 0;
+    background-color: #254E7A;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #fff;
+  }
+  .contain .contain_ #or {
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    color: #363535;
+    top: 21rem;
+    left: 16rem;
+  }
+  .contain .contain_ button {
+    padding: 8px;
+    font-size: 18px;
+    position: absolute;
+    top: 26rem;
+    left: 13rem;
+    background-color: rgba(37, 78, 122, 0);
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .contain .contain_ button:hover {
+    background-color: #254e7a;
+    color: #fff;
+  }
+  .contain .contain_ .back {
+    padding: 8px;
+    font-size: 18px;
+    position: absolute;
+    top: 27rem;
+    left: 15rem;
+    background-color: #254e7a;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .contain .contain_ .back:hover {
+    background-color: #254e7a;
+    color: #fff;
+  }
+  .contain .contain_1 {
+    width: 35rem;
+    display: none;
+    height: 30rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  .contain {
+    width: 92vw;
+    position: relative;
+    left: 2vw;
+    top: 8.5rem;
+    height: 60rem;
+    background-color: #254E7A;
+    border-radius: 12px;
+  }
+  .contain img {
+    width: 70vw;
+    position: absolute;
+    left: 11vw;
+    top: 8rem;
+    height: 14rem;
+  }
+  .contain .h1 {
+    width: 75vw;
+    font-size: 25.4px;
+    font-family: "yeseva_oneregular";
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    top: 1rem;
+    left: 8vw;
+  }
+  .contain .contain_ {
+    width: 92vw;
+    height: 37rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 12px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 28rem;
+  }
+  .contain .contain_ .p1 {
+    position: absolute;
+    left: 22vw;
+    top: 1.6rem;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(4, 82, 137);
+    font-family: "coneria_script_demoregular";
+    font-style: italic;
+    font-weight: 800;
+  }
+  .contain .contain_ .p2 {
+    position: absolute;
+    left: 10vw;
+    top: 37.6rem;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(4, 82, 137);
+    width: 75vw;
+    font-family: "coneria_script_demoregular";
+    font-style: italic;
+    font-weight: 800;
+  }
+  .contain .contain_ .ddesc {
+    font-size: 27px;
+    position: absolute;
+    width: 80vw;
+    top: 4.6rem;
+    left: 7vw;
+    color: #000;
+    font-family: "lumanosimoregular";
+  }
+  .contain .contain_ .ddesc2 {
+    font-size: 24px;
+    position: absolute;
+    width: 80vw;
+    top: 40rem;
+    left: 8vw;
+    color: #000;
+    font-family: "lumanosimoregular";
+  }
+  .contain .contain_ #depart {
+    position: absolute;
+    top: 13rem;
+    left: 17vw;
+    border-left: 0;
+    background-color: rgba(37, 78, 122, 0);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid black;
+    width: 13rem;
+    font-size: 18px;
+  }
+  .contain .contain_ #arrivée {
+    position: absolute;
+    top: 17.5rem;
+    left: 17vw;
+    border-left: 0;
+    background-color: rgba(37, 78, 122, 0);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid black;
+    width: 13rem;
+    font-size: 18px;
+  }
+  .contain .contain_ #affichage_ {
+    width: 78vw;
+    height: 20rem;
+    position: absolute;
+    top: 48rem;
+    left: 6vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #707881;
+  }
+  .contain .contain_ input[type=submit] {
+    position: absolute;
+    top: 22rem;
+    left: 14vw;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 75px;
+    border: 0;
+    background-color: #254E7A;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #fff;
+  }
+  .contain .contain_ #or {
+    font-size: 21px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    color: #363535;
+    top: 26rem;
+    left: 39vw;
+  }
+  .contain .contain_ button {
+    padding: 8px;
+    font-size: 18px;
+    width: 40vw;
+    position: absolute;
+    top: 30rem;
+    left: 28vw;
+    background-color: rgba(37, 78, 122, 0);
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .contain .contain_ button:hover {
+    background-color: #254e7a;
+    color: #fff;
+  }
+  .contain .contain_ .back {
+    padding: 8px;
+    font-size: 18px;
+    position: absolute;
+    top: 27rem;
+    left: 15rem;
+    background-color: #254e7a;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .contain .contain_ .back:hover {
+    background-color: #254e7a;
+    color: #fff;
+  }
+  .contain .contain_1 {
+    width: 35rem;
+    display: none;
+    height: 30rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+@media screen and (min-width: 764px) and (max-width: 1023px) {
+  .contain {
+    width: 70vw;
+    position: relative;
+    left: 13.6vw;
+    top: 8.5rem;
+    height: 60rem;
+    background-color: #254E7A;
+    border-radius: 12px;
+  }
+  .contain img {
+    width: 35vw;
+    position: absolute;
+    left: 19vw;
+    top: 8rem;
+    height: 15rem;
+  }
+  .contain .h1 {
+    width: 60vw;
+    font-size: 25.4px;
+    font-family: "yeseva_oneregular";
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    top: 1rem;
+    left: 5vw;
+  }
+  .contain .contain_ {
+    width: 70vw;
+    height: 33rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 12px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 28rem;
+  }
+  .contain .contain_ .p1 {
+    position: absolute;
+    left: 27vw;
+    top: 1.6rem;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(4, 82, 137);
+    font-family: "coneria_script_demoregular";
+    font-style: italic;
+    font-weight: 800;
+  }
+  .contain .contain_ .p2 {
+    position: absolute;
+    left: 5vw;
+    top: 37.6rem;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(4, 82, 137);
+    width: 70vw;
+    font-family: "coneria_script_demoregular";
+    font-style: italic;
+    font-weight: 800;
+  }
+  .contain .contain_ .ddesc {
+    font-size: 27px;
+    position: absolute;
+    width: 50vw;
+    top: 4.6rem;
+    left: 11vw;
+    color: #000;
+    font-family: "lumanosimoregular";
+  }
+  .contain .contain_ .ddesc2 {
+    font-size: 24px;
+    position: absolute;
+    width: 80vw;
+    top: 40rem;
+    left: -3vw;
+    color: #000;
+    font-family: "lumanosimoregular";
+  }
+  .contain .contain_ #champ_recherche {
+    position: absolute;
+    top: 12rem;
+    left: 23vw;
+    border-left: 0;
+    background-color: rgba(37, 78, 122, 0);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid black;
+    width: 13rem;
+    font-size: 18px;
+  }
+  .contain .contain_ #affichage_ {
+    width: 78vw;
+    height: 24rem;
+    position: absolute;
+    top: 48rem;
+    left: -3.5vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #b7babd;
+  }
+  .contain .contain_ input[type=submit] {
+    position: absolute;
+    top: 18rem;
+    left: 21vw;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 75px;
+    border: 0;
+    background-color: #254E7A;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #fff;
+  }
+  .contain .contain_ #or {
+    font-size: 21px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    color: #363535;
+    top: 22rem;
+    left: 33.5vw;
+  }
+  .contain .contain_ button {
+    padding: 8px;
+    font-size: 18px;
+    width: 40vw;
+    position: absolute;
+    top: 27rem;
+    left: 17vw;
+    background-color: rgba(37, 78, 122, 0);
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .contain .contain_ button:hover {
+    background-color: #254e7a;
+    color: #fff;
+  }
+  .contain .contain_ .back {
+    padding: 8px;
+    font-size: 18px;
+    position: absolute;
+    top: 27rem;
+    left: 15rem;
+    background-color: #254e7a;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .contain .contain_ .back:hover {
+    background-color: #254e7a;
+    color: #fff;
+  }
+  .contain .contain_1 {
+    width: 35rem;
+    display: none;
+    height: 30rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+@font-face {
+  font-family: "lumanosimoregular";
+  src: url("./assets/lumanosimo-regular-webfont.woff2") format("woff2"), url("./assets/lumanosimo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("assets/demo_coneriascript-webfont.woff2") format("woff2"), url("assets/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("assets/abrilfatface-regular-webfont.woff2") format("woff2"), url("assets/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("assets/yesevaone-regular-webfont.woff2") format("woff2"), url("assets/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("assets/battora-webfont.woff2") format("woff2"), url("assets/battora-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("assets/alfaslabone-regular-webfont.woff2") format("woff2"), url("assets/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("assets/alegreya-variablefont_wght-webfont.woff2") format("woff2"), url("assets/alegreya-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=recherche_cooperative.css.map */

@@ -1,0 +1,9 @@
+@media screen and (min-width: 1024px) {
+     
+
+.border_princ{
+     @include border(3px, 97rem, $color-3, 65rem, 27vw);
+     
+}
+}
+

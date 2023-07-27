@@ -1,0 +1,137 @@
+@media screen and (min-width: 1025px) {
+    
+
+.Gare{
+    display: block;
+    border-radius: 6.5px;
+    @include div(14rem, 47vw, 49vw, 87rem,rgb(233, 232, 232)) ;
+
+   
+
+    .legende-gare {
+       position: relative;
+       top: 00rem;
+     
+            h1{
+               color: #ca0404;
+               font-family:'lumanosimoregular';
+               @include h(27px, 1rem, -2.4vw, 800, 50vw);
+            }
+
+            i{
+              font-size: 38.4px;
+              color: #ca0404;
+              margin-left: -15vw;
+              margin-top:1.6rem;
+            }
+    }
+
+    .desc_Gare{
+        width: 44vw;
+        position: absolute;
+        top: 4rem;
+        font-size: 18.5px;
+        left: 1.4vw;
+       }
+
+       img{
+        @include image-relative(18rem, 33vw, -46.5vw, -6rem, 5px);
+       } 
+}
+
+.border2{
+    @include border(20vw, 3px, $color-3, 94.6rem, 35vw);
+   }
+
+   .Therme{
+      position: relative;
+      top: 59rem;
+      left: 4vw;
+      width: 50vw;
+      height: 21rem;
+      border-radius: 6.5px;
+      background-color: rgb(233, 232, 232);
+      z-index: 20;
+      
+
+       .legende-therme{
+        margin-left: 0vw;
+          
+
+               h1{
+                  color: #ca0404;
+                  font-family:'lumanosimoregular';
+                  @include h(27px, 1rem, -4vw, 800, 50vw);
+               }
+
+               i{
+                 font-size: 38.4px;
+                 color: #ca0404;
+                 margin-left: -19vw;
+                 margin-top:1.6rem;
+               }
+       }
+
+       .desc_Therme{
+        width: 45vw;
+        position: relative;
+        top: -0.5rem;
+        font-size: 18.5px;
+        left: 2.2vw;
+       }
+
+       img{
+        @include image-relative(18rem, 33vw, 48.5vw, -19.5rem, 5px);
+       }
+}
+
+.border3{
+   @include border(20vw, 3px, $color-3, 122rem, 50vw);
+  }
+
+
+.Marché{
+   display: block;
+   border-radius: 6.5px;
+   @include div(22rem, 47vw, 49vw, 143.5rem,rgb(233, 232, 232)) ;
+
+  
+
+   .legende-marché {
+      position: relative;
+      top: 00rem;
+    
+           h1{
+              color: #ca0404;
+              font-family:'lumanosimoregular';
+              @include h(27px, 1rem, -4.4vw, 800, 50vw);
+           }
+
+           i{
+             font-size: 38.4px;
+             color: #ca0404;
+             margin-left: -15vw;
+             margin-top:1.6rem;
+           }
+   }
+
+   .desc_Marché{
+       width: 44vw;
+       position: absolute;
+       top: 4rem;
+       font-size: 18.5px;
+       left: 1.4vw;
+      }
+
+      img{
+       @include image-relative(18rem, 33vw, -46.5vw, -2.5rem, 5px);
+      } 
+}
+
+.border4{
+   @include border(20vw, 3px, $color-3, 154.6rem, 35vw);
+  }
+
+
+
+}

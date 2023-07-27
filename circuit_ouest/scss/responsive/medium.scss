@@ -1,0 +1,671 @@
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+    
+  #map{
+    width: 87vw;
+    position: absolute;
+    left: 6vw;
+    height: 31rem;
+    border-radius: 15px;
+    top: 495rem;
+    z-index: 20;
+    border: 2px solid;
+}
+
+  .header{
+        position:fixed;
+        top: 0;
+        width: 100vw;
+        left:0;
+      }
+      
+      .logo {
+          font-size: 27px;
+          left: 9.6vw;
+          top: 0.8cm;
+      
+             img{
+               width: 48px;
+               height: 48px;
+               position: absolute;
+               top: -0.5rem;
+               margin-left: -3.5rem;
+             }
+      }
+      
+    .header_contain{
+          @include div(24.5rem, 100%, 0rem, 5.2rem, rgb(22, 98, 211));
+          transform: translateY(-100rem);
+          transition: 0.3s;
+          
+          ul{
+          display: block;
+          position:absolute;
+          left: 32vw;
+          top: 2.6rem;
+          width: 58vw;
+      
+                li{
+                  margin-top: 22px;
+                   a{
+                        color: #000;
+                        font-size: 19px;
+                        padding: -25px;
+                        width: -5rem;
+                        position: relative;
+                        right: 5rem;
+                      
+                      
+                   }
+      
+                   .a1{
+                      background-color: antiquewhite;
+                                 }
+      
+                }
+                .contact{
+                  border: 1.5px solid #113f70;
+                  border-radius: 8px;
+                  padding: 7px;
+                  font-size: 20.4px;
+                  margin-left: 0rem;
+              }
+              i{
+                color: rgb(0, 0, 0);
+            }
+      }
+      }
+      
+      .icone_menu i{
+          position: relative;
+          float: right;
+          display: flex;
+          top:1rem;
+          right: 4vw;
+          z-index: 6;
+          font-size: 25px;
+          border-radius: 30%;
+      }
+      
+      .hideshow{
+      transform: translateY(0rem);
+      }
+      
+      .dire{
+        display: block;
+   }
+   
+   .ouest_couverture{
+
+    .couverture_ouest{
+        position: relative;
+        top: 12rem;
+        left: 0vw;
+                img{
+                    width: 93.1vw;
+                    height: 29rem;
+                    border-radius: 5px;
+                }
+
+
+        }
+
+
+        .couverture{
+            @include h(32.4px, 5rem, 12.5vw, 300, 75vw);
+            font-family: 'yeseva_oneregular';
+            color: $color-2;
+            z-index: 20;
+        }
+
+        
+
+        .detail{
+            @include div(7rem, 83.6vw, 7.2vw, 42rem, rgba(0, 0, 0, 0.795));
+            border-radius: 3px;
+        }
+
+        .description_ouest{
+             @include p_left(6vw, 52.5rem, 19.4px);
+             width: 88vw;
+        }
+
+        .detail_date{
+               position: relative;
+               top: 9.8rem;
+               left: -18.9vw;
+               color:blue;
+
+               i{
+                 font-size: 25px;
+               }
+
+                h3{
+                       font-size: 23px;
+                       margin-top: -1.4rem;
+                       margin-left: 30.5vw;
+                       width: 70vw;
+                }
+        }
+
+        .detail_trajet{
+            position: relative;
+            top: 10.64rem;
+            left: -18.8vw;
+            color:blue;
+            i{
+                font-size: 25px;
+              }
+
+              h3{
+                font-size: 22px;
+                margin-top: -1.4rem;
+                margin-left: 35vw;
+                width: 70vw;
+         }
+     }
+
+ }
+
+ 
+ .Ambatolampy{
+    position: relative;
+    top: 27rem;
+    left: 16vw;
+    width: 68vw;
+    height: 18rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+    
+
+     .legende-ambatolampy{
+      margin-left: 0vw;
+        
+
+             h1{
+                color: #ca0404;
+                font-family:'lumanosimoregular';
+                @include h(21.5px, 1rem, 2vw, 800, 70vw);
+             }
+
+             i{
+               font-size: 32.4px;
+               color: #ca0404;
+               margin-left: -29.7vw;
+               margin-top:1.6rem;
+             }
+     }
+
+     .desc_Ambatolampy{
+      width: 63.6vw;
+      position: relative;
+      top: -0.5rem;
+      font-size: 18px;
+      left: 2.2vw;
+     }
+
+     img{
+      @include image-relative(17rem, 50vw, -1.8vw, 8rem, 5px);
+     }
+ }
+
+ .Gare{
+    position: relative;
+    top: 61.5rem;
+    left: 16vw;
+    width: 68vw;
+    height: 14rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+    
+
+     .legende-gare{
+      margin-left: 0vw;
+        
+
+             h1{
+                color: #ca0404;
+                font-family:'lumanosimoregular';
+                @include h(21.5px, 1rem, 2vw, 800, 70vw);
+             }
+
+             i{
+               font-size: 32.4px;
+               color: #ca0404;
+               margin-left: -16.7vw;
+               margin-top:1.6rem;
+             }
+     }
+
+     .desc_Gare{
+      width: 63.6vw;
+      position: relative;
+      top: -0.5rem;
+      font-size: 18px;
+      left: 2.2vw;
+     }
+
+     img{
+      @include image-relative(17rem, 50vw, -1.8vw, 8rem, 5px);
+     }
+
+ }
+
+ .Therme{
+    position: relative;
+    top: 95.5rem;
+    left: 16vw;
+    width: 68vw;
+    height: 22.5rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+    
+
+     .legende-therme{
+      margin-left: 0vw;
+        
+
+             h1{
+                color: #ca0404;
+                font-family:'lumanosimoregular';
+                @include h(21.5px, 1rem, 2vw, 800, 70vw);
+             }
+
+             i{
+               font-size: 32.4px;
+               color: #ca0404;
+               margin-left: -15vw;
+               margin-top:1.6rem;
+             }
+     }
+
+     .desc_Therme{
+      width: 63.6vw;
+      position: relative;
+      top: -0.5rem;
+      font-size: 18px;
+      left: 2.2vw;
+     }
+
+     img{
+      @include image-relative(17rem, 50vw, -1.8vw, 8rem, 5px);
+     }
+
+ }
+
+ .Marché{
+    position: relative;
+    top: 131.5rem;
+    left: 16vw;
+    width: 68vw;
+    height: 23rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+    
+
+     .legende-marché{
+      margin-left: 0vw;
+        
+
+             h1{
+                color: #ca0404;
+                font-family:'lumanosimoregular';
+                @include h(21.5px, 1rem, 2vw, 800, 70vw);
+             }
+
+             i{
+               font-size: 32.4px;
+               color: #ca0404;
+               margin-left: -13vw;
+               margin-top:1.6rem;
+             }
+     }
+
+     .desc_Marché{
+      width: 63.6vw;
+      position: relative;
+      top: -0.5rem;
+      font-size: 18px;
+      left: 2.2vw;
+     }
+
+     img{
+      @include image-relative(17rem, 50vw, -1.8vw, 8rem, 5px);
+     }
+
+ }
+
+ .Andraikiba{
+    position: relative;
+    top: 167.5rem;
+    left: 16vw;
+    width: 68vw;
+    height: 15.5rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+    
+
+     .legende-andraikiba{
+      margin-left: 0vw;
+        
+
+             h1{
+                color: #ca0404;
+                font-family:'lumanosimoregular';
+                @include h(21.5px, 1rem, 1vw, 800, 70vw);
+             }
+
+             i{
+               font-size: 32.4px;
+               color: #ca0404;
+               margin-left: -10.7vw;
+               margin-top:1.6rem;
+             }
+     }
+
+     .desc_Andraikiba{
+      width: 63.6vw;
+      position: relative;
+      top: -0.5rem;
+      font-size: 18px;
+      left: 2.2vw;
+     }
+
+     img{
+      @include image-relative(17rem, 50vw, -1.8vw, 8rem, 5px);
+     }
+
+ }
+
+ .Tritriva{
+    position: relative;
+    top: 204.5rem;
+    left: 16vw;
+    width: 68vw;
+    height: 15.5rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+    
+
+     .legende-tritriva{
+      margin-left: 0vw;
+        
+
+             h1{
+                color: #ca0404;
+                font-family:'lumanosimoregular';
+                @include h(21.5px, 1rem, 0vw, 800, 70vw);
+             }
+
+             i{
+               font-size: 32.4px;
+               color: #ca0404;
+               margin-left: -8.7vw;
+               margin-top:1.6rem;
+             }
+     }
+
+     .desc_Tritriva{
+      width: 63.6vw;
+      position: relative;
+      top: -0.5rem;
+      font-size: 18px;
+      left: 2.2vw;
+     }
+
+     img{
+      @include image-relative(17rem, 50vw, -1.8vw, 8rem, 5px);
+     }
+
+ }
+
+ .Miandrivazo{
+    position: relative;
+    top: 240.5rem;
+    left: 16vw;
+    width: 68vw;
+    height: 19.2rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+    
+
+     .legende-miandrivazo{
+      margin-left: 0vw;
+        
+
+             h1{
+                color: #ca0404;
+                font-family:'lumanosimoregular';
+                @include h(21.5px, 1rem, 0vw, 800, 70vw);
+             }
+
+             i{
+               font-size: 32.4px;
+               color: #ca0404;
+               margin-left: -12.7vw;
+               margin-top:1.6rem;
+             }
+     }
+
+     .desc_Miandrivazo{
+      width: 63.6vw;
+      position: relative;
+      top: -0.5rem;
+      font-size: 18px;
+      left: 2.2vw;
+     }
+
+     img{
+      @include image-relative(17rem, 50vw, -1.8vw, 8rem, 5px);
+     }
+
+ }
+
+ .Morondava{
+  position: relative;
+  top: 278.5rem;
+  left: 16vw;
+  width: 68vw;
+  height: 19.2rem;
+  border-radius: 6.5px;
+  background-color: rgb(233, 232, 232);
+  z-index: 20;
+  
+
+   .legende-morondava{
+    margin-left: 0vw;
+      
+
+           h1{
+              color: #ca0404;
+              font-family:'lumanosimoregular';
+              @include h(21.5px, 1rem, 0vw, 800, 70vw);
+           }
+
+           i{
+             font-size: 32.4px;
+             color: #ca0404;
+             margin-left: -12.7vw;
+             margin-top:1.6rem;
+           }
+   }
+
+   .desc_Morondava{
+    width: 63.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+   }
+
+   img{
+    @include image-relative(17rem, 50vw, -1.8vw, 8rem, 5px);
+   }
+
+}
+
+footer{
+  @include div(65rem, 100vw, 0vw, 535rem, rgb(222, 216, 216));
+
+       
+  .logo{
+       width: 180px;
+       height: 85px;
+       position: absolute;
+       top: 3rem;
+       left: 35vw;
+  }
+
+  .info{
+      position: absolute;
+      top: 15rem;
+      left: 58vw;
+ 
+          
+      h1{
+        @include h(25px, -4rem,-35vw,  500, 47vw);
+        color: $color-1;
+ }
+
+      .phone{
+            position: absolute;
+            top: 0rem;
+            left: 0;
+               img{
+                width: 20px;
+                height: 20px;
+                position: absolute; 
+                left: -25vw;
+               }
+
+               p{
+                 font-size: 18px;
+                 position: relative;
+                 left: -30vw;
+                 top: -1rem;
+                 width: 35vw;
+               }
+      }
+    }
+
+      .email{
+        position: absolute;
+        top: 3.6rem;
+        left: 0;
+           img{
+            width: 20px;
+            height: 20px;
+            position: absolute; 
+            left: -25vw;
+            
+           }
+
+           p{
+             font-size: 18px;
+             position: relative;
+             left: -20vw;
+             top: -1rem;
+             width: 35vw;
+           }
+  }
+
+  .circ{
+         position: absolute;
+         left: 17vw;
+         top: 27.1rem;
+         display: block;
+    
+             h1{
+                @include h(25px, -4rem,-45vw,  500, 114vw);
+                color: $color-1;  
+             }
+              h3{
+                font-size: 19px;
+                position: relative;
+             top: -1.7rem;
+             margin-top: 2rem;
+                left: 8vw;
+              }
+  }
+
+  .raccourci{
+    position: absolute;
+    left: 47vw;
+    top: 26.8rem;
+    display: block;
+        h1{
+           @include h(28px, -4rem,-3vw,  500, 41vw);
+           color: $color-1;  
+        }
+         h3{
+           font-size: 19px;
+           position: relative;
+           top: -1.7rem;
+            margin-top: 2rem;
+           left: 10vw;
+         }
+}
+
+.reference{
+position: absolute;
+left: 20vw;
+top: 44.8rem;
+
+h1{
+    @include h(27px, -4rem,-16vw,  500, 90vw);
+    color: $color-1;  
+ }
+
+ p{
+     width: 69vw;
+     font-size: 18px;
+     position: absolute;
+     left: -6vw;
+ }
+
+}
+
+.border_{
+@include border(45%, 2px, $color-1, 53rem, 29vw);
+}
+
+.icones{
+    position: absolute;
+    top:61rem;
+       display: flex;
+       left: 30vw;
+       text-align: center;
+
+       img{
+           width: 42px;
+           height: 42px;
+           border-radius: 50%;
+           margin-left: 1rem;
+       }
+}
+
+.copright{
+  font-size: 21px;
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+  top: 55rem;
+  left: 5%;
+  width: 90vw;
+}
+
+
+}
+
+ .border_princ{
+
+    @include border(3px, 395rem, $color-3, 82rem, 48vw);
+
+  }
+}

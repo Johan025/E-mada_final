@@ -1,0 +1,47 @@
+
+
+@media screen and (min-width: 1025px) {
+    .Tuléar{
+          position: relative;
+          top: 212rem;
+          left: 4vw;
+          width: 50vw;
+          height: 15.6rem;
+          border-radius: 6.5px;
+          background-color: rgb(233, 232, 232);
+          z-index: 20;
+
+           .legende-tuléar{
+            margin-left: 0vw;
+              
+                   h1{
+                      color: #ca0404;
+                      font-family:'lumanosimoregular';
+                      @include h(27px, 1rem, -13.4vw, 800, 50vw);
+                   }
+
+                   i{
+                     font-size: 38.4px;
+                     color: #ca0404;
+                     margin-left: -19vw;
+                     margin-top:1.6rem;
+                   }
+           }
+
+           .desc_Tuléar{
+            width: 45vw;
+            position: relative;
+            top: 0rem;
+            font-size: 18.5px;
+            left: 2.2vw;
+           }
+
+           img{
+            @include image-relative(18rem, 33vw, 48.5vw, -16.1rem, 5px);
+           }
+    }
+
+   .border11{
+    @include border(20vw, 3px, $color-3, 338rem, 50vw);
+   }
+}

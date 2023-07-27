@@ -1,0 +1,201 @@
+@media screen and (min-width: 1025px) {
+   
+
+.circuits{
+     position: absolute;
+     top: 77rem;
+     width: 100%;
+     height: 85rem;
+     background-color: rgb(233, 230, 230);
+
+     h1{
+      @include h(25px, 4rem, 25vw, 500, 45vw);
+      font-family:'yeseva_oneregular';
+      font-size: 50px;
+      font-weight: bold;
+      color: $color-2;
+     }
+
+     h3{position: absolute;
+     left: 39vw;
+     top: 14rem;
+     text-align: center;
+     font-size: 26px;
+     color: $color_1;
+    font-family: 'coneria_script_demoregular';
+     font-style: italic;
+     font-weight: 800;
+     }
+
+     .contain-1{
+
+        display: flex;
+         position: absolute;
+         top: 18rem;
+         left: 0vw;
+        text-align: center;
+         div{
+              height:29rem;
+              width: 27vw;
+              background-color: rgb(255, 255, 255);
+              margin-left:4rem;
+              border-radius: 9px;
+            box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+         }
+         img{
+            height:15rem;
+            width: 27vw;
+            border-radius: 9px;
+         }
+
+         .contain_1{
+          background-size: cover;
+          
+
+               h1{
+                 
+                    text-align: center;
+                    @include h(22.4px, 16.5rem, .7vw, 600, 35vw);
+               }
+
+               p{
+                  @include p_left(7.5vw, 19rem, 18px);
+                  width: 22vw;
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               }
+
+               button{
+                   @include button($color-3, 5px, 14.6vw, 24.5rem, 22.4px);
+                border-radius: 6px;
+                border: 0 solid;
+            
+                  }
+
+                  &:hover{
+                     box-shadow: 5px 8px 35px black;
+                  }
+         }
+
+         .contain_2{
+            background-size: 100%;
+
+            h1{
+               
+               text-align: center;
+               @include h(22.6px, 16.5rem, 32.9vw, 600, 35vw);
+               }
+
+            p{
+             @include p_left(39vw, 19.1rem, 18px);
+             width: 22vw;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             }
+
+            button{
+              @include button($color-3, 5px, 46.4vw, 25.4rem, 22px);
+             border-radius: 6px;
+             border: 0 solid;
+             }
+
+              &:hover{
+               box-shadow: 5px 8px 35px black;
+            }
+
+
+           }
+
+           
+           .c3{
+            height:15rem;
+            width: 27vw;
+            border-radius: 9px;
+         }
+
+           .contain_3{
+            background-size: cover;
+
+            h1{
+              
+               text-align: center;
+               @include h(21.6px, 16.3rem, 66.4vw, 600, 32vw);
+         
+               }
+
+            p{
+             @include p_left(69.7vw, 18.9rem, 18px);
+             width: 25vw;
+             
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             }
+
+            button{
+              @include button($color-3, 5px, 78.4vw, 25.4rem, 22px);
+             border-radius: 6px;
+             border: 0 solid;
+             }
+
+             &:hover{
+              box-shadow: 5px 8px 35px black;
+           }
+
+           }
+
+   
+     }
+
+     .contain-2{
+
+      display: flex;
+       position: absolute;
+       top: 51rem;
+       left: 30vw;
+       
+
+       div{
+         height:29rem;
+         width: 27vw;
+         background-color: rgb(255, 255, 255);
+         margin-left:4rem;
+         border-radius: 9px;
+       box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+
+       }
+
+       .contain_1{
+        background-size: cover;
+
+      margin-left: 5.5rem;
+               img{
+               width: 27vw;
+               height: 15rem;
+                  border-radius: 9px;
+               }
+
+               h1{
+                
+                  text-align: center;
+                  @include h(21.6px, 16.0rem, 2rem, 600, 35vw);
+                  }
+
+               p{
+                  @include p_left(7rem, 18.7rem, 18px);
+                  width: 23vw;
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  }
+     
+                 button{
+                   @include button($color-3, 5px, 13.4rem, 24.1rem, 22.5px);
+                  border-radius: 6px;
+                  border: 0 solid;
+                  }
+     
+                  &:hover{
+                   box-shadow: 5px 8px 35px black;
+                }
+               
+     
+   }
+}
+}
+
+}

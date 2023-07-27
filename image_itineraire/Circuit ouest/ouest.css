@@ -1,0 +1,827 @@
+* {
+   text-decoration: none;
+   list-style: none;
+
+}
+
+.header {
+   background-color: #073b02;
+   position: fixed;
+   z-index: 3;   
+   width: 99.8vw;
+   left: 0;
+   height: 2.2cm;
+   margin: 0;
+   padding: 0;
+   top: 0vh;
+   right: 0cm;
+   transition: 1s;
+
+}
+
+ul {
+   display: flex;
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   float: right;
+   right: 0rem;
+   top: 0.3cm;
+}
+
+.header_contain{
+   width:100%;
+   height:10vh;
+   /* background-color: #c79b0ae0;  */
+   position:absolute;
+   /* transform: translateX(-32cm); */
+   right:-32rem;
+   top:0.46cm;
+   transition:0.5s;
+}
+
+li {
+   margin: 16px;
+}
+
+.header_contain ul li a {
+   position: relative;
+   right:36rem;
+   top: -20px;
+   text-decoration: none;
+   color: rgb(138, 117, 0);
+   font-size: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header_contain ul li a #search{
+   color:rgb(138, 117, 0);
+}
+
+.header_contain ul li a:hover {
+   background-color: rgb(165, 128, 8);
+   color: black;
+   border-radius: 20px;
+   padding: 3.5px;
+}
+
+#search{
+   color: rgb(0, 0, 0);
+}
+
+header ul li .a1{
+   border:0px solid;
+   background-color:rgb(177, 100, 0);
+   color:black;
+   border-radius: 20px;
+   padding:6px;
+}
+#search:hover{
+color:black;
+}
+
+.logo {
+   position: absolute;
+   left: 1.6cm;
+   font-size: 38px;
+   top: 0.4cm;
+   color: rgb(138, 117, 0);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.logo span {
+   color: rgb(177, 100, 0);
+}
+
+.icone_menu i{
+   color:rgb(165, 128, 8);
+   font-size:33px;
+   position:fixed;
+   opacity:0;
+   right:4rem;
+   top:1.5rem;
+   cursor:pointer;
+   border:2px solid rgb(138, 117, 0);
+   padding:7px;
+   border-radius: 50%;
+}
+
+.icone_menu i:hover{
+   background-color: rgb(138, 117, 0); 
+   color:black;
+
+}
+
+.couverture_ouest img {
+   position: absolute;
+   top: 2;
+   left: 0;
+   width: 100%;
+   height: 73vh;
+}
+
+.legende_ouest {
+   position: absolute;
+   top: 6cm;
+   text-align: center;
+   left: 9cm;
+   font-size: 52px;
+   color: white;
+}
+
+.titre_ouest {
+   position: absolute;
+   top: 13.5cm;
+   left: 2.4cm;
+   font-size: 35px;
+   text-indent: 100px;
+   color: black;
+
+}
+
+.description_ouest1 {
+   position: absolute;
+   top: 15.3cm;
+   font-size: 20px;
+   left: 4.2cm;
+   text-indent: 15px;
+}
+
+.description_ouest1 span {
+   margin-left: 11cm;
+}
+
+.border_vertical {
+   position: absolute;
+   top: 18.7cm;
+   border-left: 3.5px solid rgb(196, 146, 8);
+   left: 2.5cm;
+   height: 2cm;
+
+}
+
+.border_bottom {
+   position: absolute;
+   top: 20.6cm;
+   border-bottom: 3.5px solid rgb(196, 146, 8);
+   left: 2.5cm;
+   width: 1.4cm;
+}
+
+.border_vertical2 {
+   position: absolute;
+   top: 15cm;
+   border-left: 3.5px solid rgb(196, 146, 8);
+   right: 3.6cm;
+   height: 2cm;
+
+}
+
+.border_bottom2 {
+   position: absolute;
+   top: 15cm;
+   border-bottom: 3.5px solid rgb(196, 146, 8);
+   right: 3.6cm;
+   width: 1.4cm;
+}
+
+.couverture-antsirabe {
+   background-image: url(photo/antsirabe/depositphotos_83202756-stock-photo-train-station-in-antsirabe.jpg);
+   width: 19cm;
+   height: 12cm;
+   border-radius: 8px;
+   position: absolute;
+   top: 479rem;
+   background-repeat: no-repeat;
+   background-size: cover;
+   left: 11cm;
+
+}
+
+.legende-antsirabe {
+   position: absolute;
+   top: 54rem;
+   left: 10cm;
+   font-size: 40px;
+   font-size: 36px;
+   color: black;
+
+}
+
+.contenu-antsirabe {
+   font-size: 20px;
+   text-indent: 2cm;
+   width: 12cm;
+   height: 12cm;
+   position: absolute;
+   top: 3cm;
+   left: 2.5cm;
+   color: black;
+
+
+}
+
+.contain1 {
+   width: 18cm;
+   position: absolute;
+   top: 62rem;
+   left: 0cm;
+   height: 15.3cm;
+   border: 0px solid black;
+   background-color: rgb(196, 146, 8);
+}
+
+.image-pousse-pousse {
+   position: absolute;
+   top: 65rem;
+   right: 0cm;
+   box-shadow: 4px 1px 9px;
+}
+
+.image-pousse-pousse img {
+   width: 19cm;
+   height: 12.3cm;
+
+}
+
+.image_gare img {
+   width: 19cm;
+   height: 11.3cm;
+   position: absolute;
+   top: 98rem;
+   left: 0cm;
+   box-shadow: 4px 1px 9px;
+
+}
+
+.description_gare {
+   position: absolute;
+   top: 104rem;
+   font-size: 20px;
+   right: 3.5cm;
+   width: 9.6cm;
+
+}
+
+.gare-antsirabé {
+   position: absolute;
+   top: 12cm;
+   font-size: 20px;
+   left: 6cm;
+}
+
+.titre_gare {
+   position: absolute;
+   top: 101rem;
+   right: 6.3cm;
+   font-size: 26px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(196, 146, 8);
+}
+
+.eglise {
+   position: absolute;
+   top: 130rem;
+   width: 100%;
+}
+
+.eglise img {
+   width: 19cm;
+   height: 12cm;
+   position: absolute;
+   right: 0;
+   box-shadow: 4px 1px 9px;
+}
+
+.description-eglise {
+   position: absolute;
+   top: 6rem;
+   left: 2cm;
+   font-size: 26px;
+   color: rgb(15, 13, 8);
+}
+
+.contenu-description-eglise span {
+   position: absolute;
+   top: 14.5rem;
+   font-size: 20px;
+   left: 2cm;
+   width: 9.6cm;
+   color: black;
+}
+
+.contenu-description-eglise {
+   width: 18cm;
+   position: absolute;
+   top: -5.23rem;
+   left: 0cm;
+   height: 16.3cm;
+   border: 0px solid black;
+   background-color: rgb(196, 146, 8);
+}
+
+
+.legende {
+   position: absolute;
+   top: -9rem;
+   font-size: 24px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   left: -3cm;
+}
+
+.hotel-therm h1 {
+   position: absolute;
+   top: 165rem;
+   font-size: 24px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   right: 6cm;
+   color: rgb(196, 146, 8);
+}
+
+.image_hotel_therme img {
+   position: absolute;
+   top: 163rem;
+   width: 19cm;
+   height: 15.7cm;
+   box-shadow: 4px 1px 9px;
+}
+
+.description-hotel {
+   position: absolute;
+   top: 168rem;
+   right: 2.5cm;
+   font-size: 20px;
+   width: 10cm;
+}
+
+.image_source_thermale img {
+   position: absolute;
+   top: 204rem;
+   width: 19cm;
+   height: 14.7cm;
+   right: 0;
+   box-shadow: 4px 1px 9px;
+
+}
+
+.source_therme P {
+   position: absolute;
+   top: 205.5rem;
+
+   font-size: 26px;
+   left: 1.5cm;
+   color: black;
+
+}
+
+.contenu-source-thermale span {
+   position: absolute;
+   top: 8.8rem;
+   font-size: 20px;
+   left: 1.5cm;
+   width: 11cm;
+   color: black;
+}
+
+.contenu-source-thermale {
+   width: 18cm;
+   position: absolute;
+   top: 200.1rem;
+   left: 0cm;
+   height: 18.7cm;
+   border: 0px solid black;
+   background-color: rgb(196, 146, 8);
+}
+
+.description-tsena {
+   position: absolute;
+   top: 240rem;
+   right: 2.5cm;
+   font-size: 20px;
+   text-indent: 2cm;
+   width: 10.6cm;
+
+}
+
+
+.histoire_marché {
+   position: absolute;
+   right: 2cm;
+   top: 245rem;
+   font-size: 26px;
+   width: 9.6cm;
+   color: rgb(196, 146, 8);
+}
+
+#inner {
+   position: absolute;
+   top: 236rem;
+   width: 19cm;
+   height: 17.8cm;
+   left: 0;
+   box-shadow: 4px 1px 9px;
+}
+
+#inner img {
+   width: 19cm;
+   height: 17.8cm;
+}
+
+.Miandrivazo {
+   position: absolute;
+   top: 290rem;
+}
+
+.titre_miandrivazo {
+   position: absolute;
+   top: 4rem;
+   width: 15cm;
+   left: 9cm;
+   font-size: 36px;
+   color: black;
+
+}
+
+.titre_miandrivazo span {
+   margin-left: 4cm;
+}
+
+.image_miandrivazo img {
+   position: absolute;
+   top: 16rem;
+   width: 19cm;
+   height: 13.7cm;
+   left: 16.6cm;
+   box-shadow: 4px 1px 9px;
+}
+
+.description_miandrivazo {
+   width: 18cm;
+   position: absolute;
+   top: 12.8rem;
+   left: 0cm;
+   height: 17.5cm;
+   border: 0px solid black;
+   background-color: rgb(196, 146, 8);
+
+}
+
+
+
+.description_miandrivazo span {
+   position: absolute;
+   top: 2.5cm;
+   font-size: 20px;
+   width: 11cm;
+   left: 2cm;
+   color: black;
+}
+
+#Tsiribihina {
+   position: absolute;
+   top: 22.7cm;
+   LEFT: 0cm;
+   width: 19cm;
+   height: 17.8cm;
+   box-shadow: 4px 1px 9px;
+}
+
+#Tsiribihina img {
+   width: 19cm;
+   height: 17.8cm;
+}
+
+.description-tsiribihina {
+   position: absolute;
+   top: 24.6cm;
+   left: 21cm;
+   font-size: 20px;
+   width: 13.5cm;
+}
+
+.titre_tsiribihina {
+   position: absolute;
+   top: 23.5cm;
+   left: 21cm;
+   font-size: 24px;
+   color: rgb(196, 146, 8);
+   width: 12cm;
+}
+
+.description_reserve span {
+   position: absolute;
+   top: 8.8rem;
+   left: 2cm;
+   width: 11.5cm;
+   font-size: 20px;
+}
+
+.description_reserve {
+   width: 18cm;
+   position: absolute;
+   top: 40.6cm;
+   left: 0cm;
+   height: 20.5cm;
+   border: 0px solid black;
+   background-color: rgb(196, 146, 8);
+   color: black;
+}
+
+#Kirindy {
+   position: absolute;
+   top: 42.4cm;
+   LEFT: 16cm;
+   width: 19.6cm;
+   height: 17.5cm;
+   box-shadow: 4px 1px 9px;
+}
+
+#Kirindy img {
+   width: 19.6cm;
+   height: 17.5cm;
+}
+
+.titre_Reserve_kirindy {
+   position: absolute;
+   top: 43cm;
+   LEFT: 2.2cm;
+   font-size: 24px;
+   width: 12cm;
+   color: black;
+}
+
+.alleeDesBaobab {
+   position: absolute;
+   top: 150.6rem;
+   width: 15cm;
+   left: 9cm;
+}
+
+.description_baobab {
+   position: absolute;
+   top: 152.6rem;
+   width: 15cm;
+   left: 9cm;
+}
+
+.footer_up{
+   width:100%;
+   height:30vh;
+   position:relative;
+   box-shadow: 5px 8px 10px;
+   top:-4.9cm;
+   background-color: rgb(180, 179, 179);
+}
+
+.footer_up .input_coms{
+    position:absolute;
+    left:20rem;
+    top:4rem;
+     width:420px;
+     height:60px;
+     font-size: 20px;
+     border:1px solid black;
+     border-radius: 5px;
+}
+
+.submit_coms{
+position:absolute;
+top:4rem;
+left:49rem;
+font-size: 22px;
+border: 0 solid;
+border-radius: 4px;
+padding:13px;
+background-color: #bad63b;
+}
+
+.follow{
+position:absolute;
+top:1rem;
+left:39.5rem;
+}
+
+footer {
+   background-color: rgba(0, 0, 0, 0.849);
+   height:10cm;
+   width: 100%;
+   position: absolute;
+   top: 516rem;
+   right: 0px;
+   left: 0;
+}
+
+.suivre {
+   color: rgb(228, 233, 236);
+   position: absolute;
+   top: 1cm;
+   left: 21.8cm;
+   font-size:25px;
+}
+
+.facebook {
+   position: absolute;
+   left: 4.4cm;
+   top: 2cm;
+   color: rgb(236, 234, 224);
+   font-size:21px;
+}
+
+.twitter {
+   position: absolute;
+   left: 5.9cm;
+   top: 2cm;
+   color: rgb(236, 234, 224);
+   font-size:21px;
+}
+
+.sort {
+
+   position: absolute;
+   top: 52cm;
+   left: 12.6cm;
+}
+
+#sort {
+   width: 23px;
+   height: 15px;
+}
+
+.instagram {
+   color: rgb(228, 233, 236);
+   position: absolute;
+   top: 2cm;
+   left: 6.9cm;
+   font-size:21px;
+}
+
+.youtube {
+   color: rgb(228, 233, 236);
+   position: absolute;
+   top: 2cm;
+   left: 7.9cm;
+   font-size:21px;
+}
+
+.contact {
+   position: absolute;
+   left: 12cm;
+   color: white;
+   top: 1cm;
+   left: 14.8cm;
+}
+
+.contact_1 {
+   position: absolute;
+   left: 12cm;
+   color: white;
+   top: 1.6cm;
+   left: 16cm;
+   margin: 3px;
+}
+
+
+.footer-countain{
+position:absolute;
+left:40rem;
+top:-1rem;
+width:8cm;
+}
+
+.footer-countain i{
+   font-size: 22px;
+   margin: 5px;
+}
+
+.bar{
+   position:absolute;
+   display:block;
+   right:-4cm;
+   top:0.2cm;
+   
+
+}
+.sommaire{
+   position:absolute;
+   top:1rem;
+   left:14rem;
+   width:10cm;
+   height:8cm;
+}
+
+.sommaire .titre{
+   font-size: 22.5px;
+   color:white;
+   position: absolute;
+   top:1.3rem;
+}
+
+.sommaire a{
+   text-decoration: none;
+   color:white;
+   display:block;
+   position: relative;
+   font-size:17px;
+   top:4rem;
+}
+
+.sommaire_circuit {
+   position:absolute;
+   top:1rem;
+   left:30rem;
+   width:10cm;
+   height:8cm;
+}
+
+.sommaire_circuit .titre{
+   font-size: 22.5px;
+   color:white;
+   position: absolute;
+   top:1.3rem;
+}
+
+.sommaire_circuit a{
+   text-decoration: none;
+   color:white;
+   display:block;
+   position: relative;
+   font-size:17px;
+   top:4rem;
+}
+
+.facebook {
+   position: absolute;
+   left: 5cm;
+   top: 2cm;
+   color: rgb(236, 234, 224);
+}
+
+.twitter {
+   position: absolute;
+   left: 6.1cm;
+   top: 2cm;
+   color: rgb(236, 234, 224);
+}
+
+.sort {
+
+   position: absolute;
+   top: 52cm;
+   left: 12.6cm;
+}
+
+#sort {
+   width: 23px;
+   height: 15px;
+}
+
+.instagram {
+   color: rgb(228, 233, 236);
+   position: absolute;
+   top: 2cm;
+   left: 7.2cm;
+}
+
+.youtube {
+   color: rgb(228, 233, 236);
+   position: absolute;
+   top: 2cm;
+   left: 8.3cm;
+}
+
+.contact {
+   position: absolute;
+   color: white;
+   top: 4cm;
+   left: 21.9cm;
+   font-size:21px;
+}
+
+.contact_1 {
+   position: absolute;
+   left: 21.9cm;
+   color: white;
+   top: 5.2cm;
+   margin: 3px;
+   font-size: 17px;
+}
+
+.product {
+   position: absolute;
+   left: 21.9cm;
+   color: rgb(176, 179, 24);
+   top: 7.6cm;
+   margin: 3px;
+   font-size: 23px;
+}
+
+
+.bar {
+   position: absolute;
+   display: block;
+   right: -4cm;
+   top: 0.2cm;
+
+
+}
+

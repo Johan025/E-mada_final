@@ -1,0 +1,53 @@
+
+@import "./../settings.scss";
+@import "./scss/signup.scss";
+@import "./scss/login.scss";
+@import "./scss/couv.scss";
+@import "./scss/scrolling.scss";
+@import "./scss/responsive/small.scss";
+@import "./scss/responsive/medium.scss";
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('assets/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('assets/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('assets/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('assets/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'battoraregular';
+    src: url('assets/battora-webfont.woff2') format('woff2'),
+         url('assets/battora-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alfa_slab_oneregular';
+    src: url('assets/alfaslabone-regular-webfont.woff2') format('woff2'),
+         url('assets/alfaslabone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('assets/alegreya-variablefont_wght-webfont.woff2') format('woff2'),
+         url('assets/alegreya-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

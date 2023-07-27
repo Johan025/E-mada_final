@@ -1,0 +1,210 @@
+@media screen and (min-width: 764px) and (max-width: 1023px) {
+    .i1{
+        width:100vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100vh;
+    }
+    
+    .i2{
+         display: none;
+    }   
+
+    #sign, #login{
+        display: none;
+        opacity: 0;
+       }
+    
+
+    .desc{
+        position: absolute;
+        top: 10rem;
+        left: 20vw;
+  
+            h1{
+                font-size: 39px;
+                color: #fff;
+                width: 60vw;
+                font-family: 'yeseva_oneregular';
+            }
+  
+            p{
+              font-size: 21px;
+              color: #fff;
+              width: 60vw;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+  
+            button{
+              position: absolute;
+              top: 11rem;
+              border-radius: 15px;
+              width: 12rem;
+              height: 2.6rem;
+              background-color: rgba(150, 107, 26, 0);
+              border: 1.4px solid #fff;
+              font-size: 18px;
+              color:#fff;
+              left: 6vw;
+              cursor: pointer;
+  
+                &:hover{
+                  background-color: rgba(150, 107, 26, 0.63);
+                }
+            }
+  }
+  
+  .login{
+    @include div(25rem, 45vw, 27vw, 24rem, rgba(97, 55, 14, 0.842));
+    border-radius: 15px;
+    display: block;
+
+       h1{
+           @include h(33px, 2rem, -3vw, 800, 50vw);
+           color: #fff;
+       }
+
+       .email{
+            width: 15rem;
+            border-radius: 16px;
+            height: 2rem;
+            border:1.9px solid #fff;
+            background-color: #ffffff00;
+            position: absolute;
+            top: 8rem;
+            left: 4rem;
+            font-size: 17px;
+            padding: 0;
+            color: #fff;
+       }
+
+       .password{
+         width: 15rem;
+            border-radius: 16px;
+            height: 2rem;
+            border:1.9px solid #fff;
+            background-color: #ffffff00;
+            position: absolute;
+            left: 4rem;
+            font-size: 17px;
+            padding: 0;
+            color: #fff;
+          top: 13rem;
+       }
+
+       button{
+           position: absolute;
+           top: 17.6rem;
+           border-radius: 15px;
+           width: 15rem;
+           height: 2.1rem;
+           background-color: rgb(150, 106, 26);
+           border: 0;
+           font-size: 18px;
+           left: 4.3rem;
+       }
+
+       p{
+         font-size: 17px;
+         position: absolute;
+         top: 20.4rem;
+         left: 1rem;
+         color: #fff;
+       }
+
+       a{
+         font-size: 17px;
+         position: absolute;
+         top: 21.4rem;
+         left: 16.7rem;
+         text-decoration: underline;
+         color: #170541;
+         cursor: pointer;
+       }
+}
+
+.signup{
+    @include div(26rem, 45vw, 27vw, 24rem, rgba(97, 55, 14, 0.842));
+    border-radius: 15px;
+    display: none;
+  
+  
+    h1{
+      @include h(30px, 1rem, -2.5vw, 800, 50vw);
+      color: #fff;
+  }
+    .userName{
+      width: 15rem;
+      border-radius: 16px;
+      height: 2rem;
+      border:1.9px solid #fff;
+      background-color: #ffffff00;
+      position: absolute;
+      top: 6.5rem;
+      left: 4rem;
+      font-size: 17px;
+      padding: 0;
+      color: #fff;
+  }
+  
+  .email2{
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border:1.9px solid #fff;
+    background-color: #ffffff00;
+    position: absolute;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+      top: 11rem;
+  }
+  
+  .password2{
+    width: 15rem;
+      border-radius: 16px;
+      height: 2rem;
+      border:1.9px solid #fff;
+      background-color: #ffffff00;
+      position: absolute;
+      left: 4rem;
+      font-size: 17px;
+      padding: 0;
+      color: #fff;
+    top: 15.6rem;
+  }
+  button{
+    position: absolute;
+    top: 19.6rem;
+    border-radius: 15px;
+    width: 15rem;
+    height: 2.1rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 4.3rem;
+  }
+  
+  p{
+    font-size: 17px;
+    position: absolute;
+    top: 21.4rem;
+    left: 2.4rem;
+    color: #fff;
+  }
+  
+  a{
+    font-size: 17px;
+    position: absolute;
+    top: 22.4rem;
+    left: 14.5rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+  
+  }
+
+}

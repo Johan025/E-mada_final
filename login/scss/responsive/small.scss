@@ -1,0 +1,204 @@
+@media screen and (min-width: 280px) and (max-width: 763px) {
+   *{
+    box-sizing: border-box;
+   }
+
+   #sign, #login{
+    display: none;
+    opacity: 0;
+   }
+
+ 
+    .i2{
+        width:99vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        display: block;
+    }
+
+    .i1{
+         display: none;
+    }
+
+    .login{
+        @include div(25rem, 95vw, 3vw, 12rem, rgba(97, 55, 14, 0.842));
+        border-radius: 15px;
+      
+       
+ 
+           h1{
+               @include h(35px, 2rem, 3rem, 800, 70vw);
+               color: #fff;
+           }
+ 
+           .email{
+                width: 75vw;
+                border-radius: 16px;
+                height: 2.4rem;
+                border:1.9px solid #fff;
+                background-color: #ffffff00;
+                position: absolute;
+                top: 8rem;
+                left: 10vw;
+                font-size: 17px;
+                padding: 0;
+                color: #fff;
+           }
+ 
+           .password{
+            width: 75vw;
+            border-radius: 16px;
+            height: 2.4rem;
+            border:1.9px solid #fff;
+            background-color: #ffffff00;
+            position: absolute;
+            left: 10vw;
+            font-size: 17px;
+            padding: 0;
+            color: #fff;
+              top: 13rem;
+           }
+ 
+           button{
+               position: absolute;
+               top: 17.6rem;
+               border-radius: 15px;
+               width: 75vw;
+               height: 2.5rem;
+               background-color: rgb(150, 106, 26);
+               border: 0;
+               font-size: 18px;
+               left: 10vw;
+           }
+ 
+           p{
+             font-size: 17px;
+             position: absolute;
+             top: 20.4rem;
+             left: 1rem;
+             color: #fff;
+           }
+ 
+           a{
+             font-size: 17px;
+             position: absolute;
+             top: 21.4rem;
+             left: 16.7rem;
+             text-decoration: underline;
+             color: #170541;
+             cursor: pointer;
+           }
+ }
+
+ .signup{
+    @include div(26rem, 95vw, 3vw, 12rem, rgba(97, 55, 14, 0.842));
+    border-radius: 15px;
+    display: none;
+  
+  
+    h1{
+      @include h(30px, 1rem, 3rem, 800, 70vw);
+      color: #fff;
+  }
+    .userName{
+      width: 75vw;
+      border-radius: 16px;
+      height: 2.4rem;
+      border:1.9px solid #fff;
+      background-color: #ffffff00;
+      position: absolute;
+      top: 6.5rem;
+      left: 9vw;
+      font-size: 17px;
+      padding: 0;
+      color: #fff;
+  }
+  
+  .email2{
+    width: 75vw;
+      border-radius: 16px;
+      height: 2.4rem;
+      border:1.9px solid #fff;
+      background-color: #ffffff00;
+      position: absolute;
+      left: 9vw;
+      font-size: 17px;
+      padding: 0;
+      color: #fff;
+      top: 11rem;
+  }
+  
+  .password2{
+    width: 75vw;
+    border-radius: 16px;
+    height: 2.4rem;
+    border:1.9px solid #fff;
+    background-color: #ffffff00;
+    position: absolute;
+    left: 9vw;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+    top: 15.6rem;
+  }
+
+  button{
+    position: absolute;
+    top: 19.6rem;
+    border-radius: 15px;
+    width: 75vw;
+    height: 2.5rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 9vw;
+  }
+  
+  p{
+    font-size: 17px;
+    position: absolute;
+    top: 22.4rem;
+    left: 2.4rem;
+    color: #fff;
+  }
+  
+  a{
+    font-size: 17px;
+    position: absolute;
+    top: 23.4rem;
+    left: 14.5rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+  
+  }
+
+    .desc{
+        position: absolute;
+        top: 4.5rem;
+        left: 7vw;
+        
+  
+            h1{
+                font-size: 35px;
+                color: #fff;
+                width: 85vw;
+                font-family: 'yeseva_oneregular';
+            }
+  
+            p{
+              display: none;
+            }
+  
+            button{
+              display: none;
+            }
+  }
+  
+  
+    
+}
+    

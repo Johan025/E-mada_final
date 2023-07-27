@@ -1,0 +1,85 @@
+
+@media screen and (min-width: 1024px) {
+  
+
+.pictures_home{
+     position: absolute;
+     right: 4vw;
+     top: 10.7rem;
+     display: flex;
+     
+  
+     
+   img{
+  //  @include image(23rem, 14.4rem, 0, 2.1cm, 15px);
+  width: 15.6vw;
+  height: 21.5rem;
+  border-radius: 7px;
+  margin-left: 2vw;
+  object-fit: cover;
+  cursor: pointer;
+
+
+  &:hover{
+     transform: translateY(-36px);
+      transition: 0.8s;
+  }
+      
+    &:nth-child(2){
+          margin-top: 2rem;
+    }
+
+    &:nth-child(3){
+      margin-top: 4rem;
+}
+   
+   }
+
+}
+
+.c_responsive{
+    display: none;
+}
+
+.t{
+   position: relative;
+   left: -28.4vw;
+}
+
+
+.visit{
+     z-index: 10;
+     color: rgb(8, 8, 8);
+     width: 90vw;
+   font-family: 'abril_fatfaceregular';
+     font-weight: 500;
+     @include p_left(4vw, 17rem, 35px);
+}
+
+.Anakao{
+    text-align: center;
+    font-family: 'Memphis-Bold';
+    font-weight: 400;
+    justify-content: center;
+    color: rgb(27, 26, 26);
+    @include p_left(29vw, 21.5rem, 20px);
+ 
+}
+
+.explore{
+       background-color: $color_1;
+       border: 0 solid;
+       color:rgb(255, 255, 255);
+       border-radius: 9px;
+       padding: 7.6px;
+       text-align: center;
+       @include p_left(42vw, 26rem, 24px);
+       box-shadow: 0px 4px 8px black;
+       cursor: pointer;
+         &:hover{
+            box-shadow: 5px 4px 8px black;
+         }
+}
+
+
+}

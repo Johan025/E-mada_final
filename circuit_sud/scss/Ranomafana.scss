@@ -1,0 +1,44 @@
+@media screen and (min-width: 1024px) {
+    .Ranomafana{
+        display: block;
+        border-radius: 6.5px;
+        @include div(16.5rem, 47vw, 49vw, 305.5rem,rgb(233, 232, 232)) ;
+     
+       
+     
+        .legende-ranomafana{
+           position: relative;
+           top: 00rem;
+         
+                h1{
+                   color: #ca0404;
+                   font-family:'lumanosimoregular';
+                   @include h(23px, 1rem, 6.2vw, 800, 40vw);
+                }
+     
+                i{
+                  font-size: 38.4px;
+                  color: #ca0404;
+                  margin-left: -15vw;
+                  margin-top:1.6rem;
+                }
+        }
+     
+        .desc_Ranomafana{
+            width: 44vw;
+            position: absolute;
+            top: 4rem;
+            font-size: 18.5px;
+            left: 1.4vw;
+           }
+     
+           img{
+            @include image-relative(18rem, 33vw, -46.5vw, -5.5rem, 5px);
+           } 
+     }
+     
+     .border10{
+        @include border(20vw, 3px, $color-3, 313.6rem, 35vw);
+       }
+   
+}

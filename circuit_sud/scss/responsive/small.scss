@@ -1,0 +1,795 @@
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  #map{
+    width: 86vw;
+    position: absolute;
+    left: 6vw;
+    height: 27rem;
+    border-radius: 15px;
+    top: 726rem;
+    z-index: 20;
+    border: 2px solid;
+} 
+  
+  .header{
+        position:fixed;
+         top: 0;
+         width: 99.9vw;
+         left:0;
+    
+    }
+    
+    .logo {
+      font-size: 27px;
+      left: 17vw;
+      top: 0.8cm;
+    
+         img{
+           width: 48px;
+           height: 48px;
+           position: absolute;
+           top: -0.5rem;
+           margin-left: -3.5rem;
+         }
+    }
+    
+    .header_contain{
+        @include div(0rem, 100vw, 0rem, 5.2rem, rgb(22, 98, 211));
+        transition: 0.3s;
+        
+    
+    
+        ul{
+       
+        display: block;
+        position:absolute;
+        left: 35vw;
+        top: -25rem;
+        width: 65vw;
+      
+    
+              li{
+                margin-top: 22px;
+                 a{
+                      color: #241b1b;
+                      font-size: 19px;
+                      padding: -25px;
+                      width: -5rem;
+                      position: relative;
+                      right: 19vw;
+                      width: 70vw;
+                    
+                    
+                 }
+    
+                 .a1{
+                    background-color: antiquewhite;
+                               }
+    
+              }
+              .contact{
+                border: 1.5px solid #113f70;
+                border-radius: 8px;
+                padding: 7px;
+                font-size: 20.4px;
+                margin-left: 0rem;
+            }
+            i{
+              color: #000000;
+          }
+    }
+    }
+    
+    .icone_menu i{
+        position: relative;
+        float: right;
+        display: flex;
+        top:1.3rem;
+        right: 4vw;
+        z-index: 6;
+        font-size: 25px;
+        border-radius: 30%;
+    }
+    
+    .hideshow{
+      height: 24.5rem;
+    }
+    
+    .h2{
+         transform: translateY(28rem);
+         position: absolute;
+         top: 2.6rem;
+         transition: 0.06s;
+    }
+    // fin barre de navigation
+
+    .sud_couverture{
+
+        .couverture_sud{
+            position: relative;
+            top: 12rem;
+            left: 0.4vw;
+                    img{
+                        width: 93.5vw;
+                        height: 24rem;
+                        border-radius: 5px;
+                    }
+    
+    
+            }
+    
+    
+            .couverture{
+                @include h(27px, 5rem, 8vw, 300, 85vw);
+                font-family: 'yeseva_oneregular';
+                color: $color-2;
+                z-index: 20;
+            }
+    
+            
+    
+            .detail{
+                @include div(7rem, 83.6vw, 7.2vw, 42rem, rgba(0, 0, 0, 0.795));
+                border-radius: 3px;
+            }
+    
+            .description_sud{
+                 @include p_left(4.4vw, 46rem, 19.4px);
+                 width: 90.5vw;
+            }
+    
+            .detail_date{
+                   position: relative;
+                   top: 9.8rem;
+                   left: -39.9vw;
+                   color:blue;
+    
+                   i{
+                     font-size: 25px;
+                   }
+    
+                    h3{
+                           font-size: 20px;
+                           margin-top: -1.4rem;
+                           margin-left: 43vw;
+                           width: 70vw;
+                    }
+            }
+    
+            .detail_trajet{
+                position: relative;
+                top: 10.64rem;
+                left: -39.5vw;
+                color:blue;
+                i{
+                    font-size: 25px;
+                  }
+    
+                  h3{
+                    font-size: 20px;
+                    margin-top: -1.4rem;
+                    margin-left: 45vw;
+                    width: 70vw;
+             }
+         }
+    
+     }
+
+
+     .Ambatolampy{
+        position: relative;
+        top: 29rem;
+        left: 4vw;
+        width: 88vw;
+        height: 29rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-ambatolampy{
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(19px, 1.3rem, 22vw, 800, 50vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -27vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Ambatolampy{
+          width: 83.6vw;
+          position: relative;
+          top: 2.2rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 9.9rem, 5px);
+         }
+     }
+
+     .Gare{
+        position: relative;
+        top: 63.6rem;
+        left: 4vw;
+        width: 88vw;
+        height: 19.7rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-gare {
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(20px, 1.3rem, 12vw, 800, 80vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -29vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Gare{
+          width: 83.6vw;
+          position: relative;
+          top: -0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+     }
+
+     .Therme{
+        position: relative;
+        top: 99rem;
+        left: 4vw;
+        width: 88vw;
+        height: 30.5rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-therme {
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(20px, 1.3rem, 13vw, 800, 80vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -27vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Therme{
+          width: 83.6vw;
+          position: relative;
+          top: -0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+     }
+
+     .Marché{
+        position: relative;
+        top: 135rem;
+        left: 4vw;
+        width: 88vw;
+        height: 34rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-marché {
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(20px, 1.3rem, 19vw, 800, 70vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -23vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Marché{
+          width: 83.6vw;
+          position: relative;
+          top: -0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+     }
+
+     .Andraikiba{
+        position: relative;
+        top: 172rem;
+        left: 4vw;
+        width: 88vw;
+        height: 22.5rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-andraikiba {
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(20px, 1.3rem, 18vw, 800, 50vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -27vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Andraikiba{
+          width: 83.6vw;
+          position: relative;
+          top: -0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+     }
+
+     .Tritriva{
+        position: relative;
+        top: 210rem;
+        left: 4vw;
+        width: 88vw;
+        height: 21rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-tritriva {
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(20px, 1.3rem, 22vw, 800, 50vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -16vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Tritriva{
+          width: 83.6vw;
+          position: relative;
+          top: -0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+     }
+
+     .Ambositra{
+        position: relative;
+        top: 245rem;
+        left: 4vw;
+        width: 88vw;
+        height: 18.5rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-ambositra{
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(20px, 1.3rem, 22vw, 800, 50vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -19vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Ambositra{
+          width: 83.6vw;
+          position: relative;
+          top: -0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+     }
+
+     .border_princ{
+        @include border(3px, 640rem, $color-3, 70rem, 48vw);
+   }
+
+   .Reserve{
+    position: relative;
+        top: 282rem;
+        left: 4vw;
+
+        width: 88vw;
+        height: 24.5rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-reserve{
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(19px, 1.3rem, 12vw, 800, 70vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -37vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Reserve{
+          width: 83.6vw;
+          position: relative;
+          top: 0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+   }
+
+   .Manakara{
+    position: relative;
+        top: 320rem;
+        left: 4vw;
+        width: 88vw;
+        height: 20.8rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-manakara{
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(20px, 1.3rem, 22vw, 800, 50vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -20vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Manakara{
+          width: 83.6vw;
+          position: relative;
+          top: -0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+   }
+
+   .Ranomafana{
+    position: relative;
+    top: 360rem;
+    left: 4vw;
+    width: 88vw;
+    height: 23.2rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+    
+
+     .legende-ranomafana{
+      margin-left: 0vw;
+        
+
+             h1{
+                color: #ca0404;
+                font-family:'lumanosimoregular';
+                @include h(20px, 1.3rem, 18vw, 800, 70vw);
+             }
+
+             i{
+               font-size: 36.4px;
+               color: #ca0404;
+               margin-left: -23vw;
+               margin-top:1.6rem;
+             }
+     }
+
+     .desc_Ranomafana{
+      width: 83.6vw;
+      position: relative;
+      top: 0.5rem;
+      font-size: 18px;
+      left: 2.2vw;
+     }
+
+     img{
+      @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+     }
+   }
+
+   .Tuléar{
+    position: relative;
+        top: 397rem;
+        left: 4vw;
+        width: 88vw;
+        height: 22.8rem;
+        border-radius: 6.5px;
+        background-color: rgb(233, 232, 232);
+        z-index: 20;
+        
+    
+         .legende-tuléar{
+          margin-left: 0vw;
+            
+    
+                 h1{
+                    color: #ca0404;
+                    font-family:'lumanosimoregular';
+                    @include h(20px, 1.3rem, 22vw, 800, 50vw);
+                 }
+    
+                 i{
+                   font-size: 36.4px;
+                   color: #ca0404;
+                   margin-left: -14vw;
+                   margin-top:1.6rem;
+                 }
+         }
+    
+         .desc_Tuléar{
+          width: 83.6vw;
+          position: relative;
+          top: -0.5rem;
+          font-size: 18px;
+          left: 2.2vw;
+         }
+    
+         img{
+          @include image-relative(18rem, 75vw, -0.7vw, 8rem, 5px);
+         }
+   }
+
+   footer{
+    @include div(65rem, 100vw, 0vw, 755rem, rgb(222, 216, 216));
+
+         
+    .logo{
+         width: 150px;
+         height: 70px;
+         position: absolute;
+         top: 3rem;
+         left: 27vw;
+    }
+
+    .info{
+        position: absolute;
+        top: 15rem;
+        left: 54vw;
+   
+            
+        h1{
+          @include h(25px, -4rem,-9rem,  500, 70vw);
+          color: $color-1;
+   }
+
+        .phone{
+              position: absolute;
+              top: 0rem;
+              left: 0;
+                 img{
+                  width: 20px;
+                  height: 20px;
+                  position: absolute; 
+                  left: -44vw;
+                 }
+
+                 p{
+                   font-size: 18px;
+                   position: relative;
+                   left: -38vw;
+                   top: -1rem;
+                   width: 35vw;
+                 }
+        }
+      }
+
+        .email{
+          position: absolute;
+          top: 3.6rem;
+          left: 0;
+             img{
+              width: 20px;
+              height: 20px;
+              position: absolute; 
+              left: -45vw;
+              
+             }
+
+             p{
+               font-size: 18px;
+               position: relative;
+               left: -36vw;
+               top: -1rem;
+               width: 35vw;
+             }
+    }
+
+    .circ{
+           position: absolute;
+           left: 3vw;
+           top: 27.1rem;
+           display: block;
+      
+               h1{
+                  @include h(25px, -4rem,-9rem,  500, 114vw);
+                  color: $color-1;  
+               }
+                h3{
+                  font-size: 19px;
+                  position: relative;
+               top: -1.7rem;
+               margin-top: 2rem;
+                  left: 7vw;
+                }
+    }
+
+    .raccourci{
+      position: absolute;
+      left: 47vw;
+      top: 26.8rem;
+      display: block;
+          h1{
+             @include h(28px, -4rem,4vw,  500, 41vw);
+             color: $color-1;  
+          }
+           h3{
+             font-size: 19px;
+             position: relative;
+             top: -1.7rem;
+              margin-top: 2rem;
+             left: 6vw;
+           }
+}
+
+.reference{
+  position: absolute;
+  left: 20vw;
+  top: 44.8rem;
+
+  h1{
+      @include h(27px, -4rem,-16vw,  500, 90vw);
+      color: $color-1;  
+   }
+
+   p{
+       width: 69vw;
+       font-size: 18px;
+       position: absolute;
+       left: -6vw;
+   }
+
+}
+
+.border_{
+@include border(45%, 2px, $color-1, 53rem, 29vw);
+}
+
+.icones{
+      position: absolute;
+      top:61rem;
+         display: flex;
+         left: 7.3%;
+         text-align: center;
+
+         img{
+             width: 42px;
+             height: 42px;
+             border-radius: 50%;
+             margin-left: 1rem;
+         }
+}
+
+.copright{
+    font-size: 21px;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    top: 55rem;
+    left: 5%;
+    width: 90vw;
+}
+  }
+}

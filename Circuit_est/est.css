@@ -1,0 +1,1831 @@
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("assets/demo_coneriascript-webfont.woff2") format("woff2"), url("assets/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("assets/abrilfatface-regular-webfont.woff2") format("woff2"), url("assets/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("assets/yesevaone-regular-webfont.woff2") format("woff2"), url("assets/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("assets/battora-webfont.woff2") format("woff2"), url("assets/battora-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("assets/alfaslabone-regular-webfont.woff2") format("woff2"), url("assets/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("assets/alegreya-variablefont_wght-webfont.woff2") format("woff2"), url("assets/alegreya-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  font-family: "alegreyaregular";
+}
+
+.header {
+  background-color: #f2f2f2;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  left: 0;
+  height: 2.2cm;
+  margin: 0;
+  padding: 0;
+  top: 0vh;
+  right: 0cm;
+  transition: 1s;
+  z-index: 20;
+}
+
+ul {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  float: right;
+  right: 4vw;
+  top: 0.5cm;
+}
+
+.header_contain {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  right: -32rem;
+  top: 0.46cm;
+  transition: 0.5s;
+}
+.header_contain ul li a {
+  position: relative;
+  right: 38vw;
+  top: -13px;
+  text-decoration: none;
+  color: #254E7A;
+  font-size: 18.6px;
+  padding: 9px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.header_contain ul li a:hover {
+  background-color: rgb(244, 191, 17);
+  color: black;
+  border-radius: 8px;
+}
+.header_contain ul li a #search {
+  color: #254E7A;
+}
+.header_contain ul li a #search:hover {
+  color: black;
+}
+
+li {
+  margin: 4.5px;
+}
+
+#search {
+  color: rgb(0, 0, 0);
+}
+
+header ul li .a1 {
+  border: 0px solid;
+  background-color: #27749e;
+  color: black;
+  border-radius: 8px;
+  padding: 7px;
+}
+
+#search:hover {
+  color: black;
+}
+
+.logo {
+  position: absolute;
+  left: 8vw;
+  font-size: 31px;
+  top: 1.5rem;
+  color: #113f70;
+  font-family: "yeseva_oneregular";
+}
+.logo span {
+  color: #072b51;
+  font-family: "yeseva_oneregular";
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -1.2rem;
+  margin-left: -5rem;
+}
+
+.icone_menu i {
+  color: rgb(3, 19, 84);
+  font-size: 33px;
+  display: none;
+  cursor: pointer;
+  border: 2px solid rgb(4, 7, 108);
+  padding: 7px;
+  border-radius: 50%;
+}
+.icone_menu i:hover {
+  background-color: rgb(138, 117, 0);
+  color: black;
+}
+
+.contact {
+  border: 1.5px solid #113f70;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: 42px;
+  margin-left: 2rem;
+}
+
+.up- {
+  width: 70px;
+  height: 40px;
+  position: fixed;
+  top: 350em;
+  right: -325em;
+}
+
+@media screen and (min-width: 1024px) {
+  .border_princ {
+    width: 3px;
+    height: 97rem;
+    position: absolute;
+    left: 27vw;
+    top: 65rem;
+    background-color: #697278;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #map {
+    width: 32vw;
+    position: absolute;
+    left: 65vw;
+    height: 31rem;
+    border-radius: 15px;
+    top: 12rem;
+    z-index: 20;
+    border: 2px solid;
+  }
+  .est_couverture .couverture_est {
+    position: relative;
+    top: 8rem;
+    left: -13.9vw;
+  }
+  .est_couverture .couverture_est img {
+    width: 55.8vw;
+    height: 27rem;
+    border-radius: 5px;
+  }
+  .est_couverture .couverture {
+    font-size: 35px;
+    position: absolute;
+    top: 5rem;
+    left: -11.5vw;
+    font-weight: 300;
+    width: 70vw;
+    font-family: "yeseva_oneregular";
+    color: #29353e;
+    z-index: 20;
+  }
+  .detail {
+    width: 83.6vw;
+    height: 7rem;
+    position: absolute;
+    left: 7.2vw;
+    top: 42rem;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 3px;
+  }
+  .description_est {
+    position: absolute;
+    left: 6vw;
+    top: 45rem;
+    font-size: 19px;
+    text-align: center;
+    width: 60vw;
+  }
+  .detail_date {
+    position: relative;
+    top: 9.8rem;
+    left: -39.9vw;
+    color: blue;
+  }
+  .detail_date i {
+    font-size: 25px;
+  }
+  .detail_date h3 {
+    font-size: 23px;
+    margin-top: -1.4rem;
+    margin-left: 15rem;
+  }
+  .detail_trajet {
+    position: relative;
+    top: 6.64rem;
+    left: -15.5vw;
+    color: blue;
+  }
+  .detail_trajet i {
+    font-size: 25px;
+  }
+  .detail_trajet h3 {
+    font-size: 23px;
+    margin-top: -1.4rem;
+    margin-left: 20.6rem;
+  }
+}
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("assets/demo_coneriascript-webfont.woff2") format("woff2"), url("assets/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("assets/abrilfatface-regular-webfont.woff2") format("woff2"), url("assets/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("assets/yesevaone-regular-webfont.woff2") format("woff2"), url("assets/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("assets/battora-webfont.woff2") format("woff2"), url("assets/battora-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("assets/alfaslabone-regular-webfont.woff2") format("woff2"), url("assets/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("assets/alegreya-variablefont_wght-webfont.woff2") format("woff2"), url("assets/alegreya-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  font-family: "alegreyaregular";
+}
+
+@media screen and (min-width: 1025px) {
+  .Andasibe {
+    position: relative;
+    top: 29rem;
+    left: 4vw;
+    width: 50vw;
+    height: 13rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Andasibe .legende-andasibe {
+    margin-left: 0vw;
+  }
+  .Andasibe .legende-andasibe h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 27px;
+    position: absolute;
+    top: 1rem;
+    left: -11vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Andasibe .legende-andasibe i {
+    font-size: 38.4px;
+    color: #ca0404;
+    margin-left: -19vw;
+    margin-top: 1.6rem;
+  }
+  .Andasibe .desc_Andasibe {
+    width: 45vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18.5px;
+    left: 2.2vw;
+  }
+  .Andasibe img {
+    width: 33vw;
+    height: 18rem;
+    position: relative;
+    left: 48.5vw;
+    top: -16rem;
+    border-radius: 5px;
+  }
+  .border1 {
+    width: 20vw;
+    height: 3px;
+    position: absolute;
+    left: 50vw;
+    top: 71rem;
+    background-color: #697278;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .Palmarium {
+    display: block;
+    border-radius: 6.5px;
+    width: 47vw;
+    height: 15rem;
+    position: absolute;
+    left: 49vw;
+    top: 90rem;
+    background-color: rgb(233, 232, 232);
+  }
+  .Palmarium .legende-palmarium {
+    position: relative;
+    top: 0rem;
+  }
+  .Palmarium .legende-palmarium h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 27px;
+    position: absolute;
+    top: 1rem;
+    left: -8.5vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Palmarium .legende-palmarium i {
+    font-size: 38.4px;
+    color: #ca0404;
+    margin-left: -15vw;
+    margin-top: 1.6rem;
+  }
+  .Palmarium .desc_Palmarium {
+    width: 44vw;
+    position: absolute;
+    top: 4rem;
+    font-size: 18.5px;
+    left: 1.4vw;
+  }
+  .Palmarium .Palmarium_img {
+    width: 33vw;
+    height: 18rem;
+    position: relative;
+    left: -46.5vw;
+    top: -6rem;
+    border-radius: 5px;
+  }
+  .border2 {
+    width: 20vw;
+    height: 3px;
+    position: absolute;
+    left: 35vw;
+    top: 97rem;
+    background-color: #697278;
+  }
+}
+@media screen and (min-width: 1025px) {
+  footer {
+    width: 98.7vw;
+    height: 37rem;
+    position: absolute;
+    left: 0rem;
+    top: 175rem;
+    background-color: rgb(222, 216, 216);
+  }
+  footer .logo {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    top: 3rem;
+    left: 40vw;
+  }
+  footer .info {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+  }
+  footer .info h1 {
+    font-size: 28px;
+    position: absolute;
+    top: -4rem;
+    left: -6.7rem;
+    font-weight: 500;
+    width: 35vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .info .phone {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+  }
+  footer .info .phone img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+  }
+  footer .info .phone p {
+    font-size: 18px;
+    position: relative;
+    left: -7rem;
+    top: 0;
+    width: 35vw;
+  }
+  footer .email {
+    position: absolute;
+    top: 1.9rem;
+    left: 0;
+  }
+  footer .email img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+  }
+  footer .email p {
+    font-size: 18px;
+    position: relative;
+    left: -2rem;
+    top: 0;
+    width: 35vw;
+  }
+  footer .circ {
+    position: absolute;
+    left: 30rem;
+    top: 14.8rem;
+    display: block;
+  }
+  footer .circ h1 {
+    font-size: 28px;
+    position: absolute;
+    top: -4rem;
+    left: -9rem;
+    font-weight: 500;
+    width: 35vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .circ h3 {
+    font-size: 19px;
+    position: relative;
+    top: 0rem;
+    margin-top: 0;
+    left: 4vw;
+  }
+  footer .raccourci {
+    position: absolute;
+    left: 47rem;
+    top: 14.8rem;
+    display: block;
+  }
+  footer .raccourci h1 {
+    font-size: 28px;
+    position: absolute;
+    top: -4rem;
+    left: -9rem;
+    font-weight: 500;
+    width: 35vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .raccourci h3 {
+    font-size: 19px;
+    position: relative;
+    top: 0rem;
+    margin-top: 0;
+    left: 1vw;
+  }
+  footer .reference {
+    position: absolute;
+    left: 70.5rem;
+    top: 14.8rem;
+  }
+  footer .reference h1 {
+    font-size: 27px;
+    position: absolute;
+    top: -4rem;
+    left: -11rem;
+    font-weight: 500;
+    width: 25vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .reference p {
+    width: 19vw;
+    font-size: 18px;
+    position: absolute;
+    left: -8.7rem;
+  }
+  footer .border_ {
+    width: 74%;
+    height: 2px;
+    position: absolute;
+    left: 11rem;
+    top: 28.9rem;
+    background-color: rgb(4, 82, 137);
+  }
+  footer .icones {
+    position: absolute;
+    top: 33rem;
+    display: flex;
+    left: 33vw;
+    text-align: center;
+  }
+  footer .icones img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-left: 2rem;
+  }
+  footer .copright {
+    font-size: 21px;
+    position: absolute;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 800;
+    top: 29rem;
+    left: 25vw;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .Foulpointe {
+    border-radius: 6.5px;
+    width: 50vw;
+    height: 16.6rem;
+    position: absolute;
+    left: 4vw;
+    top: 117rem;
+    background-color: rgb(233, 232, 232);
+  }
+  .Foulpointe .legende-foulpointe {
+    position: relative;
+    top: 0rem;
+  }
+  .Foulpointe .legende-foulpointe h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 25px;
+    position: absolute;
+    top: 1rem;
+    left: -7vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Foulpointe .legende-foulpointe i {
+    font-size: 38.4px;
+    color: #ca0404;
+    margin-left: -15vw;
+    margin-top: 1.6rem;
+  }
+  .Foulpointe .desc_foulpointe {
+    width: 48vw;
+    position: absolute;
+    top: 4rem;
+    font-size: 18.5px;
+    left: 0.4vw;
+  }
+  .Foulpointe .Foulpointe_img {
+    width: 33vw;
+    height: 18rem;
+    position: relative;
+    left: 48.5vw;
+    top: -6rem;
+    border-radius: 5px;
+  }
+  .border3 {
+    width: 20vw;
+    height: 3px;
+    position: absolute;
+    left: 0vw;
+    top: 32.6rem;
+    background-color: #697278;
+  }
+  .Sainte-marie {
+    display: block;
+    border-radius: 6.5px;
+    width: 47vw;
+    height: 20rem;
+    position: absolute;
+    left: 1vw;
+    top: 49rem;
+    background-color: rgb(233, 232, 232);
+  }
+  .Sainte-marie .legende-saintemarie {
+    position: relative;
+    top: 0rem;
+  }
+  .Sainte-marie .legende-saintemarie h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 25px;
+    position: absolute;
+    top: 1rem;
+    left: -2.5vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Sainte-marie .legende-saintemarie i {
+    font-size: 38.4px;
+    color: #ca0404;
+    margin-left: -15vw;
+    margin-top: 1.6rem;
+  }
+  .Sainte-marie .desc_saintemarie {
+    width: 44vw;
+    position: absolute;
+    top: 4rem;
+    font-size: 18.5px;
+    left: 1.4vw;
+  }
+  .Sainte-marie .Saintemarie_img {
+    width: 33vw;
+    height: 18rem;
+    position: relative;
+    left: -46.5vw;
+    top: -3.2rem;
+    border-radius: 5px;
+  }
+  .border4 {
+    width: 20vw;
+    height: 3px;
+    position: absolute;
+    left: -11.6vw;
+    top: 58.9rem;
+    background-color: #697278;
+  }
+  .NosyTanikely {
+    display: block;
+    border-radius: 6.5px;
+    width: 50vw;
+    height: 17.6rem;
+    position: absolute;
+    left: -44vw;
+    top: 78rem;
+    background-color: rgb(233, 232, 232);
+  }
+  .NosyTanikely .legende-nosyTanikely {
+    position: relative;
+    top: 0rem;
+  }
+  .NosyTanikely .legende-nosyTanikely h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 25px;
+    position: absolute;
+    top: 1rem;
+    left: -0.9vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .NosyTanikely .legende-nosyTanikely i {
+    font-size: 38.4px;
+    color: #ca0404;
+    margin-left: -15vw;
+    margin-top: 1.6rem;
+  }
+  .NosyTanikely .desc_nosyTanikely {
+    width: 44vw;
+    position: absolute;
+    top: 4rem;
+    font-size: 18.5px;
+    left: 0.4vw;
+  }
+  .NosyTanikely .Tanikely_img {
+    width: 33vw;
+    height: 18rem;
+    position: relative;
+    left: 48.5vw;
+    top: -6rem;
+    border-radius: 5px;
+  }
+  .border3 {
+    width: 20vw;
+    height: 3px;
+    position: absolute;
+    left: 48vw;
+    top: 125.6rem;
+    background-color: #697278;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 763px) {
+  #map {
+    width: 86vw;
+    position: absolute;
+    left: 6vw;
+    height: 27rem;
+    border-radius: 15px;
+    top: 292rem;
+    z-index: 20;
+    border: 2px solid;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    width: 99.9vw;
+    left: 0;
+  }
+  .logo {
+    font-size: 27px;
+    left: 17vw;
+    top: 0.8cm;
+  }
+  .logo img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: -0.5rem;
+    margin-left: -3.5rem;
+  }
+  .header_contain {
+    width: 100vw;
+    height: 0rem;
+    position: absolute;
+    left: 0rem;
+    top: 5.2rem;
+    background-color: rgb(22, 98, 211);
+    transition: 0.3s;
+  }
+  .header_contain ul {
+    display: block;
+    position: absolute;
+    left: 35vw;
+    top: -25rem;
+    width: 65vw;
+  }
+  .header_contain ul li {
+    margin-top: 22px;
+  }
+  .header_contain ul li a {
+    color: #241b1b;
+    font-size: 19px;
+    padding: -25px;
+    width: -5rem;
+    position: relative;
+    right: 19vw;
+    width: 70vw;
+  }
+  .header_contain ul li .a1 {
+    background-color: antiquewhite;
+  }
+  .header_contain ul .contact {
+    border: 1.5px solid #113f70;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 20.4px;
+    margin-left: 0rem;
+  }
+  .header_contain ul i {
+    color: #000000;
+  }
+  .icone_menu i {
+    position: relative;
+    float: right;
+    display: flex;
+    top: 1.3rem;
+    right: 4vw;
+    z-index: 6;
+    font-size: 25px;
+    border-radius: 30%;
+  }
+  .hideshow {
+    height: 24.5rem;
+  }
+  .h2 {
+    transform: translateY(28rem);
+    position: absolute;
+    top: 2.6rem;
+    transition: 0.06s;
+  }
+  .est_couverture .couverture_est {
+    position: relative;
+    top: 12rem;
+    left: 0.4vw;
+  }
+  .est_couverture .couverture_est img {
+    width: 93.5vw;
+    height: 24rem;
+    border-radius: 5px;
+  }
+  .est_couverture .couverture {
+    font-size: 25.4px;
+    position: absolute;
+    top: 5rem;
+    left: 12.5vw;
+    font-weight: 300;
+    width: 75vw;
+    font-family: "yeseva_oneregular";
+    color: #29353e;
+    z-index: 20;
+  }
+  .est_couverture .detail {
+    width: 83.6vw;
+    height: 7rem;
+    position: absolute;
+    left: 7.2vw;
+    top: 42rem;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 3px;
+  }
+  .est_couverture .description_est {
+    position: absolute;
+    left: 6vw;
+    top: 47.5rem;
+    font-size: 19.4px;
+    text-align: center;
+    width: 88vw;
+  }
+  .est_couverture .detail_date {
+    position: relative;
+    top: 9.8rem;
+    left: -39.9vw;
+    color: blue;
+  }
+  .est_couverture .detail_date i {
+    font-size: 25px;
+  }
+  .est_couverture .detail_date h3 {
+    font-size: 20px;
+    margin-top: -1.4rem;
+    margin-left: 43vw;
+    width: 70vw;
+  }
+  .est_couverture .detail_trajet {
+    position: relative;
+    top: 10.64rem;
+    left: -39.5vw;
+    color: blue;
+  }
+  .est_couverture .detail_trajet i {
+    font-size: 25px;
+  }
+  .est_couverture .detail_trajet h3 {
+    font-size: 20px;
+    margin-top: -1.4rem;
+    margin-left: 53vw;
+    width: 70vw;
+  }
+  .Andasibe {
+    position: relative;
+    top: 38rem;
+    left: 4vw;
+    width: 88vw;
+    height: 18.2rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Andasibe .legende-andasibe {
+    margin-left: 0vw;
+  }
+  .Andasibe .legende-andasibe h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 20px;
+    position: absolute;
+    top: 1.3rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Andasibe .legende-andasibe i {
+    font-size: 36.4px;
+    color: #ca0404;
+    margin-left: -22vw;
+    margin-top: 1.6rem;
+  }
+  .Andasibe .desc_Andasibe {
+    width: 83.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+  }
+  .Andasibe img {
+    width: 75vw;
+    height: 18rem;
+    position: relative;
+    left: -1.8vw;
+    top: 8rem;
+    border-radius: 5px;
+  }
+  .border1, .border2, .border3 {
+    display: none;
+  }
+  .Palmarium {
+    position: relative;
+    top: 72rem;
+    left: 4vw;
+    width: 88vw;
+    height: 21rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Palmarium .legende-palmarium {
+    margin-left: 0vw;
+  }
+  .Palmarium .legende-palmarium h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 20px;
+    position: absolute;
+    top: 1.3rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Palmarium .legende-palmarium i {
+    font-size: 36.4px;
+    color: #ca0404;
+    margin-left: -22vw;
+    margin-top: 1.6rem;
+  }
+  .Palmarium .desc_Palmarium {
+    width: 83.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+  }
+  .Palmarium img {
+    width: 75vw;
+    height: 18rem;
+    position: relative;
+    left: -1.8vw;
+    top: 8rem;
+    border-radius: 5px;
+  }
+  .Foulpointe {
+    position: relative;
+    top: 107rem;
+    left: 4vw;
+    width: 88vw;
+    height: 19.3rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Foulpointe .legende-foulpointe {
+    margin-left: 0vw;
+  }
+  .Foulpointe .legende-foulpointe h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 20px;
+    position: absolute;
+    top: 1.3rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Foulpointe .legende-foulpointe i {
+    font-size: 36.4px;
+    color: #ca0404;
+    margin-left: -22vw;
+    margin-top: 1.6rem;
+  }
+  .Foulpointe .desc_Foulpointe {
+    width: 83.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+  }
+  .Foulpointe img {
+    width: 75vw;
+    height: 18rem;
+    position: relative;
+    left: -1.8vw;
+    top: 8rem;
+    border-radius: 5px;
+  }
+  .Sm {
+    position: relative;
+    top: 144rem;
+    left: 4vw;
+    width: 88vw;
+    height: 22.3rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Sm .legende-sm {
+    margin-left: 0vw;
+  }
+  .Sm .legende-sm h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 20px;
+    position: absolute;
+    top: 1.3rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Sm .legende-sm i {
+    font-size: 36.4px;
+    color: #ca0404;
+    margin-left: -22vw;
+    margin-top: 1.6rem;
+  }
+  .Sm .desc_sm {
+    width: 83.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+  }
+  .Sm img {
+    width: 75vw;
+    height: 18rem;
+    position: relative;
+    left: -1.8vw;
+    top: 8rem;
+    border-radius: 5px;
+  }
+  footer {
+    width: 99.5vw;
+    height: 65rem;
+    position: absolute;
+    left: 0vw;
+    top: 325rem;
+    background-color: rgb(222, 216, 216);
+  }
+  footer .logo {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 3rem;
+    left: 27vw;
+  }
+  footer .info {
+    position: absolute;
+    top: 15rem;
+    left: 54vw;
+  }
+  footer .info h1 {
+    font-size: 25px;
+    position: absolute;
+    top: -4rem;
+    left: -9rem;
+    font-weight: 500;
+    width: 70vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .info .phone {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+  }
+  footer .info .phone img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -44vw;
+  }
+  footer .info .phone p {
+    font-size: 18px;
+    position: relative;
+    left: -38vw;
+    top: -1rem;
+    width: 35vw;
+  }
+  footer .email {
+    position: absolute;
+    top: 3.6rem;
+    left: 0;
+  }
+  footer .email img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -45vw;
+  }
+  footer .email p {
+    font-size: 18px;
+    position: relative;
+    left: -36vw;
+    top: -1rem;
+    width: 35vw;
+  }
+  footer .circ {
+    position: absolute;
+    left: 3vw;
+    top: 27.1rem;
+    display: block;
+  }
+  footer .circ h1 {
+    font-size: 25px;
+    position: absolute;
+    top: -4rem;
+    left: -9rem;
+    font-weight: 500;
+    width: 114vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .circ h3 {
+    font-size: 19px;
+    position: relative;
+    top: -1.7rem;
+    margin-top: 2rem;
+    left: 9vw;
+  }
+  footer .raccourci {
+    position: absolute;
+    left: 47vw;
+    top: 26.8rem;
+    display: block;
+  }
+  footer .raccourci h1 {
+    font-size: 28px;
+    position: absolute;
+    top: -4rem;
+    left: 4vw;
+    font-weight: 500;
+    width: 41vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .raccourci h3 {
+    font-size: 19px;
+    position: relative;
+    top: -1.7rem;
+    margin-top: 2rem;
+    left: 6vw;
+  }
+  footer .reference {
+    position: absolute;
+    left: 20vw;
+    top: 44.8rem;
+  }
+  footer .reference h1 {
+    font-size: 27px;
+    position: absolute;
+    top: -4rem;
+    left: -16vw;
+    font-weight: 500;
+    width: 90vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .reference p {
+    width: 69vw;
+    font-size: 18px;
+    position: absolute;
+    left: -6vw;
+  }
+  footer .border_ {
+    width: 45%;
+    height: 2px;
+    position: absolute;
+    left: 29vw;
+    top: 53rem;
+    background-color: rgb(4, 82, 137);
+  }
+  footer .icones {
+    position: absolute;
+    top: 61rem;
+    display: flex;
+    left: 7.3%;
+    text-align: center;
+  }
+  footer .icones img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-left: 1rem;
+  }
+  footer .copright {
+    font-size: 21px;
+    position: absolute;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 800;
+    top: 55rem;
+    left: 5%;
+    width: 90vw;
+  }
+  .border_princ {
+    width: 3px;
+    height: 195rem;
+    position: absolute;
+    left: 48vw;
+    top: 72rem;
+    background-color: #697278;
+  }
+}
+@media screen and (min-width: 765px) and (max-width: 1023px) {
+  #map {
+    width: 87vw;
+    position: absolute;
+    left: 6vw;
+    height: 31rem;
+    border-radius: 15px;
+    top: 262rem;
+    z-index: 20;
+    border: 2px solid;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 0;
+  }
+  .logo {
+    font-size: 27px;
+    left: 9.6vw;
+    top: 0.8cm;
+  }
+  .logo img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: -0.5rem;
+    margin-left: -3.5rem;
+  }
+  .header_contain {
+    width: 100%;
+    height: 24.5rem;
+    position: absolute;
+    left: 0rem;
+    top: 5.2rem;
+    background-color: rgb(22, 98, 211);
+    transform: translateY(-100rem);
+    transition: 0.3s;
+  }
+  .header_contain ul {
+    display: block;
+    position: absolute;
+    left: 32vw;
+    top: 2.6rem;
+    width: 58vw;
+  }
+  .header_contain ul li {
+    margin-top: 22px;
+  }
+  .header_contain ul li a {
+    color: #000;
+    font-size: 19px;
+    padding: -25px;
+    width: -5rem;
+    position: relative;
+    right: 5rem;
+  }
+  .header_contain ul li .a1 {
+    background-color: antiquewhite;
+  }
+  .header_contain ul .contact {
+    border: 1.5px solid #113f70;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 20.4px;
+    margin-left: 0rem;
+  }
+  .header_contain ul i {
+    color: rgb(0, 0, 0);
+  }
+  .icone_menu i {
+    position: relative;
+    float: right;
+    display: flex;
+    top: 1rem;
+    right: 4vw;
+    z-index: 6;
+    font-size: 25px;
+    border-radius: 30%;
+  }
+  .hideshow {
+    transform: translateY(0rem);
+  }
+  .dire {
+    display: block;
+  }
+  .est_couverture .couverture_est {
+    position: relative;
+    top: 12rem;
+    left: 0vw;
+  }
+  .est_couverture .couverture_est img {
+    width: 93.1vw;
+    height: 29rem;
+    border-radius: 5px;
+  }
+  .est_couverture .couverture {
+    font-size: 32.4px;
+    position: absolute;
+    top: 5rem;
+    left: 12.5vw;
+    font-weight: 300;
+    width: 75vw;
+    font-family: "yeseva_oneregular";
+    color: #29353e;
+    z-index: 20;
+  }
+  .est_couverture .detail {
+    width: 83.6vw;
+    height: 7rem;
+    position: absolute;
+    left: 7.2vw;
+    top: 42rem;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 3px;
+  }
+  .est_couverture .description_est {
+    position: absolute;
+    left: 6vw;
+    top: 51.5rem;
+    font-size: 19.4px;
+    text-align: center;
+    width: 88vw;
+  }
+  .est_couverture .detail_date {
+    position: relative;
+    top: 9.8rem;
+    left: -18.9vw;
+    color: blue;
+  }
+  .est_couverture .detail_date i {
+    font-size: 25px;
+  }
+  .est_couverture .detail_date h3 {
+    font-size: 23px;
+    margin-top: -1.4rem;
+    margin-left: 30.5vw;
+    width: 70vw;
+  }
+  .est_couverture .detail_trajet {
+    position: relative;
+    top: 10.64rem;
+    left: -18.8vw;
+    color: blue;
+  }
+  .est_couverture .detail_trajet i {
+    font-size: 25px;
+  }
+  .est_couverture .detail_trajet h3 {
+    font-size: 22px;
+    margin-top: -1.4rem;
+    margin-left: 36vw;
+    width: 70vw;
+  }
+  .Andasibe {
+    position: relative;
+    top: 28rem;
+    left: 16vw;
+    width: 68vw;
+    height: 14.6rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Andasibe .legende-andasibe {
+    margin-left: 0vw;
+  }
+  .Andasibe .legende-andasibe h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 21.5px;
+    position: absolute;
+    top: 1rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 30vw;
+  }
+  .Andasibe .legende-andasibe i {
+    font-size: 32.4px;
+    color: #ca0404;
+    margin-left: -12vw;
+    margin-top: 1.6rem;
+  }
+  .Andasibe .desc_Andasibe {
+    width: 63.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+  }
+  .Andasibe img {
+    width: 50vw;
+    height: 17rem;
+    position: relative;
+    left: -1.8vw;
+    top: 8rem;
+    border-radius: 5px;
+  }
+  .Palmarium {
+    position: relative;
+    top: 62rem;
+    left: 16vw;
+    width: 68vw;
+    height: 14.6rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Palmarium .legende-palmarium {
+    margin-left: 0vw;
+  }
+  .Palmarium .legende-palmarium h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 21.5px;
+    position: absolute;
+    top: 1rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 30vw;
+  }
+  .Palmarium .legende-palmarium i {
+    font-size: 32.4px;
+    color: #ca0404;
+    margin-left: -12vw;
+    margin-top: 1.6rem;
+  }
+  .Palmarium .desc_Palmarium {
+    width: 63.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+  }
+  .Palmarium img {
+    width: 50vw;
+    height: 17rem;
+    position: relative;
+    left: -1.8vw;
+    top: 8rem;
+    border-radius: 5px;
+  }
+  .Foulpointe {
+    position: relative;
+    top: 98.5rem;
+    left: 16vw;
+    width: 68vw;
+    height: 14.6rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Foulpointe .legende-foulpointe {
+    margin-left: 0vw;
+  }
+  .Foulpointe .legende-foulpointe h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 21.5px;
+    position: absolute;
+    top: 1rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 30vw;
+  }
+  .Foulpointe .legende-foulpointe i {
+    font-size: 32.4px;
+    color: #ca0404;
+    margin-left: -12vw;
+    margin-top: 1.6rem;
+  }
+  .Foulpointe .desc_Foulpointe {
+    width: 63.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+  }
+  .Foulpointe img {
+    width: 50vw;
+    height: 17rem;
+    position: relative;
+    left: -1.8vw;
+    top: 8rem;
+    border-radius: 5px;
+  }
+  .Sm {
+    position: relative;
+    top: 132.5rem;
+    left: 16vw;
+    width: 68vw;
+    height: 16.8rem;
+    border-radius: 6.5px;
+    background-color: rgb(233, 232, 232);
+    z-index: 20;
+  }
+  .Sm .legende-sm {
+    margin-left: 0vw;
+  }
+  .Sm .legende-sm h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 21.5px;
+    position: absolute;
+    top: 1rem;
+    left: 19vw;
+    font-weight: 800;
+    width: 30vw;
+  }
+  .Sm .legende-sm i {
+    font-size: 32.4px;
+    color: #ca0404;
+    margin-left: -12vw;
+    margin-top: 1.6rem;
+  }
+  .Sm .desc_sm {
+    width: 63.6vw;
+    position: relative;
+    top: -0.5rem;
+    font-size: 18px;
+    left: 2.2vw;
+  }
+  .Sm img {
+    width: 50vw;
+    height: 17rem;
+    position: relative;
+    left: -1.8vw;
+    top: 8rem;
+    border-radius: 5px;
+  }
+  footer {
+    width: 100vw;
+    height: 65rem;
+    position: absolute;
+    left: 0vw;
+    top: 302rem;
+    background-color: rgb(222, 216, 216);
+  }
+  footer .logo {
+    width: 180px;
+    height: 85px;
+    position: absolute;
+    top: 3rem;
+    left: 35vw;
+  }
+  footer .info {
+    position: absolute;
+    top: 15rem;
+    left: 58vw;
+  }
+  footer .info h1 {
+    font-size: 25px;
+    position: absolute;
+    top: -4rem;
+    left: -35vw;
+    font-weight: 500;
+    width: 47vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .info .phone {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+  }
+  footer .info .phone img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -25vw;
+  }
+  footer .info .phone p {
+    font-size: 18px;
+    position: relative;
+    left: -30vw;
+    top: -1rem;
+    width: 35vw;
+  }
+  footer .email {
+    position: absolute;
+    top: 3.6rem;
+    left: 0;
+  }
+  footer .email img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -25vw;
+  }
+  footer .email p {
+    font-size: 18px;
+    position: relative;
+    left: -20vw;
+    top: -1rem;
+    width: 35vw;
+  }
+  footer .circ {
+    position: absolute;
+    left: 17vw;
+    top: 27.1rem;
+    display: block;
+  }
+  footer .circ h1 {
+    font-size: 25px;
+    position: absolute;
+    top: -4rem;
+    left: -45vw;
+    font-weight: 500;
+    width: 114vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .circ h3 {
+    font-size: 19px;
+    position: relative;
+    top: -1.7rem;
+    margin-top: 2rem;
+    left: 8vw;
+  }
+  footer .raccourci {
+    position: absolute;
+    left: 47vw;
+    top: 26.8rem;
+    display: block;
+  }
+  footer .raccourci h1 {
+    font-size: 28px;
+    position: absolute;
+    top: -4rem;
+    left: -3vw;
+    font-weight: 500;
+    width: 41vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .raccourci h3 {
+    font-size: 19px;
+    position: relative;
+    top: -1.7rem;
+    margin-top: 2rem;
+    left: 10vw;
+  }
+  footer .reference {
+    position: absolute;
+    left: 20vw;
+    top: 44.8rem;
+  }
+  footer .reference h1 {
+    font-size: 27px;
+    position: absolute;
+    top: -4rem;
+    left: -16vw;
+    font-weight: 500;
+    width: 90vw;
+    color: rgb(4, 82, 137);
+  }
+  footer .reference p {
+    width: 69vw;
+    font-size: 18px;
+    position: absolute;
+    left: -6vw;
+  }
+  footer .border_ {
+    width: 45%;
+    height: 2px;
+    position: absolute;
+    left: 29vw;
+    top: 53rem;
+    background-color: rgb(4, 82, 137);
+  }
+  footer .icones {
+    position: absolute;
+    top: 61rem;
+    display: flex;
+    left: 30vw;
+    text-align: center;
+  }
+  footer .icones img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-left: 1rem;
+  }
+  footer .copright {
+    font-size: 21px;
+    position: absolute;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 800;
+    top: 55rem;
+    left: 5%;
+    width: 90vw;
+  }
+  .border_princ {
+    width: 3px;
+    height: 175rem;
+    position: absolute;
+    left: 48vw;
+    top: 72rem;
+    background-color: #697278;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Sm {
+    display: block;
+    border-radius: 6.5px;
+    width: 47vw;
+    height: 17rem;
+    position: absolute;
+    left: 49vw;
+    top: 147rem;
+    background-color: rgb(233, 232, 232);
+  }
+  .Sm .legende-sm {
+    position: relative;
+    top: 0rem;
+  }
+  .Sm .legende-sm h1 {
+    color: #ca0404;
+    font-family: "lumanosimoregular";
+    font-size: 27px;
+    position: absolute;
+    top: 1rem;
+    left: -6.5vw;
+    font-weight: 800;
+    width: 50vw;
+  }
+  .Sm .legende-sm i {
+    font-size: 38.4px;
+    color: #ca0404;
+    margin-left: -15vw;
+    margin-top: 1.6rem;
+  }
+  .Sm .desc_sm {
+    width: 44vw;
+    position: absolute;
+    top: 4rem;
+    font-size: 18.5px;
+    left: 1.4vw;
+  }
+  .Sm .Sm_img {
+    width: 33vw;
+    height: 18rem;
+    position: relative;
+    left: -46.5vw;
+    top: -6rem;
+    border-radius: 5px;
+  }
+  .border4 {
+    width: 20vw;
+    height: 3px;
+    position: absolute;
+    left: 35vw;
+    top: 154.8rem;
+    background-color: #697278;
+  }
+}
+@font-face {
+  font-family: "lumanosimoregular";
+  src: url("./assets/lumanosimo-regular-webfont.woff2") format("woff2"), url("./assets/lumanosimo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "coneria_script_demoregular";
+  src: url("assets/demo_coneriascript-webfont.woff2") format("woff2"), url("assets/demo_coneriascript-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("assets/abrilfatface-regular-webfont.woff2") format("woff2"), url("assets/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yeseva_oneregular";
+  src: url("assets/yesevaone-regular-webfont.woff2") format("woff2"), url("assets/yesevaone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "battoraregular";
+  src: url("assets/battora-webfont.woff2") format("woff2"), url("assets/battora-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alfa_slab_oneregular";
+  src: url("assets/alfaslabone-regular-webfont.woff2") format("woff2"), url("assets/alfaslabone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("assets/alegreya-variablefont_wght-webfont.woff2") format("woff2"), url("assets/alegreya-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=est.css.map */

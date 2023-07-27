@@ -1,0 +1,85 @@
+@media screen and (min-width: 1025px) {
+
+.signup{
+    @include div(25rem, 22rem, 63vw, 10rem, rgba(97, 55, 14, 0.842));
+    border-radius: 15px;
+    display: none;
+  
+  
+    h1{
+      @include h(30px, 1rem, 3rem, 800, 20vw);
+      color: #fff;
+  }
+    .userName{
+      width: 15rem;
+      border-radius: 16px;
+      height: 2rem;
+      border:1.9px solid #fff;
+      background-color: #ffffff00;
+      position: absolute;
+      top: 6.5rem;
+      left: 4rem;
+      font-size: 17px;
+      padding: 0;
+      color: #fff;
+  }
+  
+  .email2{
+    width: 15rem;
+    border-radius: 16px;
+    height: 2rem;
+    border:1.9px solid #fff;
+    background-color: #ffffff00;
+    position: absolute;
+    left: 4rem;
+    font-size: 17px;
+    padding: 0;
+    color: #fff;
+      top: 11rem;
+  }
+  
+  .password2{
+    width: 15rem;
+      border-radius: 16px;
+      height: 2rem;
+      border:1.9px solid #fff;
+      background-color: #ffffff00;
+      position: absolute;
+      left: 4rem;
+      font-size: 17px;
+      padding: 0;
+      color: #fff;
+    top: 15.6rem;
+  }
+  button{
+    position: absolute;
+    top: 19.6rem;
+    border-radius: 15px;
+    width: 15rem;
+    height: 2.1rem;
+    background-color: rgb(150, 106, 26);
+    border: 0;
+    font-size: 18px;
+    left: 4.3rem;
+  }
+  
+  p{
+    font-size: 17px;
+    position: absolute;
+    top: 21.4rem;
+    left: 2.4rem;
+    color: #fff;
+  }
+  
+  a{
+    font-size: 17px;
+    position: absolute;
+    top: 22.4rem;
+    left: 14.5rem;
+    text-decoration: underline;
+    color: #170541;
+    cursor: pointer;
+  }
+  
+  }
+}

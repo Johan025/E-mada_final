@@ -1,0 +1,1269 @@
+* {
+    color: black;
+}
+
+.header {
+    background-color: #073b02;
+    position: fixed;
+    z-index: 3;   
+    width: 99.8vw;
+    left: 0;
+    height: 2.2cm;
+    margin: 0;
+    padding: 0;
+    top: 0vh;
+    right: 0cm;
+    transition: 1s;
+
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    float: right;
+    right: 0rem;
+    top: 0.3cm;
+}
+
+.header_contain{
+    width:100%;
+    height:10vh;
+    /* background-color: #c79b0ae0;  */
+    position:absolute;
+    /* transform: translateX(-32cm); */
+    right:-32rem;
+    top:0.46cm;
+    transition:0.5s;
+}
+
+li {
+    margin: 16px;
+}
+
+.header_contain ul li a {
+    position: relative;
+    right:36rem;
+    top: -20px;
+    text-decoration: none;
+    color: rgb(138, 117, 0);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header_contain ul li a #search{
+    color:rgb(138, 117, 0);
+}
+
+.header_contain ul li a:hover {
+    background-color: rgb(165, 128, 8);
+    color: black;
+    border-radius: 20px;
+    padding: 3.5px;
+}
+
+#search{
+    color: rgb(0, 0, 0);
+}
+
+header ul li .a1{
+    border:0px solid;
+    background-color:rgb(177, 100, 0);
+    color:black;
+    border-radius: 20px;
+    padding:6px;
+}
+#search:hover{
+color:black;
+}
+
+.logo {
+    position: absolute;
+    left: 1.6cm;
+    font-size: 38px;
+    top: 0.4cm;
+    color: rgb(138, 117, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.logo span {
+    color: rgb(177, 100, 0);
+}
+
+.icone_menu i{
+    color:rgb(165, 128, 8);
+    font-size:33px;
+    position:fixed;
+    opacity:0;
+    right:4rem;
+    top:1.5rem;
+    cursor:pointer;
+    border:2px solid rgb(138, 117, 0);
+    padding:7px;
+    border-radius: 50%;
+}
+
+.icone_menu i:hover{
+    background-color: rgb(138, 117, 0); 
+    color:black;
+
+}
+
+h1 {
+    font-size: 37px;
+    margin-left: 5.4cm;
+    margin-top: 2.2cm;
+}
+
+.presentation {
+    position: absolute;
+    top: 4.8cm;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 0.5cm;
+}
+
+h1 span {
+    color: rgb(141, 141, 0);
+}
+
+.footer_up{
+    width:100%;
+    height:30vh;
+    position:relative;
+    box-shadow: 5px 8px 10px;
+    top:-4.9cm;
+    background-color: rgb(180, 179, 179);
+}
+
+.footer_up .input_coms{
+     position:absolute;
+     left:20rem;
+     top:4rem;
+      width:420px;
+      height:60px;
+      font-size: 20px;
+      border:1px solid black;
+      border-radius: 5px;
+}
+
+.submit_coms{
+position:absolute;
+top:4rem;
+left:49rem;
+font-size: 22px;
+border: 0 solid;
+border-radius: 4px;
+padding:13px;
+background-color: #bad63b;
+}
+
+.follow{
+position:absolute;
+top:1rem;
+left:39.5rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.849);
+    height:10cm;
+    width: 100%;
+    position: absolute;
+    top: 516rem;
+    right: 0px;
+    left: 0;
+}
+
+.suivre {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 1cm;
+    left: 21.8cm;
+    font-size:25px;
+}
+
+.facebook {
+    position: absolute;
+    left: 4.4cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+    font-size:21px;
+}
+
+.twitter {
+    position: absolute;
+    left: 5.9cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+    font-size:21px;
+}
+
+.sort {
+
+    position: absolute;
+    top: 52cm;
+    left: 12.6cm;
+}
+
+#sort {
+    width: 23px;
+    height: 15px;
+}
+
+.instagram {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 6.9cm;
+    font-size:21px;
+}
+
+.youtube {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 7.9cm;
+    font-size:21px;
+}
+
+.contact {
+    position: absolute;
+    left: 12cm;
+    color: white;
+    top: 1cm;
+    left: 14.8cm;
+}
+
+.contact_1 {
+    position: absolute;
+    left: 12cm;
+    color: white;
+    top: 1.6cm;
+    left: 16cm;
+    margin: 3px;
+}
+
+
+.footer-countain{
+position:absolute;
+left:40rem;
+top:-1rem;
+width:8cm;
+}
+
+.footer-countain i{
+    font-size: 22px;
+    margin: 5px;
+}
+
+.bar {
+    position: absolute;
+    display: block;
+    right: -4cm;
+    top: 0.2cm;
+
+
+}
+
+.border_vertical{
+    position:absolute;
+    top:16cm;
+    border-left: 3.5px solid rgb(196, 146, 8);
+   left:2.5cm;
+    height:2cm;
+   
+}
+.border_bottom{
+    position:absolute;
+    top:18cm;
+    border-bottom: 3.5px solid rgb(196, 146, 8);
+   left:2.5cm;
+   width:1.4cm;
+}
+.border_vertical2{
+    position:absolute;
+    top:14.5cm;
+    border-left: 3.5px solid rgb(196, 146, 8);
+   right:2cm;
+    height:2cm;
+   
+}
+.border_bottom2{
+    position:absolute;
+    top:14.5cm;
+    border-bottom: 3.5px solid rgb(196, 146, 8);
+   right:2cm;
+   width:1.4cm;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+
+.titre_sud {
+    position: absolute;
+    top: 13.8cm;
+    left: 8.4cm;
+    font-size: 35px;
+    text-indent: 100px;
+    color: black;
+
+}
+
+.description_sud {
+    position: absolute;
+    top: 15.5cm;
+    font-size: 20px;
+    left: 4.6cm;
+    text-indent: 15px;
+
+}
+
+.description_sud span {
+    position: absolute;
+    left: 2cm;
+}
+
+.behenjy-1 #b {
+    position: absolute;
+    top: 20cm;
+    left: 12cm;
+    font-size: 36px;
+    align-items: center;
+    color: black;
+
+}
+
+.image_sud img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82vh;
+
+}
+
+.legende_sud {
+    position: absolute;
+    top: 4cm;
+    text-align: center;
+    left: 4cm;
+    font-size: 52px;
+    color: white;
+
+}
+
+.description {
+    width: 18cm;
+    position: absolute;
+    top: 57rem;
+    left: 0cm;
+    height: 16.2cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+.description span {
+    position: absolute;
+    top: 3.1cm;
+    width: 11cm;
+    font-size: 20px;
+    left: 1.5cm;
+    position: absolute;
+    color: black;
+
+}
+
+.image_behenjy img {
+    position: absolute;
+    top: 59.9rem;
+    right: 0;
+    width: 19cm;
+    height: 13.5cm;
+    box-shadow: 4px 1px 9px;
+}
+
+.description-ambatolampy {
+    position: absolute;
+    top: 102rem;
+    left: 12cm;
+    font-size: 36px;
+    align-items: center;
+    color: black;
+}
+
+.contenu-description-ambatolampy {
+    top: 115rem;
+    right: 1.5cm;
+    position: absolute;
+    text-indent: 2cm;
+    font-size: 20px;
+    width: 12cm;
+}
+
+#ambatolampy_carousel {
+    width: 19cm;
+    height: 12.3cm;
+    position: absolute;
+    top: 112rem;
+    left: 0cm;
+    box-shadow: 4px 1px 9px;
+}
+
+#ambatolampy_carousel img {
+    width: 19cm;
+    height: 12.3cm;
+}
+
+
+.legende-tsiafajavona {
+    position: absolute;
+    top: 150rem;
+    font-size: 36px;
+    color: black;
+    left: 12cm;
+}
+
+
+#description-tsiafajavona {
+    position: absolute;
+    top: 159rem;
+    width: 18cm;
+    position: absolute;
+    left: 0cm;
+    height: 18.7cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+#description-tsiafajavona span {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    width: 12.5cm;
+    font-size: 20px;
+    left: 1.5cm;
+    color: black;
+}
+
+.chg {
+    color: rgb(141, 141, 0);
+}
+
+#tsiafajavona_carousel {
+    position: absolute;
+    top: 162rem;
+    right: 0;
+    width: 19cm;
+    height: 15.5cm;
+    box-shadow: 4px 1px 9px;
+}
+
+#tsiafajavona_carousel img {
+    width: 19cm;
+    height: 15.5cm;
+}
+
+.legende-antsirabe {
+    position: absolute;
+    top: 211rem;
+    left: 10cm;
+    font-size: 36px;
+    color: black;
+}
+
+
+.contenu-antsirabe {
+    font-size: 20px;
+    text-indent: 2cm;
+    width: 12cm;
+    height: 12cm;
+    position: absolute;
+    top: 3cm;
+    left: 2.5cm;
+    color: black;
+
+
+}
+
+.contain1 {
+    width: 18cm;
+    position: absolute;
+    top: 220rem;
+    left: 0cm;
+    height: 15.3cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+.image-pousse-pousse {
+    position: absolute;
+    top: 223rem;
+    right: 0cm;
+    box-shadow: 4px 1px 9px;
+}
+
+.image-pousse-pousse img {
+    width: 19cm;
+    height: 12.3cm;
+
+}
+
+.image_gare img {
+    width: 19cm;
+    height: 11.3cm;
+    position: absolute;
+    top: 255rem;
+    left: 0cm;
+    box-shadow: 4px 1px 9px;
+
+}
+
+.description_gare {
+    position: absolute;
+    top: 261rem;
+    font-size: 20px;
+    right: 3.5cm;
+    width: 9.6cm;
+
+}
+
+.gare-antsirabé {
+    position: absolute;
+    top: 12cm;
+    font-size: 20px;
+    left: 6cm;
+}
+
+.titre_gare {
+    position: absolute;
+    top: 253rem;
+    right: 6.3cm;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(196, 146, 8);
+}
+
+.eglise {
+    position: absolute;
+    top: 287rem;
+    width: 100%;
+}
+
+.eglise img {
+    width: 19cm;
+    height: 12cm;
+    position: absolute;
+    right: 0;
+    box-shadow: 4px 1px 9px;
+}
+
+.description-eglise {
+    position: absolute;
+    top: 1rem;
+    left: -3.4cm;
+    font-size: 26px;
+    color: rgb(15, 13, 8);
+}
+
+.contenu-description-eglise span {
+    position: absolute;
+    top: 14.5rem;
+    font-size: 20px;
+    left: 2cm;
+    width: 9.6cm;
+    color: black;
+}
+
+.contenu-description-eglise {
+    width: 18cm;
+    position: absolute;
+    top: -5.23rem;
+    left: 0cm;
+    height: 16.3cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+
+.legende {
+    position: absolute;
+    top: -9rem;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: -3cm;
+}
+
+.hotel-therm h1 {
+    position: absolute;
+    top: 317rem;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    right: 6cm;
+    color: rgb(196, 146, 8);
+}
+
+.image_hotel_therme img {
+    position: absolute;
+    top: 320rem;
+    width: 19cm;
+    height: 15.7cm;
+    box-shadow: 4px 1px 9px;
+}
+
+.description-hotel {
+    position: absolute;
+    top: 325rem;
+    right: 2.5cm;
+    font-size: 20px;
+    width: 10cm;
+}
+
+.image_source_thermale img {
+    position: absolute;
+    top: 363rem;
+    width: 19cm;
+    height: 14.7cm;
+    right: 0;
+    box-shadow: 4px 1px 9px;
+
+}
+
+.source_therme P {
+    position: absolute;
+    top: 362rem;
+
+    font-size: 26px;
+    left: 1.5cm;
+    color: black;
+
+}
+
+.contenu-source-thermale span {
+    position: absolute;
+    top: 8.8rem;
+    font-size: 20px;
+    left: 1.5cm;
+    width: 11cm;
+    color: black;
+}
+
+.contenu-source-thermale {
+    width: 18cm;
+    position: absolute;
+    top: 357.1rem;
+    left: 0cm;
+    height: 22cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+.description-tsena {
+    position: absolute;
+    top: 405rem;
+    right: 2.5cm;
+    font-size: 20px;
+    text-indent: 2cm;
+    width: 10.6cm;
+
+}
+
+
+.histoire_marché {
+    position: absolute;
+    right: 2cm;
+    top: 405rem;
+    font-size: 26px;
+    width: 9.6cm;
+    color: rgb(196, 146, 8);
+}
+
+#inner {
+    position: absolute;
+    top: 399.7rem;
+    width: 19cm;
+    height: 17.8cm;
+    left: 0;
+    box-shadow: 4px 1px 9px;
+}
+
+#inner img {
+    width: 19cm;
+    height: 17.8cm;
+}
+
+
+.legende-andraikiba {
+    position: absolute;
+    top: 455rem;
+    left: 12cm;
+    font-size: 36px;
+    position: absolute;
+    color: black;
+}
+
+
+.description-Andraikiba p {
+    position: absolute;
+    top: 462.1rem;
+    left: 0cm;
+    width: 18cm;
+    height: 16.5cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+.description-Andraikiba p span {
+    position: absolute;
+    font-size: 20px;
+    top: 3.5cm;
+    left: 2cm;
+    width: 9.6cm;
+    color: black;
+}
+
+#inner3 {
+    width: 19cm;
+    height: 12cm;
+    position: absolute;
+    right: 0;
+    top: 462rem;
+    box-shadow: 4px 1px 9px;
+}
+
+#inner3 img {
+    width: 19cm;
+    height: 12cm;
+}
+
+.titre-histpoire-andraikiba {
+    position: absolute;
+    top: 467rem;
+    left: 2cm;
+    font-size: 26px;
+    color: black;
+
+}
+
+
+.legende-tritriva {
+    position: absolute;
+    top: 510.5rem;
+    left: 13cm;
+    font-size: 36px;
+    color: black;
+}
+
+
+.histoire-tritriva {
+    position: absolute;
+    top: 522rem;
+    right: 2.5cm;
+    font-size: 26px;
+    color: rgb(196, 146, 8);
+}
+
+.tritriva-lac p {
+    top: 525rem;
+    right: 1cm;
+    position: absolute;
+    font-size: 20px;
+    width: 12cm;
+}
+
+.image-1-tritriv img {
+    position: absolute;
+    top: 520rem;
+    width: 19cm;
+    height: 10.2cm;
+    left: 0;
+    box-shadow: 4px 1px 9px;
+}
+
+.histoire-couple {
+    position: absolute;
+    top: 551rem;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 2cm;
+    color: black;
+}
+
+.suite-histoire span {
+    top: 10rem;
+    left: 2.5cm;
+    position: absolute;
+    font-size: 20px;
+    width: 12cm;
+    color: black;
+}
+
+.suite-histoire {
+    position: absolute;
+    top: 544.2rem;
+    left: 0cm;
+    width: 18cm;
+    height: 16.5cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+.show {
+    height: 12cm;
+    position: absolute;
+    right: 0;
+    box-shadow: 4px 1px 9px;
+    position: absolute;
+    top: 550rem;
+    width: 19cm;
+    height: 12cm;
+    box-shadow: 4px 1px 9px;
+    background-image: url(photo/Tritriva/Lac_Tritriva.jpg);
+    animation: show 20s linear infinite;
+}
+
+@keyframes show {
+    0% {
+        background-image: url(photo/Tritriva/image1.jpg);
+    }
+
+    25% {
+        background-image: url(photo/Tritriva/image2.jpg);
+    }
+
+    50% {
+        background-image: url(photo/Tritriva/image3.jpg);
+    }
+
+    75% {
+        background-image: url(photo/Tritriva/IMAGE5.jpeg);
+    }
+
+    100% {
+        background-image: url(photo/Tritriva/Lac_Tritriva.jpg);
+    }
+}
+
+.legende-ambositra {
+    position: absolute;
+    top: 591rem;
+    left: 9cm;
+    font-size: 36px;
+    color: black;
+}
+
+
+
+.intro-ambositra {
+    position: absolute;
+    top: 602rem;
+    right: 3cm;
+    font-size: 20px;
+    width: 9cm;
+}
+
+.suite-intro {
+    position: absolute;
+    top: 1067rem;
+    font-size: 20px;
+    text-indent: 2cm;
+    left: 1.5cm;
+}
+
+.image-ville-ambositra img {
+    position: absolute;
+    top: 598.7rem;
+    width: 19cm;
+    height: 10cm;
+    left: 0;
+    box-shadow: 4px 1px 9px;
+}
+
+.titre1 {
+    position: absolute;
+    top: 630rem;
+    left: 2cm;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+.description-titre1 {
+    position: absolute;
+    top: 622.4rem;
+    left: 0cm;
+    width: 18cm;
+    height: 19.5cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+.description-titre1 span {
+    position: absolute;
+    top: 4.45cm;
+    left: 2cm;
+    width: 9cm;
+    font-size: 20px;
+    color: black;
+}
+
+.imag-zafimaniry {
+    position: absolute;
+    top: 628rem;
+    width: 19cm;
+    height: 13.6cm;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 1px 9px;
+    background-image: url(photo/Ambositra/image-zafimaniry.jpg);
+    animation: animateambositra infinite linear 9s;
+}
+
+@keyframes animateambositra {
+    0% {
+        background-image: url(photo/Ambositra/image-zafimaniry.jpg);
+    }
+
+    100% {
+        background-image: url(photo/Ambositra/image-zafimaniry2.jpg);
+    }
+}
+
+.description-titre1-suite {
+    position: absolute;
+    top: 670rem;
+    right: 2cm;
+    position: absolute;
+    font-size: 20px;
+    width: 10cm;
+}
+
+.image-coutumes-ambositra {
+    position: absolute;
+    width: 19cm;
+    height: 10.5cm;
+    left: 0;
+    top: 666rem;
+    box-shadow: 4px 1px 9px;
+    background-image: url(photo/Ambositra/savika1.jpg);
+    animation: animateambositra2 infinite linear 9s;
+}
+
+@keyframes animateambositra2 {
+    0% {
+        background-image: url(photo/Ambositra/savika1.jpg);
+    }
+
+    100% {
+        background-image: url(photo/Ambositra/savika2.jpg);
+    }
+
+}
+
+.legende-manakara {
+    position: absolute;
+    top: 700rem;
+    font-size: 36px;
+    left: 14cm;
+    color: black;
+}
+
+
+
+.description-manakara {
+    position: absolute;
+    top: 708.1rem;
+    left: 0cm;
+    width: 18cm;
+    height: 16.5cm;
+    font-size: 20px;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+    padding-left: 2cm;
+    padding-top: 2.4cm;
+}
+
+.description-manakara span {
+
+    color: black;
+}
+
+.desc{
+position:absolute;
+left:1cm;
+font-size:20px;
+top:717rem;
+width:11cm;    
+}
+
+.image1 img {
+    position: absolute;
+    top: 711.9rem;
+    width: 19cm;
+    height: 12cm;
+    position: absolute;
+    right: 0;
+    box-shadow: 4px 1px 9px;
+}
+
+.titre2-manakara {
+    position: absolute;
+    top: 750rem;
+    right: 5.3cm;
+    font-size: 26px;
+    color: rgb(196, 146, 8);
+}
+
+.description-titre2-manakara {
+    top: 753.4rem;
+    right: 3cm;
+    position: absolute;
+    font-size: 20px;
+    width: 10cm;
+}
+
+.manakara-ville .image2 img {
+    position: absolute;
+    top: 746rem;
+    width: 19cm;
+    height: 12.84m;
+    left: 0;
+    box-shadow: 4px 1px 9px;
+}
+
+.suite2-description2-manakara-titre2 {
+    position: absolute;
+    top: 775.4rem;
+    left: 0cm;
+    width: 18cm;
+    height: 14cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+.suite2-description2-manakara-titre2 span {
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    top: 3.6cm;
+    left: 2cm;
+    width: 9.6cm;
+}
+
+.image-Manakara {
+    width: 19cm;
+    height: 9cm;
+    position: absolute;
+    right: 0;
+    top: 782rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(photo/manakara/manakara2.jpg);
+    animation: animationManakara infinite 16s ease;
+    box-shadow: 4px 1px 9px;
+}
+
+@keyframes animationManakara {
+    0% {
+        background-image: url(photo/manakara/manakara2.jpg);
+    }
+
+    50% {
+        background-image: url(photo/manakara/manakara3.jpg);
+    }
+
+    100% {
+        background-image: url(photo/manakara/manakara8.jpg);
+    }
+
+}
+
+.legende-anja {
+    position: absolute;
+    top: 812rem;
+    font-size: 36px;
+    left: 7cm;
+    color: black;
+}
+
+
+
+.description-reserve {
+    top: 831.4rem;
+    right: 3cm;
+    position: absolute;
+    font-size: 20px;
+    width: 10cm;
+}
+
+.countain-Anja {
+    background-image: url(photo/RéserveAnja/anja2.jpg);
+    width: 19cm;
+    height: 12.3cm;
+    position: absolute;
+    left: 0cm;
+    box-shadow: 4px 1px 9px;
+    top: 829rem;
+    animation: hideshow-reserve 20s infinite ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes hideshow-reserve {
+    0% {
+        background-image: url(photo/RéserveAnja/anja2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(photo/RéserveAnja/Madagascar-Parc-de-lAnja-Adobe-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(photo/RéserveAnja/Madagascar-Parc-de-lAnja-Adobe.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        ;
+    }
+
+    75% {
+        background-image: url(photo/RéserveAnja/520px-Anja_Reserve\,_Madagascar_\(3953856468\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(photo/RéserveAnja/IMG_0350-1080x608.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.legende-ranomafana {
+    position: absolute;
+    top: 866rem;
+    position: absolute;
+    font-size: 36px;
+    color: black;
+    left: 12cm;
+}
+
+
+
+.descriptionlegende-faune-flore {
+    position: absolute;
+    top: 874.4rem;
+    left: 0cm;
+    width: 18cm;
+    height: 16.6cm;
+    border: 0px solid black;
+    background-color: rgb(196, 146, 8);
+}
+
+.descriptionlegende-faune-flore span {
+    position: absolute;
+    top: 2.4cm;
+    left: 3cm;
+    color: black;
+    width: 10cm;
+    font-size: 20px;
+}
+
+#inner5 {
+    width: 19cm;
+    height: 12cm;
+    position: absolute;
+    right: 0;
+    top: 875rem;
+    box-shadow: 4px 1px 9px;
+}
+
+.legende-faune-flore {
+    top: 913rem;
+    right: 8.6cm;
+    position: absolute;
+    font-size: 26px;
+    color: rgb(196, 146, 8);
+}
+
+.suite-desc {
+    position: absolute;
+    top: 921.5rem;
+    right: 1.5cm;
+    font-size: 20px;
+    width: 11cm;
+}
+
+.paysage2 img {
+    width: 19cm;
+    height: 10.3cm;
+    position: absolute;
+    left: 0cm;
+    box-shadow: 4px 1px 9px;
+    top: 913rem;
+}
+
+.autre-éspece {
+    top: 750rem;
+    right: 5.3cm;
+    font-size: 26px;
+    color: rgb(196, 146, 8);
+
+}
+
+.description-autre-espece {
+    position: absolute;
+    top: 1580rem;
+    font-size: 20px;
+    text-indent: 2cm;
+    left: 1.5cm;
+}
+
+.image-espece {
+    height: 12cm;
+    width: 20cm;
+    position: absolute;
+    top: 1590rem;
+    left: 7cm;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(photo/RANOMAFANA/cameleon3.jpg);
+    animation: slideshow-ranomafana 14s infinite ease-in;
+}
+
+@keyframes slideshow-ranomafana {
+    0% {
+        background-image: url(photo/RANOMAFANA/cameleon3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(photo/RANOMAFANA/ayay.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(photo/RANOMAFANA/bird.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    75% {
+        background-image: url(photo/RANOMAFANA/serpent.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(photo/RANOMAFANA/g1.jpg);
+    }
+}

@@ -1,0 +1,2514 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.explorer {
+    position: absolute;
+    top: -2cm;
+    left: 5.3cm;
+}
+
+.bien {
+    position: absolute;
+    top: 8.5cm;
+    left: 3.5cm;
+    width: 23cm;
+}
+
+.l1 {
+    font-size: 23px;
+    font-style: oblique;
+    color: blanchedalmond;
+    text-indent: 10px;
+    margin-left: 150px;
+
+}
+
+.l2 {
+    font-size: 23px;
+    font-style: oblique;
+    color: blanchedalmond;
+    left: 170px;
+    position: absolute;
+    top: 1cm;
+}
+
+.e1 {
+    color: rgb(138, 117, 0);
+    font-size: 39px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 7.2cm;
+    left: 8.6cm;
+    margin: 0;
+}
+
+#circuit:hover {
+    display: block;
+}
+
+#log {
+    position: absolute;
+    left: 0.2cm;
+    top: 0.4cm;
+}
+
+.intro{
+    position:absolute;
+    top:10.5rem;
+    right:24rem;
+    color: rgb(165, 128, 8);
+    font-size: 52px;
+    font-family: serif;
+}
+
+.header {
+    background-color: #eff9ff;
+    position: fixed;
+    z-index: 3;   
+    width: 100%;
+    left: 0;
+    height: 2.2cm;
+    margin: 0;
+    padding: 0;
+    top: 0vh;
+    right: 0cm;
+    transition: 1s;
+
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    float: right;
+    right: 3rem;
+    top: 0.3cm;
+}
+
+.header_contain{
+    width:100%;
+    height:10vh;
+    /* background-color: #c79b0ae0;  */
+    position:absolute;
+    /* transform: translateX(-32cm); */
+    right:-32rem;
+    top:0.46cm;
+    transition:0.5s;
+}
+
+li {
+    margin: 13.5px;
+}
+
+.header_contain ul li a {
+    position: relative;
+    right:30rem;
+    top: -20px;
+    text-decoration: none;
+    color: rgb(138, 117, 0);
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header_contain ul li a #search{
+    color:rgb(138, 117, 0);
+}
+
+.header_contain ul li a:hover {
+    background-color: rgb(165, 128, 8);
+    color: black;
+    border-radius: 8px;
+    padding: 3.5px;
+}
+
+#search{
+    color: rgb(0, 0, 0);
+}
+
+header ul li .a1{
+    border:0px solid;
+    background-color:rgb(16, 153, 153);
+    color:black;
+    border-radius: 8px;
+    padding:9px;
+}
+#search:hover{
+color:black;
+}
+
+.logo {
+    position: absolute;
+    left: 1.6cm;
+    font-size: 38px;
+    top: 0.4cm;
+    color: rgb(138, 117, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.logo span {
+    color: rgb(177, 100, 0);
+}
+
+.icone_menu i{
+    color:rgb(165, 128, 8);
+    font-size:33px;
+    position:fixed;
+    opacity:0;
+    right:4rem;
+    top:1.5rem;
+    cursor:pointer;
+    border:2px solid rgb(138, 117, 0);
+    padding:7px;
+    border-radius: 50%;
+}
+
+.icone_menu i:hover{
+    background-color: rgb(138, 117, 0); 
+    color:black;
+
+}
+
+
+
+#barre {
+    position: absolute;
+    right: 60px;
+    top: 24px;
+}
+
+
+.c img{
+    width:114.02%;
+    height: 104.3vh;
+    position:absolute;
+    top: 0cm;
+    left:-5cm;
+    /* background-image: url(allée\ des\ baobab.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    animation: slide 12s  infinite ease-in-out; */
+    
+}
+
+
+.mot {
+    position: absolute;
+    top: 35.7cm;
+    left: 12cm;
+    font-size: 40px;
+}
+
+.lien_explorer {
+    position: absolute;
+    top: 24.6rem;
+    left: 14.6cm;
+    text-decoration: none;
+    font-size: 27.5px;
+    color: black;
+    border: 0px solide;
+    border-radius: 5px;
+    background-color: rgb(177, 100, 0);
+   padding: 10px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lien_explorer:hover {
+    box-shadow: 4px 3px 8px black;
+}
+
+.desc h1 {
+    position: absolute;
+    top: 241.3rem;
+    left: 15.55cm;
+    font-size: 19.4px;
+    color: rgb(165, 128, 8);
+}
+
+.choice_item1{
+position:absolute;
+top:80rem;
+left:32%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:#0a0c0a;
+font-size:39px;
+}
+
+.border2{
+    position: absolute;
+    top: 84rem;
+    width: 4cm;
+    height: 4.6px;
+    left: 14.1cm;
+    background-color: rgb(138, 117, 0);
+}
+
+.texte1 {
+    position: absolute;
+    top: 103.1cm;
+    left: 12.5cm;
+    font-size: 35.4px;
+    color: black;
+}
+
+.texte2 {
+    position: absolute;
+    top: 104.5cm;
+    left: 12cm;
+    font-size: 19.4px;
+    color: black;
+
+}
+
+.desc .border {
+    position: absolute;
+    top: 251rem;
+    width: 4cm;
+    height: 4.6px;
+    left: 14.9cm;
+    background-color: rgb(138, 117, 0);
+}
+
+
+.galerie {
+    position: absolute;
+    top: 86.73rem;
+    display: flex;
+    left: 0;
+}
+
+.galerie img {
+    width: 11.89cm;
+    height: 7cm;
+}
+
+.galerie2 {
+    position: absolute;
+    top: 103.2rem;
+    display: block;
+    left: 0;
+}
+
+.galerie2 img {
+    width: 11.89cm;
+    height: 7cm;
+}
+
+.galerie .item_3 img {
+    position: absolute;
+    left:23.8cm;
+}
+
+.galerie2 .item_4{
+  font-size: 24px;
+  position:absolute;
+  top:2.3cm;
+  left:0.7cm;
+  width:11.89cm;
+}
+
+.galerie2 .item_6{
+    font-size: 24px;
+    position:absolute;
+    top:2.7cm;
+    left:25.7cm;
+    width:10cm;
+  }
+  
+
+.galerie2 .item_5 img{
+   position:absolute;
+   left:11.9cm;
+}
+
+.galerie3{
+    position: absolute;
+    top: 119.4rem;
+    display: flex;
+    left: 0;
+}
+
+.galerie3 img {
+    width: 11.89cm;
+    height: 7cm;
+}
+
+.p1{
+    font-size:26px;
+    position:absolute;
+    top:3cm;
+    left:14cm;
+    width:11.89cm;
+}
+
+.learnAbout{
+    position:relative;
+    top:133.6rem;
+    background-color: #356881;
+    width:100%;
+    height:200vh;
+    }
+    
+    .learnAbout h1{
+    position:absolute;
+    top:3rem;
+    left:35%;
+    font-size:35px;
+    color:black;
+    }
+
+    .borderLearn{
+    position: absolute;
+    top: 6.7rem;
+    width: 4.5cm;
+    height: 5.6px;
+    left: 14.8cm;
+    background-color: rgb(138, 117, 0);
+    }
+
+   .imgH1 img{
+        height:9cm;
+        width:13cm;
+        position:absolute;
+        top:10rem;
+        box-shadow: 5px 8px 10px black;
+        left:5rem;
+    }
+
+    .imgH2 img{
+        height:8cm;
+        width:9cm;
+        position:absolute;
+        box-shadow: 5px 8px 10px black;
+        top:25.5rem;
+        left:1.6rem;
+    }
+
+    
+    .imgH img{
+        height:8.2cm;
+        width:9cm;
+        position:absolute;
+        box-shadow: 7px 8px 10px black;
+        top:22.5rem;
+        left:26.6rem;
+    }
+    
+.description{
+    position:absolute;
+    top:18.6rem;
+    right:5.5rem;
+    font-size: 22px;
+    width:10cm;
+    color:black;
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.borderVertical{
+width:8px;
+height: 111px;
+box-shadow: -8px 4px 9px;
+background-color: #c79b0a;
+position: absolute;
+right:32.5rem;
+top:18rem;
+}
+
+.searchButton a{
+    position:absolute;
+    border: 0px solid;
+    border-radius: 8px;
+    background-color: #c79b0a;
+    padding:10px;
+    right:21rem;
+    top:27rem;
+  text-decoration: none;
+  color:black;
+  font-size:18px;
+  font-weight: bold;
+}
+
+.searchButton a:hover{
+    box-shadow: 5px 8px 8px;
+
+}
+
+.imageI img{
+    width:14cm;
+    height:9cm;
+    position: absolute;
+    top:51.5rem;
+    right:3rem;
+    box-shadow: 8px 8px 15px black;
+
+}
+
+.description_Itineraire {
+    position:absolute;
+    top:53.6rem;
+    left:6.5rem;
+    width:13cm;
+    font-size: 22px;
+    color:black;
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchButton2 a{
+    position:absolute;
+    border: 0px solid;
+    border-radius: 8px;
+    background-color: #c79b0a;
+    padding:10px;
+    left:9rem;
+    top:64rem;
+  text-decoration: none;
+  color:black;
+  font-size:18px;
+  font-weight: bold;
+}
+
+.searchButton2 a:hover{
+    box-shadow: 5px 8px 8px;
+
+}
+
+.borderVertical2{
+    width:8px;
+    height: 141px;
+    box-shadow: -8px 4px 9px;
+    background-color: #c79b0a;
+    position: absolute;
+    left:4.3rem;
+    top:53rem;
+    }
+
+
+    
+.recherche_hotel img{
+    position:absolute;
+    top:218rem;
+    width:4cm;
+    height:4cm;
+    left:3rem;
+}
+
+.recherche_hotel p{
+    position:absolute;
+    top:228rem;
+    font-size: 21px;
+    color:black;
+    left:2rem;
+
+}
+
+.destinations img{
+    position:absolute;
+    top:218rem;
+    width:4cm;
+    height:4cm;
+    left:40rem;
+}
+
+.destinations p{
+    position:absolute;
+    top:228rem;
+    font-size: 21px;
+    color:black;
+    left:38rem;
+
+}
+
+.recherche_cooperative img{
+    position:absolute;
+    top:218rem;
+    width:4cm;
+    height:4cm;
+    left:21.5rem;
+}
+
+.recherche_cooperative p{
+    position:absolute;
+    top:228rem;
+    font-size: 21px;
+    color:black;
+    left:19rem;
+
+}
+
+.coutumes img{
+    position:absolute;
+    top:218rem;
+    width:4cm;
+    height:4cm;
+    left:56rem;
+    border-radius: 8px;
+}
+
+.coutumes p{
+    position:absolute;
+    top:228rem;
+    font-size: 21px;
+    color:black;
+    left:56rem;
+
+}
+
+.image {
+    position: absolute;
+    left: 12.5cm;
+    top: 108.3cm;
+
+}
+
+.i1 {
+    width: 6.2cm;
+    height: 6.7cm;
+    border-radius: 4px;
+    box-shadow: 2px 8px 9px black;
+    position: absolute;
+    background-image: url(circuit\ nord/NosyBe.jpg);
+    left: -8.9cm;
+
+
+}
+
+.i2 {
+    width: 6.2cm;
+    height: 6.7cm;
+    border-radius: 4px;
+    box-shadow: 2px 8px 9px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 6cm;
+    background-image: url(PICTURRES/COUVERTURE-EST.jpg);
+
+}
+
+.i3 {
+    width: 6.2cm;
+    height: 6.7cm;
+    border-radius: 4px;
+    box-shadow: 2px 8px 9px black;
+    left: 13.7cm;
+    position: absolute;
+    background-image: url(picturres/COUVERTURE-OUEST.jpg);
+
+
+}
+
+
+.i4 {
+    width: 6.2cm;
+    height: 6.7cm;
+    border-radius: 4px;
+    box-shadow: 2px 8px 9px black;
+    position: absolute;
+    left: -1.5cm;
+    background-image: url(PICTURRES/COUVERTURE-SUD.jpg);
+
+}
+
+.ii1 {
+    border: 0px solid rgb(240, 241, 247);
+    background-color: #4d3c04d5;
+    padding-left: 55px;
+    font-size: 31px;
+    color: rgb(138, 117, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    top: 4.84cm;
+    height: 70px;
+}
+
+.ii3,
+.ii5 {
+    border: 0px solid rgb(240, 241, 247);
+    background-color: #4d3c04d5;
+    padding-left: 50px;
+    color: rgb(138, 117, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    position: relative;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    top: 4.84cm;
+    height: 70px;
+}
+
+.ii2 {
+    border: 0px solid rgb(240, 241, 247);
+    background-color: #4d3c04d5;
+    padding-left: 50px;
+    font-size: 35px;
+    color: rgb(138, 117, 0);
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    top: 4.84cm;
+    height: 70px;
+}
+
+.ii4 {
+    border: 0px solid rgb(240, 241, 247);
+    background-color: #4d3c04d5;
+    padding-left: 50px;
+    color: rgb(138, 117, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    position: relative;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    top: 4.84cm;
+    height: 70px;
+}
+
+.searchHotel{
+    position:absolute;
+    top:278rem;
+    width:100%;
+    height:130vh;
+    background-image: url(image_hotel/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.searchHotel h1{
+    position:absolute;
+    top:6rem;
+    font-size: 40px;
+    left:10rem;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.searchHotel .bordure{
+    position:absolute;
+    top:5rem;
+    left:8.7rem;
+    width: 7px;
+    height: 91px;
+    background-color: rgb(165, 128, 8);
+    box-shadow: 4px 3px 10px;
+
+}
+
+.searchHotel .localisation{
+    position:absolute;
+    top:15.6rem;
+    left:11cm;
+    border:2px solid;
+    border-radius: 15px;
+    padding:14px;
+    font-size: 17px;
+}
+
+.nomville{
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top:16.5rem;
+    left:2rem;
+    font-size: 19.2px;
+}
+
+.button_hotel{
+    position:absolute;
+    left:42rem;
+    top:16rem;
+    border:0 solid;
+    border-radius: 4px;
+    background-color: rgb(165, 128, 8);
+    color:black;
+    font-size: 18px;
+    padding:10px;
+}
+
+#affichage{
+    position:absolute;
+    top:22rem;
+    left:26%;
+    font-size:22px;
+}
+.searchCoop{
+    position:absolute;
+    top:328.1rem;
+    width:100%;
+    height:126vh;
+    background-image: url(image_itineraire/Caravane-de-Taxi-brousse-en-direction-du-Sud.webp);
+    background-size: 100%;
+}
+
+.searchCoop h1{
+    position:absolute;
+    top:6rem;
+    font-size: 40px;
+    left:10rem;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bordure1{
+    position:absolute;
+    top:5rem;
+    left:8.7rem;
+    width: 7px;
+    height: 91px;
+    background-color: rgb(165, 128, 8);
+    transform: rotate(-162deg);
+    box-shadow: 4px 3px 10px;
+}
+
+.titreDepart{
+    position:absolute;
+    top:15.6rem;
+    left:4cm;
+    font-size: 23px;
+    color:black;
+}
+
+.titreArrivee{
+    position:absolute;
+    top:15.6rem;
+    left:17cm;
+    font-size: 23px;
+    color:black;
+}
+
+
+.depart{
+    position:absolute;
+    top:15.2rem;
+    left:9cm;
+    border:2px solid;
+    border-radius: 15px;
+    padding:14px;
+    font-size: 17px;
+}
+
+#affichage_coop{
+    position:absolute;
+    top:26rem;
+    left:26%;
+    font-size:22px;
+}
+
+.arrivee{
+    position:absolute;
+    top:15.2rem;
+    left:22cm;
+    border:2px solid;
+    border-radius: 15px;
+    padding:14px;
+    font-size: 17px;
+}
+
+.button_coop{
+    position:absolute;  
+    left:70rem;
+    top:15.3rem;
+    border:0 solid;
+    border-radius: 4px;
+    background-color: rgb(165, 128, 8);
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+    padding:12px;
+}
+
+#inner {
+    width: 89%;
+    height: 11cm;
+    position: absolute;
+    top: 21.8cm;
+    left: 2cm;
+}
+
+#next,
+#prev {
+    position: absolute;
+    top: 27cm;
+}
+
+.visually-hidden {
+    color: black;
+}
+
+#button1 {
+    color: black;
+}
+
+.presentation {
+    font-size: 19px;
+    color: black;
+    position: absolute;
+    top: 17cm;
+    left: 11cm;
+    text-align: center;
+
+}
+
+.presentation::after {
+    content: '';
+    height: 5px;
+    width: 0vw;
+    background-color: rgb(102, 102, 8);
+    position: absolute;
+    top: 4.5cm;
+    left: -10.4cm;
+    animation: slide 10s ease-in-out infinite;
+}
+
+#SCROLL {
+    Width: 90vw;
+    height: 9cm;
+    position: absolute;
+    top: 54cm;
+    overflow-x: auto;
+
+
+}
+
+#SCROLL::-webkit-scrollbar {
+    background-color: rgba(242, 255, 255, 0.966);
+    width: 10px;
+    scrollbar-width: thin;
+}
+
+#SCROLL::-webkit-scrollbar-thumb {
+    background-color: rgba(53, 44, 44, 0.555);
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+}
+
+#SCROLL span {
+    width: 8cm;
+    height: 7cm;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 12px;
+    border: solid 0px;
+}
+
+#SCROLL span:nth-child(1) {
+    background-image: url(pexels-kristian-thomas-13274410.jpg);
+    overflow: auto;
+}
+
+#SCROLL span:nth-child(2) {
+    background-image: url(PICTURRES/COUVERTURE-NORD.jpg);
+    overflow: auto;
+}
+
+#SCROLL span:nth-child(3) {
+    background-image: url(PICTURRES/istockphoto-931487804-612x612.jpg);
+    overflow: auto;
+}
+
+#SCROLL span:nth-child(4) {
+    background-image: url(PICTURRES/image1.jpg);
+    overflow: auto;
+}
+
+#SCROLL span:nth-child(5) {
+    background-image: url(PICTURRES/forest-4592699_640.webp);
+    overflow: auto;
+}
+
+#SCROLL span:nth-child(6) {
+    background-image: url(PICTURRES/COUVERTURE-SUD.jpg);
+    overflow: auto;
+}
+
+.learn {
+    border: 0px solid;
+    background-color: rgb(24, 37, 37);
+    height: 35px;
+    margin: 0;
+    width: 4.3cm;
+    position: absolute;
+    border-radius: 8px;
+    top: 20cm;
+    left: 14cm;
+    padding-left: 7px;
+    padding-bottom: 2.5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.learn:hover {
+    background-color: black;
+    color: red;
+    box-shadow: 4px 4px 2px rgba(5, 5, 5, 0.397);
+}
+
+#bg1 {
+    position: absolute;
+    top: 15cm;
+}
+
+.i1:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.i2:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.i3:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.i4:hover {
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+
+
+.classe {
+    position: absolute;
+    top: 0cm;
+    width: 100vw;
+    height: 2.6cm;
+    background-color: darkgoldenrod;
+}
+
+.affichage {
+    position: absolute;
+    top: 52cm;
+    left: 3cm;
+    font-size: 22px;
+}
+
+.destinationsPopular .titre{
+    position:absolute;
+    top:380rem;
+    left:30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#0a0c0a;
+    font-size:37px;
+}
+
+.borderdest{
+    position: absolute;
+    top: 384rem;
+    width: 4cm;
+    height: 4.6px;
+    left: 15.1cm;
+    background-color: rgb(138, 117, 0);
+}
+
+p {
+    position: relative;
+    top: -0.2cm;
+}
+
+.carousel{
+    position:absolute;
+    top:389rem;
+    left:0;
+    width: 100%;
+    height:70vh;
+    display:flex;
+    overflow: auto;
+}
+
+.carousel img{
+width:8cm;
+height:10cm;
+margin:22px;
+border-radius: 5px;
+box-shadow: 5px 8px 8px;
+}
+
+.avis{
+ position:absolute;
+ top:418rem;
+ width:100%;
+ height:99vh;
+ background-color: #866227;
+}
+
+.titre_avis{
+    position:absolute;
+    top:2rem;
+    left:24%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#0a0c0a;
+    font-size:37px;
+}
+
+.border_avis{
+    position: absolute;
+    top: 6rem;
+    width: 4cm;
+    height: 4.6px;
+    left: 14.3cm;
+    background-color: rgb(138, 117, 0);
+}
+
+.avis_item{
+    position:absolute;
+    top:10rem;
+
+}
+
+.avis_item1{
+    position:absolute;
+    left:6rem;
+    background-color: #c5a658;
+    width:9cm;
+    height:11cm;
+    box-shadow: 5px 8px 13px;
+}
+
+.avis_item1 p{
+    width:8cm;
+    font-size:15px;
+    color:black;
+    position:absolute;
+    top:5rem;
+    text-indent: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:1rem;
+}
+
+.avis_item1 p span{
+    font-size:35px;
+    color:rgb(177, 100, 0);
+}
+
+.avis_item1 h1{
+    font-size:35px;
+    position:absolute;
+    top:1.6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left:6rem;
+    color:rgb(177, 100, 0);
+
+}
+
+.avis_item2{
+    position:absolute;
+    left:32rem;
+    background-color: #c5a658;
+    width:9cm;
+    height:11cm;
+    box-shadow: 5px 8px 13px;
+}
+
+.avis_item2 p{
+    width:8cm;
+    font-size:15px;
+    color:black;
+    position:absolute;
+    top:4.6rem;
+    text-indent: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:1rem;
+}
+
+.avis_item2 p span{
+    font-size:35px;
+    color:rgb(177, 100, 0);
+}
+
+.avis_item2 h1{
+    font-size:35px;
+    position:absolute;
+    top:1.6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left:2rem;
+    width:8cm;
+    color:rgb(177, 100, 0);
+
+}
+
+.avis_item3{
+    position:absolute;
+    left:58rem;
+    background-color: #c5a658;
+    width:9cm;
+    height:11cm;
+    box-shadow: 5px 8px 13px;
+}
+
+.avis_item3 p{
+    width:8cm;
+    font-size:15px;
+    color:black;
+    position:absolute;
+    top:4.6rem;
+    text-indent: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:1rem;
+}
+
+.avis_item3 p span{
+    font-size:35px;
+    color:rgb(177, 100, 0);
+}
+
+.avis_item3 h1{
+    font-size:35px;
+    position:absolute;
+    top:1.6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left:2rem;
+    width:8cm;
+    color:rgb(177, 100, 0);
+
+}
+
+.blog{
+position:absolute;
+top:456rem;
+}
+
+.blog h1{
+position:absolute;
+top:6rem;
+font-size: 40px;
+left:10rem;
+color:black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.border_blog{
+position:absolute;
+top:5rem;
+left:8.7rem;
+width: 7px;
+height: 91px;
+background-color: rgb(165, 128, 8);
+box-shadow: 4px 3px 10px;
+
+}
+
+.blog .contain{
+    position:absolute;
+    top:13.6rem;
+    left:21rem;
+    width:40rem;
+    border-radius: 5px;
+    height:30rem;
+    background-image: url(circuit\ sud/photo/Ambositra/savika1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 8px 8px 16px;
+} 
+
+.blog .contain p span{
+    font-size:28px;
+    position:absolute;
+    left:5rem;
+    top:2.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+.blog .contain p {
+    width:40rem;
+    height:201px;
+    position:absolute;
+    top:7.4cm;
+    background-color: rgba(211, 191, 11, 0.568);
+}
+
+.enSavoir a{
+    z-index: 3;
+    position:absolute;
+    top:40rem;
+    left:14.5cm;
+    padding:6px;
+    width:140px;
+    text-decoration: none;
+    border: 0 solid;
+    border-radius: 7px;
+    background-color: #073b02;
+    color:rgb(165, 128, 8);
+    font-size:21px;
+}
+
+
+.enSavoir a:hover{
+    color: #073b02;
+    background-color:rgb(165, 128, 8);
+}
+
+.footer_up{
+    width:100%;
+    height:30vh;
+    position:relative;
+    box-shadow: 5px 8px 10px;
+    top:-4.9cm;
+    background-color: rgb(180, 179, 179);
+}
+
+.footer_up .input_coms{
+     position:absolute;
+     left:20rem;
+     top:4rem;
+      width:420px;
+      height:60px;
+      font-size: 20px;
+      border:1px solid black;
+      border-radius: 5px;
+}
+
+.submit_coms{
+position:absolute;
+top:4rem;
+left:49rem;
+font-size: 22px;
+border: 0 solid;
+border-radius: 4px;
+padding:13px;
+background-color: rgb(177, 100, 0);
+}
+
+.follow{
+position:absolute;
+top:1rem;
+left:39.5rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.849);
+    height:10cm;
+    width: 100%;
+    position: absolute;
+    top: 516rem;
+    right: 0px;
+    left: 0;
+}
+
+.suivre {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 1cm;
+    left: 21.8cm;
+    font-size:25px;
+}
+
+.facebook {
+    position: absolute;
+    left: 4.4cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+    font-size:21px;
+}
+
+.twitter {
+    position: absolute;
+    left: 5.9cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+    font-size:21px;
+}
+
+.sort {
+
+    position: absolute;
+    top: 52cm;
+    left: 12.6cm;
+}
+
+#sort {
+    width: 23px;
+    height: 15px;
+}
+
+.instagram {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 6.9cm;
+    font-size:21px;
+}
+
+.youtube {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 7.9cm;
+    font-size:21px;
+}
+
+.contact {
+    position: absolute;
+    left: 12cm;
+    color: white;
+    top: 1cm;
+    left: 14.8cm;
+}
+
+.contact_1 {
+    position: absolute;
+    left: 12cm;
+    color: white;
+    top: 1.6cm;
+    left: 16cm;
+    margin: 3px;
+}
+
+
+.footer-countain{
+position:absolute;
+left:40rem;
+top:-1rem;
+width:8cm;
+}
+
+.footer-countain i{
+    font-size: 22px;
+    margin: 5px;
+}
+.bar {
+    position: absolute;
+    display: block;
+    right: -4cm;
+    top: 0.2cm;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20.5cm;
+    LEFT: 0cm;
+    color: black;
+}
+
+/* js .class */
+
+ .hide{
+    opacity:0;
+    transform:translateY(-40px);
+    transition:3.3s;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+    transition:0.9s cubic-bezier(.5,0,0,1);
+}
+
+
+.int {
+    position: absolute;
+    left: 13.73cm;
+    top: 0.78cm;
+    padding-top: 4cm;
+    padding-left: 1.5cm;
+    height: 80vh;
+    width: 56vw;
+}
+
+.contenu span {
+    position: absolute;
+    top: 6cm;
+    left: 4cm;
+  
+    font-size: 20px;
+    width: 9cm;
+   
+}
+
+.contenu {
+    background-color: #54640d;
+    width: 18cm;
+    height: 14cm;
+    position: absolute;
+    right: 0cm;
+    top: 0.14cm;
+    padding-top: 70px;
+}
+
+.contain {
+    position: absolute;
+    top: 16.9cm;
+   
+}
+
+.contain img {
+    width: 17cm;
+    height: 11.6cm;
+    position: absolute;
+    box-shadow: 7px 4px 8px black;
+    top: 70.5px;
+    left: 1.7cm;
+}
+
+.titre-propos {
+    font-size: 32px;
+    margin-left: 6.7cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sommaire{
+    position:absolute;
+    top:1rem;
+    left:14rem;
+    width:10cm;
+    height:8cm;
+}
+
+.sommaire .titre{
+    font-size: 22.5px;
+    color:white;
+    position: absolute;
+    top:1.3rem;
+}
+
+.sommaire a{
+    text-decoration: none;
+    color:white;
+    display:block;
+    position: relative;
+    font-size:17px;
+    top:4rem;
+}
+
+.sommaire_circuit {
+    position:absolute;
+    top:1rem;
+    left:30rem;
+    width:10cm;
+    height:8cm;
+}
+
+.sommaire_circuit .titre{
+    font-size: 22.5px;
+    color:white;
+    position: absolute;
+    top:1.3rem;
+}
+
+.sommaire_circuit a{
+    text-decoration: none;
+    color:white;
+    display:block;
+    position: relative;
+    font-size:17px;
+    top:4rem;
+}
+
+.facebook {
+    position: absolute;
+    left: 5cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+}
+
+.twitter {
+    position: absolute;
+    left: 6.1cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+}
+
+.sort {
+
+    position: absolute;
+    top: 52cm;
+    left: 12.6cm;
+}
+
+#sort {
+    width: 23px;
+    height: 15px;
+}
+
+.instagram {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 7.2cm;
+}
+
+.youtube {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 8.3cm;
+}
+
+.contact {
+    position: absolute;
+    color: white;
+    top: 4cm;
+    left: 21.9cm;
+    font-size:21px;
+}
+
+.contact_1 {
+    position: absolute;
+    left: 21.9cm;
+    color: white;
+    top: 5.2cm;
+    margin: 3px;
+    font-size: 17px;
+}
+
+.product {
+    position: absolute;
+    left: 21.9cm;
+    color: rgb(176, 179, 24);
+    top: 7.6cm;
+    margin: 3px;
+    font-size: 23px;
+}
+
+
+.bar {
+    position: absolute;
+    display: block;
+    right: -4cm;
+    top: 0.2cm;
+
+
+}
+
+@media screen  and (max-width: 767px){
+     /* .header_contain{
+        background-color: rgba(56, 223, 56, 0.788);
+    }  */
+    .intro{
+        position:absolute;
+        top:12rem;
+        left:8%;
+        font-size: 28px;
+        width:92%;
+    }
+
+    header{
+        width:110%;
+    }
+
+    .contain{
+        width:90%;
+        position:relative;
+        left:-0.3cm;
+        top:-10%;
+    }
+    .icone_menu i{
+        opacity:1;
+        transition:-0.3s;
+        position: relative;
+        top:0.4cm;
+        left:-1cm;
+        float:right;
+    }
+
+    ul{
+        display: block;
+        position:relative;
+        top:7rem;
+      left:17cm;
+        transition:-0.3s;
+        width:10cm;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_contain ul li #search{
+        color:black;
+    }
+
+    .header_contain{
+  transition : 0.6s;
+    align-items: center;justify-content: center;
+    align-self: center;
+    background-color: #c79b0ae0;  
+    position:absolute;
+    top:5.2rem;
+    width:120%;
+    height:100vh;
+    right:-4.7rem;
+    transform: translateX(-31cm);
+ 
+}
+
+
+.hideshow_MENU{
+    transform:translateX(-2cm);
+    opacity:1;
+    transition:0.6s;
+    
+    }
+    .c{
+     width:100%;
+     position:relative;
+     left:0;
+     top: 1.5cm;
+     height: 92.3vh;
+     background-image: url(allée\ des\ baobab\ responsive.jpg);
+     background-repeat: no-repeat;
+     background-size: cover; 
+     animation: slide 12s  infinite ease-in-out;
+     
+
+    }
+
+    @keyframes slide{
+        0%{
+            background-image: url(responsive.jpg);
+        }
+    
+        25%{
+            background-image: url(responsive.jpg);
+            transition:2s;
+        }
+    
+        50%{
+            background-image: url(allée\ des\ baobab\ responsive.jpg);
+        }
+    
+        100%{
+            background-image: url(allée\ des\ baobab\ responsive.jpg);
+            transition:5s;
+        }
+    }
+    
+
+    .e1{
+        font-size: 28px;
+        position: absolute;
+        top: 7.5cm;
+        left: 0.5cm;
+        width:90%;
+    
+    }
+
+    .lien_explorer {
+        position: relative;
+        top: -9.8rem;
+        left: -3cm;
+        float:right;
+        font-size:31px;
+    }
+
+    .contain img {
+        width: 99%;
+        height: 9cm;
+        position:relative;
+       box-shadow: 7px 4px 8px black;
+       top: 40px;
+       left: 0.7cm;
+    }
+
+    .contenu{
+        background-color: #ABA355;
+        width: 112%;
+        height: 12cm;
+        position: absolute;
+        left:0.2cm;
+        top: 7.14cm;
+        padding-top: 70px;
+    }
+
+    .contenu span {
+        position: relative;
+        top: 4.7cm;
+        left: 0.2cm;
+        font-size: 18px;
+        width: 100%;
+       
+    }
+.int{
+    position:absolute;
+    left:0;
+}
+
+    .Choiceofmada{
+        position:relative;
+        top:20rem;
+        left:0%;
+        width:100%;
+        }
+        
+
+    .choice_item1{
+        position:absolute;
+        top:3rem;
+        font-size:27px;
+        left:17%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:#0a0c0a;
+       
+    }
+ 
+        .border2{
+        position: absolute;
+        top:6rem;
+        left: 7rem;
+       }
+
+   
+
+        .galerie {
+    position: relative;
+    top: 93.73rem;
+    left:0 cm;
+        }
+
+     .galerie .item_1{
+        position:absolute;
+        left:0cm;
+        Top:-61rem;
+     }
+
+     .p1{
+        font-size:26px;
+        position:absolute;
+        top:-16.4cm;
+        left:0.80cm;
+        width:8.7cm;
+    }
+
+
+    .galerie .item_3 img{
+        position: absolute;
+        left:0;
+        top:-12.2cm;
+        width:100%;
+    }
+
+   
+    
+
+    .galerie img {
+    width: 100vw;
+    height: 7cm;
+    }
+
+.galerie2 img {
+    width: 100%;
+        height: 7cm;
+    }
+
+    .galerie2 {
+        position: relative;
+        top: 82rem;
+        display: block;
+        left: 0;
+    }
+
+  
+   .galerie2 .item_4{
+        position:absolute;
+        top:3cm;
+        left:0.6cm;
+        font-size: 18.5px;
+        width:80vw;
+    }
+
+
+    .galerie2 .item_5 img{
+    position:absolute;
+    left:0cm;
+    top:7.6cm;
+    }
+
+    .galerie2 .item_6{
+        position:absolute;
+        top:40rem;
+        left:0.5cm;
+        width:88vw;
+    }
+
+    .galerie3{
+    position: relative;
+    top: 130.7rem;
+    display:block;
+    left: 0;
+}
+
+.galerie3 img {
+    width: 100%;
+    height: 7cm;
+}
+
+.learnAbout{
+    position:relative;
+    top: 130.22rem;
+    left:0;
+    width:100%;
+    height:200vh;
+}
+
+.learnAbout h1{
+    position:absolute;
+    top:3rem;
+    left:8%;
+    font-size:29px;
+    color:black;
+}
+
+.borderLearn{
+    position: absolute;
+    top: 5.8rem;
+    width: 4.5cm;
+    height: 5.1px;
+    left: 2.8cm;
+    background-color: rgb(138, 117, 0);
+}
+
+.imgH1 img{
+    height:5cm;
+    width:4.9cm;
+    position:absolute;
+    top:10rem;
+    box-shadow: 5px 8px 10px black;
+    left:3.6rem;
+}
+
+.imgH2 img{
+    height:5cm;
+    width:4.9cm;
+    position:absolute;
+    box-shadow: 5px 8px 10px black;
+    top:18.5rem;
+    left:0.5rem;
+}
+
+
+.imgH img{
+    height:5.2cm;
+    width:3.4cm;
+    position:absolute;
+    box-shadow: 7px 8px 10px black;
+    top:18.5rem;
+    left:12.1rem;
+}
+
+.description{
+    position:absolute;
+    top:32.6rem;
+    left:2.2rem;
+    font-size: 17px;
+    width:7.6cm;
+    color:black;
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imageI img{
+    width:8.2cm;
+    height:7cm;
+    position: absolute;
+    top:51.5rem;
+    right:2.2rem;
+    box-shadow: 8px 8px 15px black;
+
+}
+
+.description_Itineraire {
+    position:absolute;
+    top:74.6rem;
+    left:2.5rem;
+    width:7.5cm;
+    font-size:17px;
+}
+
+.borderVertical2{
+    width:8px;
+    height: 140px;
+    box-shadow: -8px 4px 9px;
+    position: absolute;
+    left:1.3rem;
+    top:74.6rem;
+    }
+
+.searchButton2 a{
+    position:absolute;
+    left:4rem;
+    top:84rem;
+    font-weight: bold;
+    }
+
+    .borderVertical{
+    width:8px;
+    height: 111px;
+    box-shadow: -8px 4px 9px;
+    background-color: #c79b0a;
+    position: absolute;
+    left:1rem;
+    top:32rem;
+    }
+    
+    .searchButton a{
+    position:absolute;
+    left:1.7rem;
+    top:41rem;
+    }
+    
+    
+    
+ .recherche_hotel img{
+    position:absolute;
+    top:2rem;
+    width:5cm;
+    height:4.5cm;
+    left:8.5rem;
+    }
+        
+    .recherche_hotel p{
+    position:absolute;
+    top:13rem;
+    font-size: 21px;
+    color:black;
+    left:8rem;
+    width:12rem;        
+    }
+        
+    .destinations img{
+    position:absolute;
+    top:43rem;
+    width:5.5cm;
+    height:4.5cm;
+    left:9rem;
+    }
+        
+    .destinations p{
+    position:absolute;
+    top:57rem;
+    font-size: 21px;
+    color:black;
+    left:8rem;
+    width:15rem;        
+    }
+        
+    .recherche_cooperative img{
+    position:absolute;
+    top:22rem;
+    width:5cm;
+    height:4.5cm;
+    left:9.5rem;
+    }
+        
+    .recherche_cooperative p{
+    position:absolute;
+    top:35rem;
+    font-size: 21px;
+    color:black;
+    left:8rem;
+    width:16rem;
+    }
+        
+    .coutumes img{
+    position:absolute;
+    top:65rem;
+    width:5.5cm;
+    height:4.5cm;
+    left:9rem;
+    border-radius: 8px;
+        }
+        
+    .coutumes p{
+    position:absolute;
+    top:78rem;
+    font-size: 21px;
+    color:black;
+    left:10.5rem;
+    width:12rem;        
+    }
+    
+.logo {
+    position: absolute;
+    left: 0.4cm;
+    top: 0.4cm;
+    font-size:32px;
+}
+
+.services{
+    position:relative;
+    top:135rem;
+    left:-4rem;
+    }
+
+.desc{
+    position:relative;
+    top:362rem;
+    left:-27.6rem;
+    width:21rem;
+    }
+
+    .texte1 {
+        position: absolute;
+        top: 3.7rem;
+        left: 12.8cm;
+        color: black;
+        width:18rem;
+        font-size: 26px;
+    }
+    
+    .texte2 {
+        position: absolute;
+        top: 3.2cm;
+        left: 11.8cm;
+        font-size: 16.4px;
+        color: black;
+        width:22rem;
+    }
+    
+    .desc .border {
+        position: absolute;
+        top: 11rem;
+        width: 4cm;
+        height: 4.6px;
+        left: 14.3cm;
+        background-color: rgb(138, 117, 0);
+    }
+
+    .desc h1{
+        position:absolute;
+        top:1.4rem;
+        left:14.6cm;
+    }
+
+    .image{
+        position:relative;
+        top:377rem;
+        left:0rem;
+        display:block;
+    }
+
+    .i1 {
+        position: absolute;
+        left: 1.3cm;
+       top:22rem;
+    
+    }
+    
+    .i2 {
+        position: absolute;
+         left: 1.3cm;
+        top:44rem;
+       
+    }
+    
+    .i3 {
+         left: 1.3cm;
+        position: absolute;
+        top:66rem;
+    }
+    
+    
+    .i4 {
+        position: absolute;
+        left: 1.3cm;
+    }
+    
+
+.searchHotel{
+    position:relative;
+    top:326rem;
+    width:100%;
+    height:100vh;
+}
+
+
+
+    .searchHotel h1{
+        position:absolute;
+        top:5rem;
+        font-size: 35px;
+        left:4rem;
+    }
+    
+    .searchHotel .bordure{
+        position:absolute;
+        top:4.5rem;
+        left:2.6rem;
+        width: 7px;
+        height: 91px;
+        background-color: rgb(165, 128, 8);
+        box-shadow: 4px 3px 10px;
+    
+    }
+    
+    .searchHotel .localisation{
+        position:absolute;
+        top:17.4rem;
+        left:0.3cm;
+        border:2px solid;
+        border-radius: 15px;
+        padding:11px;
+        font-size: 15px;
+    }
+    
+    .nomville{
+        position:absolute;
+        top:13.5rem;
+        left:1.1rem;
+        font-size: 16.2px;
+    }
+    
+    .button_hotel{
+        position:absolute;
+        left:15.5rem;
+        top:17.6rem;
+        font-size:15px;
+    }
+    
+    #affichage{
+        position:absolute;
+        top:24rem;
+        left:1.5%;
+        font-size:22px;
+        width:9cm;
+        height:8cm;
+    }
+ 
+    .titre-propos {
+        font-size: 32px;
+        position:relative;
+        top:7.3cm;
+        left:1.8cm;
+        float:right;
+        width:98%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+   
+
+    .blog{
+        display:none;
+    }
+
+    .searchCoop{
+        position:relative;
+        top:324.8rem;
+        width:100%;
+        height:120vh;
+        background-size:cover;
+    }
+    
+    .searchCoop h1{
+        position:absolute;
+        top:5rem;
+        font-size: 35px;
+        left:4rem;
+    }
+    
+    .bordure1{
+        position:absolute;
+        top:5rem;
+        left:2.2rem;
+    }
+    
+    .titreDepart{
+        position:absolute;
+        top:13.5rem;
+        left:0.6cm;
+        font-size: 18px;
+    }
+    
+    .titreArrivee{
+        position:absolute;
+        top:19.3rem;
+        left:0.5cm;
+        font-size: 18px;
+        color:black;
+    }
+    
+    
+    .depart{
+        position:absolute;
+        top:13.2rem;
+        left:4cm;
+        border:2px solid;
+        border-radius: 15px;
+        padding:12px;
+        font-size: 13.5px;
+    }
+    
+    #affichage_coop{
+        position:absolute;
+        top:31rem;
+        left:6%;
+        font-size:22px;
+        width:8.6cm;
+    }
+    
+    .arrivee{
+        position:absolute;
+        top:18.7rem;
+        left:3.8cm;
+        border:2px solid;
+        border-radius: 14px;
+        padding:12px;
+        font-size: 13.5px;
+    }
+    
+    .button_coop{
+        position:absolute;  
+        left:12rem;
+        top:24.3rem;
+    }
+
+    .destinationsPopular{
+        position:relative;
+        top:332rem;
+    }
+
+    .destinationsPopular .titre{
+        position:absolute;
+        top:2rem;
+        left:15%;
+        font-size: 27px;
+    }
+
+    .titre span{
+        position:absolute;
+        left:2cm;
+        top:2rem;
+    }
+    
+    .borderdest{
+        position: absolute;
+        top: 7.3rem;
+        left: 2.8cm;
+    }
+
+    .carousel{
+        position:absolute;
+        top:9rem;
+        left:-0.2cm;
+        width: 97%;
+        height:70vh;
+        display:block;
+        overflow: auto; 
+    }
+    .avis{
+        position:relative;
+        top:374rem;
+        height:225vh;
+    }
+    
+    .titre_avis{
+        position:absolute;
+        top:1rem;
+        left:10%;
+        font-size:25px;
+        width:80vw;
+    }
+    
+    .titre_avis span{
+        position:absolute;
+        left:1cm;
+        top:1cm;
+    }
+
+    .border_avis{
+        position: absolute;
+        top: 7.2rem;
+        width: 4cm;
+        height: 4.6px;
+        left: 2.6cm;
+        background-color: rgb(138, 117, 0);
+    }
+
+    .avis_item2{
+        position:absolute;
+        left:0.6rem;
+        top:32rem;
+    }
+
+    .avis_item1{
+        position:absolute;
+        left:0.6rem;
+    }
+
+    .avis_item3{
+        position:absolute;
+        left:0.6rem;
+        top:64rem;
+    }
+
+    
+footer{
+    position:relative;
+    top:385rem;
+    height:29cm;
+    width:100%;
+}
+    
+.footer_up{
+    width:100%;
+    height:38vh;
+    position:relative;
+    top:-4.9cm;
+}
+
+.footer_up .input_coms{
+    position:relative;
+    left:1rem;
+    top:6.5rem;
+     width:210px;
+     height:60px;
+     font-size: 18px;
+     border:1px solid black;
+     border-radius: 5px;
+}
+
+.submit_coms{
+    position:absolute;
+    top:6.5rem;
+    left:15rem;
+
+    }
+
+    .sommaire{
+        position:absolute;
+        top:5rem;
+        left:7rem;
+        width:5cm;
+        height:8cm;
+    }
+    
+    .sommaire .titre{
+        font-size: 29.5px;
+        color:white;
+        position: absolute;
+        top:1.3rem;
+    }
+    
+    .sommaire a{
+        text-decoration: none;
+        color:white;
+        display:block;
+        position: relative;
+        font-size:19px;
+        top:4rem;
+    }
+    
+    .sommaire_circuit {
+        position:absolute;
+        top:23rem;
+        left:7rem;
+        width:50%;
+    }
+    
+    .sommaire_circuit .titre{
+        font-size: 25.5px;
+    }
+    
+    .sommaire_circuit a{
+        position: relative;
+        font-size:21px;
+        top:4rem;
+    }
+    
+    
+    .suivre {
+        color: rgb(228, 233, 236);
+        position: absolute;
+        top: 40rem;
+        left: 2.6cm;
+    }
+    
+    .facebook {
+        position: absolute;
+        left: 4.4cm;
+        top: 2cm;
+        color: rgb(236, 234, 224);
+    }
+    
+    .twitter {
+        position: absolute;
+        left: 5.9cm;
+        top: 2cm;
+        color: rgb(236, 234, 224);
+    }
+    
+    .sort {
+    
+        position: absolute;
+        top: 52cm;
+        left: 12.6cm;
+    }
+    
+    #sort {
+        width: 23px;
+        height: 15px;
+    }
+    
+    .instagram {
+        color: rgb(228, 233, 236);
+        position: absolute;
+        top: 2cm;
+        left: 7.2cm;
+    }
+    
+    .youtube {
+        color: rgb(228, 233, 236);
+        position: absolute;
+        top: 2cm;
+        left: 8.5cm;
+    }
+    
+    .contact {
+        position: absolute;
+        left: 1.8cm;
+        color: white;
+        top: 48.9rem; 
+        font-size:24px;
+        width:7cm;
+        margin:0;padding:0;
+    }
+    
+    .contact_1 {
+        position: absolute;
+        left: 1.8cm;
+        color: white;
+        top:52rem;
+    }
+    
+    .product {
+        position: absolute;
+        left: 2cm;
+        color: rgb(176, 179, 24);
+        top: 62rem;
+        margin: 3px;
+        font-size: 23px;
+    }
+    
+    .follow{
+        position:absolute;
+        top:39rem;
+        left:-2.1cm;
+        }
+
+        /* .header_contain{
+       
+        } */
+
+       .header_contain ul li a{
+            color:black;
+        }
+
+        .header_contain ul li a i{
+            color:black;
+        }
+}

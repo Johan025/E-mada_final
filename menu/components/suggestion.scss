@@ -1,0 +1,90 @@
+
+@media screen and (min-width: 1025px) {
+  
+
+
+.suggestion{
+    position: absolute;
+    top: 232rem;
+    left: 0;
+         
+       h1{
+          @include h(32px, 4rem, 25vw, 500, 45vw);
+          font-family:'yeseva_oneregular';
+    font-size: 50px;
+    font-weight: bold;
+    color: $color-2;
+       }
+
+        h3{
+           margin-top: -11rem;
+           margin-left: -2vw;
+           width: 20vw;
+        }
+
+       .contain_suggestion{
+          display: flexbox;
+          flex-direction: column-reverse;
+          position: absolute;
+          left: 30vw;
+          top: 10rem;
+
+              div{
+                  width: 35vw;
+                  height: 15.6rem;
+                  background-color: beige;
+                  margin-top: 5rem;
+                  border-radius: 15px;
+
+                     img{
+                           width: 95px;
+                           height: 100px;
+                           margin-left: -25vw;
+                           margin-top: 3rem;
+                           border-radius: 19px;
+                     }
+
+                     h2{
+                        color: #181717;
+                           font-size: 28px;
+                           margin-top: -8rem;
+                           margin-left:8vw;
+                          font-family: 'alegreyaregular' ;
+
+                                 &:nth-child(3){
+                                    margin-left: -15vw;
+                                 }
+                     }
+
+                     p{
+                          font-size: 19px;
+                          width: 24vw;
+                          margin-left: 9.77vw;
+                          margin-top: -0.5rem;
+
+                             
+                     }
+
+                     button{
+                         padding: 5px;
+                         border: 0;
+                         border-radius: 5px;
+                         font-size: 20px;
+                         margin-left: 6vw;
+                         background-color: rgb(226, 155, 2);
+                     }
+              }
+            
+       }
+
+       
+
+
+
+     
+
+
+
+    
+}
+}

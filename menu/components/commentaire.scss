@@ -1,0 +1,47 @@
+@media screen and (min-width: 1024px) {
+.commentaire{
+      position: absolute;
+      top: 315rem;
+
+            img{
+            width: 98.8vw;
+            left: 0;
+            height: 30rem;
+            }
+
+            .contain{
+                  position: absolute;
+                  top: 2rem;
+                  background-color: rgba(240, 248, 255, 0);
+                    p{
+                         font-size: 45px;
+                         font-weight: bolder;
+                         color:aliceblue;
+                         font-family: 'coneria_script_demoregular';
+                    }
+
+                    .form{
+
+                    input[type=text]{
+                          width: 45rem;
+                          height: 2.6rem;
+                          font-size: 19px;
+                          color: #000;
+
+                    }
+
+                    input[type=submit]{
+                         padding: 8px;
+                         font-size: 22.4px;
+                         background-color: rgb(218, 123, 0);
+                         border: 0;
+                         margin-left: 0.8vw;
+                         border-radius: 5px;
+                    }
+
+                }
+            }
+    
+}
+
+}

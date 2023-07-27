@@ -1,0 +1,135 @@
+@media screen and (min-width: 1025px) {
+    
+
+.Choiceofmada{
+    position: absolute;
+    top: 77rem;
+    left: 29vw;
+    width: 40rem;
+    text-align: center;
+
+     .title {
+         position: absolute;
+         top: 0.4rem;
+         left: 15.4vw;
+         font-size: 29px;
+     }
+
+}
+
+
+.choice_item1{
+    position: absolute;
+    top: 5rem;
+    font-family:'yeseva_oneregular';
+    font-size: 45px;
+    font-weight: bold;
+    color: #29353e;
+    
+    }
+
+    .choice_contain{
+      position: absolute;
+      top: 89rem;
+      width: 97vw;
+
+        .imag{
+            display: block;
+            overflow: hidden;
+
+              div{
+                width: 22.5vw;
+                height: 19.6rem;
+                margin-top:5vw;  
+                z-index: 20;
+                overflow: hidden;
+
+                     img{
+                         width: 22.5vw;
+                         height: 19.6rem;
+                         border-radius: 5px;
+                         overflow: hidden;
+                     }
+
+                     div{
+                        width: 22.5vw;
+                        height: 11rem;
+                        margin-top: -4.1rem;
+                        margin-left: -10.4rem;
+                        background-color: rgba(10, 7, 7, 0.767);  
+                     }
+
+                     h1{
+                      font-size: 23px;
+                     }
+
+                     .in_1, .in_2, .in_3{
+                      font-size: 18px;
+                      color: #fff;
+                    }
+                      &:nth-child(1){  
+                            position: relative;
+                            left: 64.8vw;
+                            top: -0.5rem;
+                          }
+
+                          &:nth-child(2){
+                           
+                            position: relative;
+                            left:12.9vw;
+                            top: 0em;
+                          }
+                          
+
+                          
+                          &:nth-child(3){
+                            position: relative;
+                            left: 64.8vw;
+                            top: -2.5rem;
+                            // top: -0.5rem;
+                          }
+                    }
+
+            }
+
+        .ligne{
+            
+            @include border (4px, 75rem, rgb(172, 136, 7), 0rem, 50vw);
+          
+  
+            }
+
+        .lign1{
+            @include border (12rem, 3.4px, rgb(172, 136, 7), 13rem, 50vw);
+          }
+
+        .lign2{
+            @include border (12rem, 3.4px, rgb(172, 136, 7), 37rem, 35.4vw);
+            }
+
+        .lign3{
+          @include border (12rem, 3.4px, rgb(172, 136, 7), 58rem, 50vw);
+          }
+
+          #radio{
+            position: absolute;
+            top: -1.6rem;
+            left: 48.8vw;
+            width: 24px;
+            height: 24px;
+            border: 5px solid;
+            background-color: aqua;
+            }
+
+        #radio2{
+             position: absolute;
+              top: 74.7rem;
+              left: 48.9vw;
+              width: 24px;
+              height: 24px;
+              border: 5px solid;
+              background-color: aqua;
+          }
+    }
+
+}

@@ -1,0 +1,83 @@
+@media screen and (min-width: 1024px) {
+    
+    #map{
+        width: 32vw;
+        position: absolute;
+        left: 65vw;
+        height: 31rem;
+        border-radius: 15px;
+        top: 12rem;
+        z-index: 20;
+        border: 2px solid;
+  }
+  
+.ouest_couverture{
+
+        .couverture_ouest{
+        position: relative;
+        top: 8rem;
+        left: -13.9vw;
+                img{
+                    width: 55.8vw;
+                    height: 27rem;
+                    border-radius: 5px;
+                }
+
+
+        }
+
+
+        .couverture{
+            @include h(35px, 5rem, -11.5vw, 300, 70vw);
+            font-family: 'yeseva_oneregular';
+            color: $color-2;
+            z-index: 20;
+        }
+
+        }
+
+        .detail{
+            @include div(7rem, 83.6vw, 7.2vw, 42rem, rgba(0, 0, 0, 0.795));
+            border-radius: 3px;
+        }
+
+        .description_ouest{
+             @include p_left(6vw, 45rem, 19px);
+             width: 60vw;
+        }
+
+        .detail_date{
+               position: relative;
+               top: 9.8rem;
+               left: -39.9vw;
+               color:blue;
+
+               i{
+                 font-size: 25px;
+               }
+
+                h3{
+                       font-size: 23px;
+                       margin-top: -1.4rem;
+                       margin-left: 15rem;
+                }
+        }
+
+        .detail_trajet{
+            position: relative;
+            top: 6.64rem;
+            left: -15.5vw;
+            color:blue;
+            i{
+                font-size: 25px;
+              }
+
+              h3{
+                font-size: 23px;
+                margin-top: -1.4rem;
+                margin-left: 20.6rem;
+         }
+     }
+
+
+}

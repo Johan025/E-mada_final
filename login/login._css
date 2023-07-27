@@ -1,0 +1,268 @@
+
+
+img{
+    width:100vw;
+    position: absolute;
+    left: 0;
+    height: 41.25rem;
+}
+
+h1{
+    position: absolute;
+    top: 0.3cm;
+    left: 2cm;
+    text-indent:0.7cm;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h1 span{
+        position:absolute;
+        top:1.1cm;
+        width:14cm;
+        left:-0.8cm;
+    }
+    
+  .email{
+position:absolute;
+top:32%; left:2cm;
+border-left:0 solid;
+border-right:0 solid;
+border-top:0 solid;
+border-bottom:2px solid black;
+background-color: rgb(192, 165, 10);
+padding:8px;
+font-size:17px;
+  }
+
+   
+  .password{
+    position:absolute;
+    top:50%; left:2cm;
+    border-left:0 solid;
+    border-right:0 solid;
+    border-top:0 solid;
+    border-bottom:2px solid black;
+    background-color: rgb(192, 165, 10);
+    padding:8px;
+    font-size:17px;
+      }
+
+    .contain{
+        position:absolute;
+        top:18%;
+        left:32%;
+        background-color: rgb(192, 165, 10);
+        box-shadow: 3px 5px 8px;
+        border-radius: 8px;
+        width:10cm;
+        height:11cm;
+        display: none;
+    }
+
+    .login{
+        position:absolute;
+        top:70%;
+        cursor:pointer;
+        left:3cm;
+        padding:8px;
+        font-size:18px;
+        background-image:linear-gradient(145deg,black, rgb(131, 86, 4));
+        border-radius:8px;
+        border:0 solid;
+        font-size:19px;
+    }
+    
+    .login:hover{
+        box-shadow: 4px 6px 8px;
+         background-image:linear-gradient(145deg, rgb(131, 86, 4),black);
+    }
+
+    .inscription{
+        position: absolute;
+        top: 0.5cm;
+        left: 2cm;
+        display: none;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .userName{
+            position:absolute;
+            top:32%; left:2cm;
+            border-left:0 solid;
+            border-right:0 solid;
+            border-top:0 solid;
+            border-bottom:2px solid black;
+            background-color: rgb(192, 165, 10);
+            padding:8px;
+            font-size:17px;
+
+        }
+        
+      .email2{
+    position:absolute;
+    top:46%; left:2cm;
+    border-left:0 solid;
+    border-right:0 solid;
+    border-top:0 solid;
+    border-bottom:2px solid black;
+    background-color: rgb(192, 165, 10);
+    padding:8px;
+    font-size:17px;
+      }
+    
+       
+      .password2{
+        position:absolute;
+        top:60%; left:2cm;
+        border-left:0 solid;
+        border-right:0 solid;
+        border-top:0 solid;
+        border-bottom:2px solid black;
+        background-color: rgb(192, 165, 10);
+        padding:8px;
+        font-size:17px;
+          }
+    
+        .containInscription{
+            position:absolute;
+            top:18%;
+            transform:translateX(100%);
+            /* transform:translateX(114%); */
+            background-color: #c0a50a;
+            box-shadow: 3px 5px 8px;
+            border-radius: 8px;
+            width:10cm;
+            height:12cm;
+            opacity:0;
+            display: none;
+            transition:1s;
+        }
+
+        .active{
+            transform:translateX(113%);
+            opacity:1;
+            transition:1s;
+
+        }
+
+       .show{
+        opacity:1;
+       }
+
+        .hide{
+            opacity:0;
+            display:none;
+
+        }
+
+        .hideshow{
+            opacity:0;
+            transform:translateY(-38px);
+        }
+
+        .effect{
+            opacity:1;
+            transform:translateY(0);
+            transition:1.3s;
+        }
+
+        .login2{
+            position:absolute;
+            top:77%;
+            cursor:pointer;
+            left:3.6cm;
+            padding:8px;
+            font-size:18px;
+            background-image:linear-gradient(145deg,black, rgb(131, 86, 4));
+            border-radius:8px;
+            border:0 solid;
+            font-size:19px;
+        }
+
+        .login2:hover{
+            box-shadow: 4px 6px 8px;
+             background-image:linear-gradient(145deg, rgb(131, 86, 4),black);
+        }
+
+        p{
+            position:absolute;
+            top:84%;
+            left:0.4cm;
+            font-size:17px;
+        }
+
+        .button_inscription{
+            position:absolute;
+            top:88%;
+            right:0.9cm;
+            text-decoration: underline;
+            color:blue;
+            cursor:pointer;
+            font-size:19px;
+        }
+
+        .retour{
+            width: 1.5rem;
+            height:1.5rem;
+            font-size:22px;
+            position:absolute;
+            padding:4px;
+            top:0.5cm;
+
+            cursor:pointer;
+            left:0.5cm;
+            background-color: rgb(238, 238, 185);
+            border-radius: 50%;
+        }
+
+        .message{
+            position:absolute;
+            top:87.4%;
+            right:1cm;
+            font-size:18px;
+        }
+
+         .erreur{
+            position:absolute;
+            top:5.4cm;
+            z-index:4;
+            left:13cm;
+            color:red;
+            font-size:19px;
+           
+        } 
+
+        
+        .erreur2{
+            position:absolute;
+            top:5.4cm;
+            z-index:4;
+            left:13cm;
+            color:red;
+            font-size:12px;
+           
+        } 
+
+        .erreurpassword{
+            position:absolute;
+            top:7.3cm;
+            z-index:4;
+            left:13cm;
+            color:red;
+            font-size:19px;
+           
+        } 
+
+        .cacher{
+        opacity:1;
+        z-index:1;
+        }
+
+        .ss{
+            opacity:0;
+            z-index:0;
+        }
+
+        

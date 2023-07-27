@@ -1,0 +1,138 @@
+
+
+.header {
+    background-color: #f2f2f2;
+    position: fixed;
+    z-index: 3;   
+    width: 100%;
+    left: 0;
+    height: 2.2cm;
+    margin: 0;
+    padding: 0;
+    top: 0vh;
+    right: 0cm;
+    transition: 1s;
+    z-index: 20;
+
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    float: right;
+    right: 4vw;
+    top: 0.5cm;
+}
+
+.header_contain{
+    width:100%;
+    height:10vh;
+    position:absolute;
+    right:-32rem;
+    top:0.46cm;
+    transition:0.5s;
+
+    ul li a {
+        position: relative;
+        right:38vw;
+        top: -13px;
+        text-decoration: none;
+        color: #254E7A;
+        font-size: 18.6px;
+        padding: 9px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        &:hover{
+            background-color: rgb(244, 191, 17);
+            color: black;
+            border-radius: 8px;
+           
+        }
+
+        #search{
+            color: #254E7A;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+
+li {
+    margin: 4.5px;
+}
+
+#search{
+    color: rgb(0, 0, 0);
+}
+
+header ul li .a1{
+    border:0px solid;
+    background-color:#27749e;
+    color:black;
+    border-radius: 8px;
+    padding:7px;
+}
+#search:hover{
+color:black;
+}
+
+.logo {
+    position: absolute;
+    left: 8vw;
+    font-size: 31px;
+    top: 1.5rem;
+    color: #113f70;
+    font-family:'yeseva_oneregular' ;
+
+      span {
+        color: #072b51;
+        font-family:'yeseva_oneregular' ;
+      }
+
+      img{
+          width: 70px;
+          height: 70px;
+          position: absolute;
+          top: -1.2rem;
+          margin-left: -5rem;
+
+      }
+}
+
+
+.icone_menu i{
+    color:rgb(3, 19, 84);
+    font-size:33px;
+    display: none;
+    cursor:pointer;
+    border:2px solid rgb(4, 7, 108);
+    padding:7px;
+    border-radius: 50%;
+
+       &:hover{
+            background-color: rgb(138, 117, 0); 
+            color:black;
+        
+        }
+       
+}
+
+.contact{
+    border: 1.5px solid #113f70;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 42px;
+    margin-left: 2rem;
+}
+
+.up-{
+      width: 70px;
+      height: 40px;
+      position: fixed;
+      top: 350em;
+      right: -325em;
+}

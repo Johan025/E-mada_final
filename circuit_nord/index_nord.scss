@@ -1,0 +1,20 @@
+@import"./../settings.scss";
+@import "./scss/navbar.scss";
+@import "./scss/bordePrinc.scss";
+@import "./scss/couverture.scss";
+@import "./scss/Ankarafantsika.scss";
+@import "./scss/Ankarana.scss";
+@import "./scss/Nosy-Be.scss";
+@import "./scss/footer.scss";
+@import "./scss/responsive/small.scss";
+@import "./scss/responsive/medium.scss";
+
+
+@font-face {
+    font-family: 'lumanosimoregular';
+    src: url('./assets/lumanosimo-regular-webfont.woff2') format('woff2'),
+         url('./assets/lumanosimo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

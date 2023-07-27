@@ -1,0 +1,10 @@
+@font-face {
+  font-family: font1;
+  src: url(./menu/assets/Lora-Bold.ttf);
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  font-family: font1;
+}/*# sourceMappingURL=settings.css.map */

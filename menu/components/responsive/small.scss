@@ -1,0 +1,1332 @@
+@media screen and (min-width: 280px) and (max-width: 499px) {
+  @font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('../../assets/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('../../assets/yesevaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+  // barre de navigation
+  .header{
+    position:fixed;
+     top: 0;
+     width: 99.9vw;
+     left:0;
+
+}
+
+.logo {
+  font-size: 27px;
+  left: 17vw;
+  top: 0.8cm;
+
+     img{
+       width: 48px;
+       height: 48px;
+       position: absolute;
+       top: -0.5rem;
+       margin-left: -3.5rem;
+     }
+}
+
+.header_contain{
+    @include div(0rem, 100vw, 0rem, 5.2rem, rgb(22, 98, 211));
+    transition: 0.3s;
+    
+#user{
+    position: relative;
+    left: -2vw;
+    top: 0.2rem;
+#out{
+   position: relative;
+   left: 2vw;
+   top: -0.5rem;
+   font-size: 24px;
+}
+
+h1{
+   position: relative;
+   left: 29vw;
+   color: #000;
+   top: 1.2rem;
+}
+}
+
+    ul{
+   
+    display: block;
+    position:absolute;
+    left: 35vw;
+    top: -25rem;
+    width: 65vw;
+  
+
+          li{
+            margin-top: 22px;
+             a{
+                  color: #241b1b;
+                  font-size: 19px;
+                  padding: -25px;
+                  width: -5rem;
+                  position: relative;
+                  right: 19vw;
+                  width: 70vw;
+                
+                
+             }
+
+             .a1{
+                background-color: antiquewhite;
+                           }
+
+          }
+          .contact{
+            border: 1.5px solid #113f70;
+            border-radius: 8px;
+            padding: 7px;
+            font-size: 20.4px;
+            margin-left: 0rem;
+        }
+        i{
+          color: #000000;
+      }
+}
+}
+
+.icone_menu i{
+    position: relative;
+    float: right;
+    display: flex;
+    top:1.3rem;
+    right: 4vw;
+    z-index: 6;
+    font-size: 25px;
+    border-radius: 30%;
+}
+
+.hideshow{
+  height: 24.5rem;
+}
+
+.h2{
+     transform: translateY(28rem);
+     position: absolute;
+     top: 2.6rem;
+     transition: 0.06s;
+}
+// fin barre de navigation
+
+
+// couverture
+
+.pictures_home{
+  position: absolute;
+  right: 2vw;
+  top: 7.7rem;
+  display: block;
+  
+
+  
+img{
+//  @include image(23rem, 14.4rem, 0, 2.1cm, 15px);
+    width: 91vw;
+    height: 21.8rem;
+    border-radius: 7px;
+    margin-top: 16rem;
+    cursor: pointer;
+
+
+&:hover{
+  transform: translateY(-36px);
+   transition: 0.8s;
+}
+   
+ &:nth-child(2){
+       position: relative;
+       top: -13.6rem;
+ }
+
+ &:nth-child(3){
+   margin-top: -10.8rem;
+}
+
+}
+
+}
+
+.c_responsive{
+ display: none;
+}
+
+.t{
+position: relative;
+left: -6vw;
+}
+
+
+.visit{
+  z-index: 10;
+  color: rgb(8, 8, 8);
+  width: 95vw;
+font-family: 'abril_fatfaceregular';
+  font-weight: 500;
+  @include p_left(6.6vw, 10.3rem, 22px);
+}
+
+.Anakao{
+ text-align: center;
+ font-family: 'Memphis-Bold';
+ font-weight: 400;
+ justify-content: center;
+ color: rgb(27, 26, 26);
+ @include p_left(19vw, 13.5rem, 18px);
+
+}
+
+.explore{
+    background-color: $color_1;
+    border: 0 solid;
+    color:rgb(255, 255, 255);
+    border-radius: 9px;
+    padding: 6px;
+    text-align: center;
+    @include p_left(40vw, 17rem, 21px);
+    box-shadow: 0px 4px 8px black;
+    cursor: pointer;
+      &:hover{
+         box-shadow: 5px 4px 8px black;
+      }
+}
+
+.title{
+  position: absolute;
+  left: 35.5vw;
+  top: 8rem;
+  text-align: center;
+  font-size: 18px;
+  color: $color_1;
+ font-family: 'coneria_script_demoregular';
+  font-style: italic;
+  font-weight: 800;
+}
+// fin couverture
+
+
+//a propos 
+.contain {
+  width: 100%;
+  height: 30rem;
+  background-color: #f3f0f0bd;
+  margin-top: 64rem;
+  left: 0cm;
+  color: black;
+     h1{
+        margin-top: -3rem;
+     }
+}
+
+
+.int {
+  position: absolute;
+  left: 0vw;
+  top: 0.78cm;
+  padding-top: 4cm;
+  padding-left: 1.5cm;
+  height: 80vh;
+  width: 56vw;
+  
+      
+    .title{
+         position: absolute;
+         top: 2.9rem;
+    }
+}
+
+.contenu {
+
+  padding-top: 70px;
+  @include div-droite(6rem, 25vw,55vw, 0.14cm );
+
+  span {
+      position: absolute;
+      top: 6.9rem;
+      left: -13vw;
+      font-size: 18px;
+      width: 86vw;
+      color: rgb(22, 21, 21);
+     
+  }
+}
+
+.contain {
+  position: absolute;
+  top: 16.7cm;
+
+  img {
+      box-shadow: 0px 4px 8px black;
+      @include image(9.6cm, 89.7vw, 4.9vw, 18rem, 2px);
+  }
+  
+
+ 
+}
+
+.titre-propos {
+  margin-top: -7rem;
+  margin-left: -5vw;
+  font-family: 'yeseva_oneregular';
+  font-size: 22px;
+  font-weight: bold;
+  color: #29353e;
+  width: 80vw;
+}
+// fin a propos
+
+
+// debut choix
+.Choiceofmada{
+    position: absolute;
+    top: 147rem;
+    left: 0vw;
+  text-align: center;
+      
+    .title{
+        margin-top: -5rem;
+        width: 40vw;
+        margin-left: -5vw;
+    }
+}
+
+.choice_item1{
+    position: absolute;
+    top: 5.7rem;
+    right: -92.5vw;
+    font-size: 23px;
+    width: 90vw;
+    font-weight: bold;
+    color: #29353e;
+    font-family:'yeseva_oneregular';
+    }
+
+    .choice_contain{
+      position: absolute;
+      top: 159rem;
+      width: 97vw;
+
+        .imag{
+            display: block;
+            overflow: hidden;
+
+              div{
+                width: 81.5vw;
+                height: 19.6rem;
+                margin-top:6rem;  
+                z-index: 20;
+                overflow: hidden;
+
+                     img{
+                         width: 92.5vw;
+                         height: 19.6rem;
+                         border-radius: 5px;
+                         overflow: hidden;
+                     }
+
+                     div{
+                        width: 92.5vw;
+                        height: 11rem;
+                        margin-top: -10.1rem;
+                        margin-left: -6.4vw;
+                        background-color: rgba(10, 7, 7, 0.767);  
+                     }
+
+                     h1{
+                      font-size: 23px;
+                      margin-left: -10vw;
+                     }
+
+                     .in_1, .in_2, .in_3{
+                      font-size: 18px;
+                      color: #fff;
+              
+                       
+                          p{
+                            width: 79vw;
+                            margin-left: 1vw;
+                          }    
+                    }
+                      &:nth-child(1){  
+                            position: relative;
+                            left: 6.5vw;
+                            top: -0.5rem;
+                          }
+
+                          &:nth-child(2){
+                           
+                            position: relative;
+                            left:6.5vw;
+                            top: 0em;
+                          }
+                          
+
+                          
+                          &:nth-child(3){
+                            position: relative;
+                            left: 6.5vw;
+                            top: 0.5rem;
+                            // top: -0.5rem;
+                          }
+                    }
+
+            }
+
+        .ligne{
+            
+            @include border (4px, 85rem, rgb(172, 136, 7), 0rem, 50vw);
+          
+  
+            }
+
+        .lign1{
+           display: none;
+        }
+
+        .lign2{
+          display: none;
+            }
+
+        .lign3{
+          display: none;
+          }
+
+          #radio{
+            position: absolute;
+            top: -1.6rem;
+            left: 46vw;
+            width: 24px;
+            height: 24px;
+            border: 5px solid;
+            background-color: aqua;
+            }
+
+        #radio2{
+             position: absolute;
+              top: 84.7rem;
+              left: 46vw;
+              width: 24px;
+              height: 24px;
+              border: 5px solid;
+              background-color: aqua;
+          }
+    }
+// fin choix
+    
+
+    
+//destinations populaire
+
+    .Popular{
+      overflow: hidden;
+      @include div(198rem, 100%, 0, 250.4rem,    #f3f0f0bd);
+
+            h1{
+              color: $color-2;
+              font-family:'yeseva_oneregular';
+              @include h(23px, 4rem, 11vw,  800, 80vw);
+            }
+
+            h3{
+              margin-top: -5.3rem;
+              margin-left: 7vw;
+            }
+
+            p{
+              width: 25vw;
+          color: rgb(22, 21, 21);
+              @include p_left(0, 17rem, 22px);
+            }
+
+            .contain_1{
+               display: block;
+               position: absolute;
+               top: 7rem;
+               left: 10.2vw;
+
+                    div{
+                         width: 75vw;
+                         margin-top: 5rem;
+                         border-radius: 5.5px;
+                         height: 18.5rem;
+                         background-color: rgb(248, 250, 249);
+                         margin-left: 2vw;
+                        box-shadow: 0px 2px 7px rgb(32, 30, 30);
+
+                        p{
+                          font-size: 19px;
+                          margin-top: -6rem;
+                       }
+
+                        img{
+                          width: 75.2vw;
+                          border-radius: 5.5px;
+                          height: 10.1rem;
+                          margin-left: 0vw;
+                       
+                       }
+
+                       button{
+                             padding: 4px;
+                             margin-top: 3.4rem;
+                             font-size: 17px;
+                             margin-left: 45vw;
+                             background-color: rgb(199, 153, 3);
+                             border-radius: 5px;
+                             border: 0;
+                       }
+
+                       h2{
+                          font-size: 17.7px;
+                          top: 3.8rem;
+                          position: relative;
+                          left: 2vw;
+                          width: 70vw;
+                       }
+
+                       i{
+                            font-size: 27px;
+                            color: #be950b;
+                            left: -25vw;
+                            position: relative;
+                            top: 0.5rem;
+                       }
+
+                       h3{
+                            position: relative;
+                            top: 4.5rem;
+                            left: -13vw;
+                            font-family: 'yeseva_oneregular';
+                       }
+                      }
+                 }
+
+          .contain_2{
+            display: block;
+            position: absolute;
+            top: 102rem;
+            left: 10.2vw;
+
+            div{
+              width: 75vw;
+              margin-top: 5rem;
+              border-radius: 5.5px;
+              height: 18.5rem;
+              background-color: rgb(248, 250, 249);
+              margin-left: 2vw;
+             box-shadow: 0px 2px 7px rgb(32, 30, 30);
+
+             p{
+               font-size: 19px;
+               margin-top: -6rem;
+            }
+
+             img{
+               width: 75.2vw;
+               border-radius: 5.5px;
+               height: 10.1rem;
+               margin-left: 0vw;
+            
+            }
+
+            button{
+                  padding: 4px;
+                  margin-top: 3.4rem;
+                  font-size: 17px;
+                  margin-left: 45vw;
+                  background-color: rgb(199, 153, 3);
+                  border-radius: 5px;
+                  border: 0;
+            }
+
+            h2{
+               font-size: 17.7px;
+               top: 3.8rem;
+               position: relative;
+               left: 2vw;
+               width: 70vw;
+            }
+
+            i{
+                 font-size: 27px;
+                 color: #be950b;
+                 left: -25vw;
+                 position: relative;
+                 top: 0.5rem;
+            }
+
+            h3{
+                 position: relative;
+                 top: 4.5rem;
+                 left: -13vw;
+                 font-family: 'yeseva_oneregular';
+            }
+           }
+
+                
+    }
+
+      
+   }  
+
+   //fin destinations populaire
+
+
+   //suggestion
+.suggestion{
+  position: relative;
+  top: 455rem;
+  left: 0;
+         
+       h1{
+          @include h(23px, -1.35rem, 16vw, 500, 65vw);
+          font-family:'yeseva_oneregular';
+          font-weight: bold;
+          color: $color-2;
+       }
+
+        h3{
+           margin-top: -11rem;
+           margin-left: -6vw;
+           width: 40vw;
+        }
+
+       .contain_suggestion{
+          display: flexbox;
+          flex-direction: column-reverse;
+          position: absolute;
+          left: 4.6vw;
+          top: 2rem;
+
+              div{
+                  width: 85vw;
+                  height: 23.6rem;
+                  background-color: beige;
+                  margin-top: 5rem;
+                  border-radius: 15px;
+
+                     img{
+                           width: 91px;
+                           height: 98px;
+                           margin-left: 0vw;
+                           margin-top: 1rem;
+                           border-radius: 19px;
+                     }
+
+                     h2{
+                        color: #181717;
+                           font-size: 20px;
+                           margin-top: 1rem;
+                           margin-left:3.5vw;
+                          font-family: 'alegreyaregular' ;
+
+                                 &:nth-child(3){
+                                    margin-left: -15vw;
+                                 }
+                     }
+
+                     p{
+                          font-size: 19px;
+                          width: 70vw;
+                          margin-left: 9vw;
+                          margin-top: -0.5rem;
+
+                             
+                     }
+
+                     button{
+                         padding: 5px;
+                         border: 0;
+                         border-radius: 5px;
+                         font-size: 18px;
+                         margin-left: 6vw;
+                         background-color: rgb(226, 155, 2);
+                     }
+              }
+            
+       }
+
+           
+}
+   //fin suggestion
+
+   //debut tour
+    .circuits{
+      position: absolute;
+      top: 94rem;
+      width: 99.99vw;
+      height: 152rem;
+      left: -2.5vw;
+      background-color: rgb(233, 230, 230);
+ 
+      h1{
+         @include h(28px, 4rem, 12vw, 500, 75vw);
+         font-family:'yeseva_oneregular';
+         font-weight: -150;
+         color: $color-2;
+      }
+ 
+      h3{
+        position: absolute;
+        left: 39vw;
+        top: 13.6rem;
+        text-align: center;
+        font-size: 21px;
+        color: $color_1;
+        font-family: 'coneria_script_demoregular';
+        font-style: italic;
+        font-weight: 800;
+     }
+
+
+      .contain-1{
+ 
+         display: block;
+          position: absolute;
+          top: 8rem;
+          left: 11vw;
+         text-align: center;
+          div{
+               height:31rem;
+               width: 78vw;
+               background-color: rgb(255, 255, 255);
+               margin-top:4rem;
+               border-radius: 9px;
+             box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+          }
+          img{
+             height:15rem;
+             width: 78vw;
+             border-radius: 9px;
+          }
+ 
+          .contain_1{
+           background-size: cover;
+           
+ 
+                h1{
+                
+                     text-align: center;
+                     @include h(24px, 20rem, 8.5vw, 650, 65vw);
+                }
+ 
+                p{
+                   @include p_left(7vw, 23.8rem, 18px);
+                   width: 62vw;
+                   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+ 
+                button{
+                    @include button($color-3, 4px, 27.8vw, 30.4rem, 20.5px);
+                 border-radius: 6px;
+                 border: 0 solid;
+             
+                   }
+ 
+                   &:hover{
+                      box-shadow: 5px 8px 35px black;
+                   }
+          }
+ 
+          .contain_2{
+             background-size: 100%;
+ 
+             h1{
+
+              text-align: center;
+              @include h(24px, 54.7rem, 4.5vw, 600, 70vw);
+         }
+
+         p{
+            @include p_left(8vw, 58.6rem, 18px);
+            width: 62vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+
+         button{
+             @include button($color-3, 4px, 28.8vw, 66.1rem, 20.3px);
+          border-radius: 6px;
+          border: 0 solid;
+      
+            }
+               &:hover{
+                box-shadow: 5px 8px 35px black;
+             }
+ 
+ 
+            }
+ 
+            
+            .c3{
+             height:15rem;
+             width: 78vw;
+             border-radius: 9px;  
+          }
+ 
+            .contain_3{
+             background-size: cover;
+ 
+             h1{
+           
+              text-align: center;
+              @include h(24px, 90rem, 5.9vw, 600, 65vw);
+         }
+
+         p{
+            @include p_left(7vw, 93.8rem, 18px);
+            width: 62vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+
+         button{
+             @include button($color-3, 4px, 27.6vw, 101.1rem, 20px);
+          border-radius: 6px;
+          border: 0 solid;
+      
+            }
+ 
+              &:hover{
+               box-shadow: 5px 8px 35px black;
+            }
+ 
+            }
+ 
+    
+      }
+ 
+      .contain-2{
+ 
+       display: flex;
+        position: absolute;
+        top: 117.5rem;
+        left: -13.5vw;
+        
+ 
+        div{
+          height:29rem;
+          width: 78vw;
+          background-color: rgb(255, 255, 255);
+          margin-left:4rem;
+          border-radius: 9px;
+        box-shadow: 3px 3px 15px rgba(114, 111, 111, 0.878);
+ 
+        }
+ 
+        .contain_1{
+         background-size: cover;
+       margin-left: 25.5vw;
+             img{
+              height:15rem;
+              width: 78vw;
+                border-radius: 9px;
+             }
+ 
+             h1{
+             
+                text-align: center;
+                @include h(23px, 15.7rem, 31vw, 600, 65vw);
+                }
+ 
+                p{
+                   @include p_left(34vw, 19.6rem, 18px);
+                   width: 63vw;
+                   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                   }
+      
+                  button{
+                    @include button($color-3, 4px, 56.6vw, 25.8rem, 19px);
+                   border-radius: 6px;
+                   border: 0 solid;
+                   }
+      
+                   &:hover{
+                    box-shadow: 5px 8px 35px black;
+                 }
+                
+      
+    }
+ }
+    }
+
+
+    .avis{
+      position: absolute;
+      top: 386rem;
+      width: 100%;
+      height: 52rem;
+     overflow: hidden;
+   
+     
+       h1{
+         @include h(30px, 8rem, 12vw, 500, 75vw);
+         font-family:'yeseva_oneregular';
+         font-weight: 550;
+         color: $color-2;
+       
+       }
+ 
+       .border7{
+         border-radius: 5px;
+         @include border(1.6cm, 9px, $color_1, 11.5rem, 42vw);
+         text-align: center;
+      }
+     
+     
+ 
+ 
+ .button_avis{
+   position: relative;
+   top: 20rem;
+   left: -136vw;
+   z-index: 20;
+ 
+ 
+    .next1{
+    font-size: 33px;
+    border: 0 solid;
+    border-radius: 50%;
+    width: 50px;
+    padding-top: 10px;
+    height: 50px;
+    background-color: rgba(255, 254, 253, 0.437);
+    position: relative;
+    font-family: 18px;
+    right: -207vw;
+    top: -3.7rem;
+    cursor: pointer;
+ 
+    &:hover{
+       background-color: rgb(13, 18, 59);
+       color: white;
+    }
+ }
+      
+    .prev1{
+          font-size: 33px;
+          border: 0 solid;
+          border-radius: 50%;
+          width: 50px;
+          padding-top: 10px;
+          height: 50px;
+          background-color: rgba(255, 255, 255, 0.439);
+          position: relative;
+          right: -137vw;
+          cursor: pointer;
+ 
+             &:hover{
+                background-color: rgb(13, 18, 59);
+                color: azure;
+             }
+    }
+ }
+ 
+      .slider{
+       border-radius: 7px;
+       @include div-color(20rem, 90vw, 1rem, 8rem);
+ 
+           .slides{
+             width: 86vw;
+             height: 29rem;
+            display: flex;
+            border-radius: 15px;
+            background-color: rgb(202, 206, 206);
+            box-shadow: -2px 6px 25px rgba(0, 0, 0, 0.79);
+ 
+            .quote{
+              width: 28px;
+              height: 28px;
+              position: absolute;
+              top: 10.8rem;
+              left: 7vw;
+            }
+ 
+            .quote_d{
+             width: 27px;
+             height: 27px;
+             position: absolute;
+             top:30.7rem;
+             left: 68vw;
+            }
+ 
+            .item{
+             display: none;
+             padding: 80px;
+             text-align: center;
+             font-size: 17.5px;
+             margin-top: 10%;
+          
+             margin-left: 80vw;
+ 
+                 h1{
+                    position: absolute;
+                    left: 6vw;
+                      top: 12rem;
+                   font-size: 26px;
+                    color: #000;
+                    font-family:  'coneria_script_demoregular';
+                    font-weight: 1000;
+                   }
+ 
+                    p{
+                      margin-left: -88vw;
+                      width: 60vw;
+                      margin-top: 2rem;
+                       }
+ 
+             }
+             
+            
+         
+               
+ 
+               
+           }
+      }
+ 
+    }
+
+  
+
+    .galeriePhoto{ 
+      position: absolute;
+      top: 242.5rem;
+      
+          
+         h1{ 
+           @include h(26px, 8rem, 12vw, 500, 75vw);
+           font-family:'yeseva_oneregular';
+           font-weight: 550;
+           color: $color-2;
+         }
+
+         h3{
+          width: 60vw;
+          margin-top: -2rem;
+          margin-left: -15vw;
+         }
+
+
+        .lign1{
+             position: absolute;
+             top: 17rem;
+             left: -2.5vw;
+             display: block;
+
+              img{
+                  width: 100.3vw;
+                  margin-top: -1rem;
+                  height: 15rem;
+              }
+        }
+
+        .lign2{
+           position: absolute;
+           top: 73.9rem;
+           left: -2.7vw;
+           display: block;
+
+            img{
+                width: 100.3vw;
+                height: 15rem;
+                margin-top: -1rem;
+            }
+      }
+
+      .all{
+            border: 0 solid;
+            width: 99.9vw;
+            height: 10rem;
+            background-color: rgb(187, 187, 187);
+            font-size: 25px;
+            padding-top: 6rem;
+            padding-left: -8rem;
+            position: absolute;
+            top: 130.7rem;
+            left: -2.4vw;
+      }
+}
+
+.blog{
+  position: absolute;
+  top: 445rem;
+
+    h3{
+      color: $color_1;
+     font-family: 'coneria_script_demoregular';
+      font-style: italic;
+      @include h(22px, 7rem, 37vw, 800, 30vw);
+    }
+
+    h1{
+       font-size: 28px;
+    }
+
+     .contain{
+     background-color: #00000000;
+       position: relative;
+       top: -35rem;
+    .img{
+       width: 90vw;
+       height: 25rem;
+       border-radius: 12px;
+       position: relative;
+       top: -23rem;
+       left: 2.4vw;
+    }
+
+    p{
+      font-size: 28px;
+      width: 90vw;
+      position: absolute;
+      top: 2rem;
+      left: 4vw;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: bold;
+    }
+  }
+}
+
+.commentaire{
+  position: absolute;
+  top: 490rem;
+
+        img{
+          position: absolute;
+        width: 100vw;
+        left: -2vw;
+        height: 30rem;
+        }
+
+        .contain{
+              position: absolute;
+              top: -52rem;
+              z-index: 20;
+              background-color: rgba(240, 248, 255, 0);
+                p{
+                     font-size: 27px;
+                     font-weight: bolder;
+                     position: absolute;
+                     top: -10rem;
+                     left: 8vw;
+                     width: 80vw;
+                     color:rgb(255, 255, 255);
+                     font-family: 'coneria_script_demoregular';
+                }
+
+                .form{
+                    position: relative;
+                    top: 6rem;
+
+                input[type=text]{
+                      width: 91vw;
+                      height: 2.6rem;
+                      font-size: 19px;
+                      color: #000;
+                      margin-left: 1vw;
+
+                }
+
+                input[type=submit]{
+                     padding: 8px;
+                     font-size: 22.4px;
+                     background-color: rgb(218, 123, 0);
+                     border: 0;
+                     margin-left: 35vw;
+                     margin-top: 1.4rem;
+                     border-radius: 5px;
+                }
+
+            }
+        }
+
+}
+
+
+    footer{
+      @include div(65rem, 100vw, -2.2vw, 525rem, rgb(222, 216, 216));
+
+           
+      .logo{
+           width: 150px;
+           height: 70px;
+           position: absolute;
+           top: 3rem;
+           left: 27vw;
+      }
+
+      .info{
+          position: absolute;
+          top: 15rem;
+          left: 54vw;
+     
+              
+          h1{
+            @include h(25px, -4rem,-9rem,  500, 70vw);
+            color: $color-1;
+     }
+
+          .phone{
+                position: absolute;
+                top: 0rem;
+                left: 0;
+                   img{
+                    width: 20px;
+                    height: 20px;
+                    position: absolute; 
+                    left: -44vw;
+                   }
+
+                   p{
+                     font-size: 18px;
+                     position: relative;
+                     left: -38vw;
+                     top: -1rem;
+                     width: 35vw;
+                   }
+          }
+        }
+
+          .email{
+            position: absolute;
+            top: 3.6rem;
+            left: 0;
+               img{
+                width: 20px;
+                height: 20px;
+                position: absolute; 
+                left: -45vw;
+                
+               }
+
+               p{
+                 font-size: 18px;
+                 position: relative;
+                 left: -36vw;
+                 top: -1rem;
+                 width: 35vw;
+               }
+      }
+
+      .circ{
+             position: absolute;
+             left: 3vw;
+             top: 27.1rem;
+             display: block;
+        
+                 h1{
+                    @include h(25px, -4rem,-9rem,  500, 114vw);
+                    color: $color-1;  
+                 }
+                  h3{
+                    font-size: 19px;
+                    position: relative;
+                 top: -1.7rem;
+                 margin-top: 2rem;
+                    left: 3vw;
+                  }
+      }
+
+      .raccourci{
+        position: absolute;
+        left: 47vw;
+        top: 26.8rem;
+        display: block;
+            h1{
+               @include h(28px, -4rem,4vw,  500, 41vw);
+               color: $color-1;  
+            }
+             h3{
+               font-size: 19px;
+               position: relative;
+               top: -1.7rem;
+                margin-top: 2rem;
+               left: 10vw;
+             }
+ }
+
+ .reference{
+    position: absolute;
+    left: 20vw;
+    top: 44.8rem;
+  
+    h1{
+        @include h(27px, -4rem,-16vw,  500, 90vw);
+        color: $color-1;  
+     }
+
+     p{
+         width: 69vw;
+         font-size: 18px;
+         position: absolute;
+         left: -6vw;
+     }
+
+ }
+
+ .border_{
+@include border(45%, 2px, $color-1, 53rem, 29vw);
+ }
+
+ .icones{
+        position: absolute;
+        top:61rem;
+           display: flex;
+           left: 7.3%;
+           text-align: center;
+
+           img{
+               width: 42px;
+               height: 42px;
+               border-radius: 50%;
+               margin-left: 1rem;
+           }
+ }
+
+ .copright{
+      font-size: 21px;
+      position: absolute;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 800;
+      top: 55rem;
+      left: 5%;
+      width: 90vw;
+ }
+    }
+
+
+    .hide_{
+      transform: translateX(-8.5rem);
+  }
+  
+  .show_{
+      transform: translateX(0rem);
+      transition: 1.6s;
+  }
+  
+  .hide_1{
+      transform: translateY(8rem);
+      opacity: 0;
+  }
+  
+  .show_1{
+      transform: translateY(0);
+      transition: 1.6s;
+      opacity: 1;
+  }
+ 
+
+
+   
+    
+
+}
+

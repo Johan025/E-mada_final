@@ -1,0 +1,563 @@
+.header {
+    background-color: #073b02;
+    position: fixed;
+    z-index: 3;   
+    width: 99.8vw;
+    left: 0;
+    height: 2.2cm;
+    margin: 0;
+    padding: 0;
+    top: 0vh;
+    right: 0cm;
+    transition: 1s;
+
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    float: right;
+    right: 0rem;
+    top: 0.3cm;
+}
+
+.header_contain{
+    width:100%;
+    height:10vh;
+    /* background-color: #c79b0ae0;  */
+    position:absolute;
+    /* transform: translateX(-32cm); */
+    right:-32rem;
+    top:0.46cm;
+    transition:0.5s;
+}
+
+li {
+    margin: 16px;
+}
+
+.header_contain ul li a {
+    position: relative;
+    right:36rem;
+    top: -20px;
+    text-decoration: none;
+    color: rgb(138, 117, 0);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header_contain ul li a #search{
+    color:rgb(138, 117, 0);
+}
+
+.header_contain ul li a:hover {
+    background-color: rgb(165, 128, 8);
+    color: black;
+    border-radius: 20px;
+    padding: 3.5px;
+}
+
+#search{
+    color: rgb(0, 0, 0);
+}
+
+header ul li .a1{
+    border:0px solid;
+    background-color:rgb(177, 100, 0);
+    color:black;
+    border-radius: 20px;
+    padding:6px;
+}
+#search:hover{
+color:black;
+}
+
+.logo {
+    position: absolute;
+    left: 1.6cm;
+    font-size: 38px;
+    top: 0.4cm;
+    color: rgb(138, 117, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.logo span {
+    color: rgb(177, 100, 0);
+}
+
+.icone_menu i{
+    color:rgb(165, 128, 8);
+    font-size:33px;
+    position:fixed;
+    opacity:0;
+    right:4rem;
+    top:1.5rem;
+    cursor:pointer;
+    border:2px solid rgb(138, 117, 0);
+    padding:7px;
+    border-radius: 50%;
+}
+
+.icone_menu i:hover{
+    background-color: rgb(138, 117, 0); 
+    color:black;
+
+}
+.couverture_est img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:70vh;
+}
+.legende_est{
+    position:absolute;
+    top:6cm;
+    text-align: center;
+    left:10cm;
+    font-size:52px;
+    color:black;
+   animation: animation-texte 15s infinite linear;
+
+}
+
+.description_est{
+    position:absolute;
+    top:12cm;
+    left:6cm;
+    font-size:35px;
+    text-indent:100px;
+   
+}
+.description_est1{
+    position:absolute;
+    top:14cm;
+    font-size:20px;
+    left:1.7cm;
+    text-indent:15px;
+}
+.description_est1 span{
+    position:absolute;
+    left:11cm;
+    top:2.3cm;
+}
+.border_vertical{
+    position:absolute;
+    top:15cm;
+    border-left: 3.5px solid green;
+   left:1cm;
+    height:2cm;
+   
+}
+.border_bottom{
+    position:absolute;
+    top:17cm;
+    border-bottom: 3.5px solid green;
+   left:1cm;
+   width:1.4cm;
+}
+.border_vertical2{
+    position:absolute;
+    top:13.5cm;
+    border-left: 3.5px solid green;
+   right:1cm;
+    height:2cm;
+   
+}
+.border_bottom2{
+    position:absolute;
+    top:13.5cm;
+    border-bottom: 3.5px solid green;
+   right:1cm;
+   width:1.4cm;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+.indri_indri img{
+  width:19.5cm;
+  height:15cm;
+  position:absolute;
+  top:23cm;
+ right:0;
+}
+.Andasibe p{
+    position:absolute;
+    top:18.5cm;
+    left:10cm;
+    font-size: 40px;
+
+
+}
+
+.Indri{
+    position:absolute;
+    top:23cm;
+    left:2.5cm;
+    font-size:26px;
+}
+.description_indri{
+    position:absolute;
+    top:24.5cm;
+    left:2.5cm;
+    font-size:20px;
+    width: 11cm;
+    height:12cm;
+}
+.contain1{
+
+    border:0px solid black;
+    background-color: rgb(83, 172, 71);
+    width:18cm;
+    height:19cm;
+   margin-top:21.5cm;
+   
+}
+   
+.AutresEspeces{
+    position:absolute;
+    top:06cm;
+    right:4.9cm;
+    font-size:26px;
+}
+.desc_autre{
+    position:absolute;
+    top:7.3cm;
+    right:4.2cm;
+    font-size:20px;
+}
+#inner{
+    position:absolute;
+    width:19.5cm;
+    height:13cm;
+    top:00cm;
+    left:0;
+
+}
+
+.Palamarium{
+    position:absolute;
+    top:135rem;
+    left:10cm;
+    font-size:40px;
+
+}
+.image_palmarium img{
+    position:absolute;
+    width:19.5cm;
+    height:13cm;
+    top:145rem;
+    right:0;
+}
+.description_palm{
+    position:absolute;
+    top:141rem;
+    left:0cm;
+    font-size:20px;
+    border:0px solid black;
+    background-color:  rgb(83, 172, 71);
+    width:18cm;
+    padding-top:5.2cm;
+    padding-left:2.2cm;
+    height:16cm;
+  
+}
+.foulpointe{
+    position:absolute;
+    top:184rem;
+    left:10cm;
+    font-size:40px;
+
+}
+
+#inner1{
+    position:absolute;
+    width:19.6cm;
+    height:17.2cm;
+    top:100rem;
+    left:0;
+
+}
+.desc_histoire{
+    position:absolute;
+    top:100rem;
+    right:1.5cm;
+    font-size:20px;
+    width:13cm;
+    height:12cm;
+
+}
+#inner1  img{
+    width:19.6cm;
+    height:17.2cm;
+}
+
+.footer_up{
+    width:100%;
+    height:30vh;
+    position:relative;
+    top:-4.9cm;
+    background-color: rgb(180, 179, 179);
+}
+
+.footer_up .input_coms{
+     position:absolute;
+     left:20rem;
+     top:4rem;
+      width:420px;
+      height:60px;
+      font-size: 20px;
+      border:1px solid black;
+      border-radius: 5px;
+}
+
+.submit_coms{
+position:absolute;
+top:4rem;
+left:49rem;
+font-size: 22px;
+border: 0 solid;
+border-radius: 4px;
+padding:13px;
+background-color: #bad63b;
+}
+
+.follow{
+position:absolute;
+top:1rem;
+left:39.5rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.849);
+    height:10cm;
+    width: 100%;
+    position: absolute;
+    top: 250rem;
+    right: 0px;
+    left: 0;
+}
+
+.suivre {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 1cm;
+    left: 21.8cm;
+    font-size:25px;
+}
+
+.facebook {
+    position: absolute;
+    left: 4.4cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+    font-size:21px;
+}
+
+.twitter {
+    position: absolute;
+    left: 5.9cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+    font-size:21px;
+}
+
+.sort {
+
+    position: absolute;
+    top: 52cm;
+    left: 12.6cm;
+}
+
+#sort {
+    width: 23px;
+    height: 15px;
+}
+
+.instagram {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 6.9cm;
+    font-size:21px;
+}
+
+.youtube {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 7.9cm;
+    font-size:21px;
+}
+
+.contact {
+    position: absolute;
+    left: 12cm;
+    color: white;
+    top: 1cm;
+    left: 14.8cm;
+}
+
+.contact_1 {
+    position: absolute;
+    left: 12cm;
+    color: white;
+    top: 1.6cm;
+    left: 16cm;
+    margin: 3px;
+}
+
+
+.footer-countain{
+position:absolute;
+left:40rem;
+top:-1rem;
+width:8cm;
+}
+
+.footer-countain i{
+    font-size: 22px;
+    margin: 5px;
+}
+
+ .bar{
+    position:absolute;
+    display:block;
+    right:-4cm;
+    top:0.2cm;
+    
+
+}
+
+.sommaire{
+    position:absolute;
+    top:1rem;
+    left:14rem;
+    width:10cm;
+    height:8cm;
+}
+
+.sommaire .titre{
+    font-size: 22.5px;
+    color:white;
+    position: absolute;
+    top:1.3rem;
+}
+
+.sommaire a{
+    text-decoration: none;
+    color:white;
+    display:block;
+    position: relative;
+    font-size:17px;
+    top:4rem;
+}
+
+.sommaire_circuit {
+    position:absolute;
+    top:1rem;
+    left:30rem;
+    width:10cm;
+    height:8cm;
+}
+
+.sommaire_circuit .titre{
+    font-size: 22.5px;
+    color:white;
+    position: absolute;
+    top:1.3rem;
+}
+
+.sommaire_circuit a{
+    text-decoration: none;
+    color:white;
+    display:block;
+    position: relative;
+    font-size:17px;
+    top:4rem;
+}
+
+.facebook {
+    position: absolute;
+    left: 5cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+}
+
+.twitter {
+    position: absolute;
+    left: 6.1cm;
+    top: 2cm;
+    color: rgb(236, 234, 224);
+}
+
+.sort {
+
+    position: absolute;
+    top: 52cm;
+    left: 12.6cm;
+}
+
+#sort {
+    width: 23px;
+    height: 15px;
+}
+
+.instagram {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 7.2cm;
+}
+
+.youtube {
+    color: rgb(228, 233, 236);
+    position: absolute;
+    top: 2cm;
+    left: 8.3cm;
+}
+
+.contact {
+    position: absolute;
+    color: white;
+    top: 4cm;
+    left: 21.9cm;
+    font-size:21px;
+}
+
+.contact_1 {
+    position: absolute;
+    left: 21.9cm;
+    color: white;
+    top: 5.2cm;
+    margin: 3px;
+    font-size: 17px;
+}
+
+.product {
+    position: absolute;
+    left: 21.9cm;
+    color: rgb(176, 179, 24);
+    top: 7.6cm;
+    margin: 3px;
+    font-size: 23px;
+}
+
+
+.bar {
+    position: absolute;
+    display: block;
+    right: -4cm;
+    top: 0.2cm;
+
+
+}
+
+
+
+
+

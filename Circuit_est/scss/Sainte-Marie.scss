@@ -1,0 +1,43 @@
+@media screen and (min-width: 1024px) {
+    .Sm{
+        display: block;
+        border-radius: 6.5px;
+        @include div(17rem, 47vw, 49vw, 147rem,rgb(233, 232, 232)) ;
+    
+       
+    
+        .legende-sm {
+           position: relative;
+           top: 00rem;
+         
+                h1{
+                   color: #ca0404;
+                   font-family:'lumanosimoregular';
+                   @include h(27px, 1rem, -6.5vw, 800, 50vw);
+                }
+    
+                i{
+                  font-size: 38.4px;
+                  color: #ca0404;
+                  margin-left: -15vw;
+                  margin-top:1.6rem;
+                }
+        }
+    
+        .desc_sm{
+            width: 44vw;
+            position: absolute;
+            top: 4rem;
+            font-size: 18.5px;
+            left: 1.4vw;
+           }
+    
+           .Sm_img{
+            @include image-relative(18rem, 33vw, -46.5vw, -6rem, 5px);
+           } 
+    }
+    
+    .border4{
+        @include border(20vw, 3px, $color-3, 154.8rem, 35vw);
+       }
+}
