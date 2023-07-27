@@ -14,8 +14,18 @@
      top: 0;
      width: 99.9vw;
      left:0;
+     z-index: 110;
 
 }
+
+.up{
+  width: 42px;
+  height: 42px;
+  position: fixed;
+  top: 88vh;
+  z-index: 22;
+  right: 3.8vw;
+  }
 
 .logo {
   font-size: 27px;
@@ -59,14 +69,14 @@ h1{
     display: block;
     position:absolute;
     left: 35vw;
-    top: -25rem;
+    top: -28rem;
     width: 65vw;
   
 
           li{
             margin-top: 22px;
              a{
-                  color: #241b1b;
+                  color: #000000;
                   font-size: 19px;
                   padding: -25px;
                   width: -5rem;
@@ -95,6 +105,10 @@ h1{
 }
 }
 
+li a #search{
+  color: #000000;
+}
+
 .icone_menu i{
     position: relative;
     float: right;
@@ -111,10 +125,10 @@ h1{
 }
 
 .h2{
-     transform: translateY(28rem);
+     transform: translateY(31rem);
      position: absolute;
      top: 2.6rem;
-     transition: 0.06s;
+     transition: 0.02s;
 }
 // fin barre de navigation
 
@@ -863,6 +877,7 @@ font-family: 'abril_fatfaceregular';
       top: 386rem;
       width: 100%;
       height: 52rem;
+
      overflow: hidden;
    
      
@@ -931,6 +946,7 @@ font-family: 'abril_fatfaceregular';
  
       .slider{
        border-radius: 7px;
+       z-index: 10;
        @include div-color(20rem, 90vw, 1rem, 8rem);
  
            .slides{
@@ -950,11 +966,7 @@ font-family: 'abril_fatfaceregular';
             }
  
             .quote_d{
-             width: 27px;
-             height: 27px;
-             position: absolute;
-             top:30.7rem;
-             left: 68vw;
+             display: none;
             }
  
             .item{
@@ -969,7 +981,7 @@ font-family: 'abril_fatfaceregular';
                  h1{
                     position: absolute;
                     left: 6vw;
-                      top: 12rem;
+                      top: 9rem;
                    font-size: 26px;
                     color: #000;
                     font-family:  'coneria_script_demoregular';
@@ -977,9 +989,9 @@ font-family: 'abril_fatfaceregular';
                    }
  
                     p{
-                      margin-left: -88vw;
-                      width: 60vw;
-                      margin-top: 2rem;
+                      margin-left: -92vw;
+                      width: 72vw;
+                      margin-top: -1rem;
                        }
  
              }

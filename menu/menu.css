@@ -92,7 +92,7 @@ ul {
   margin: 0;
   padding: 0;
   float: right;
-  right: 11.6vw;
+  right: 10vw;
   top: 0.5cm;
 }
 ul #user {
@@ -401,7 +401,19 @@ header ul li .a1 {
     color: #29353e;
   }
 }
+.up {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1024px) {
+  .up {
+    width: 52px;
+    height: 52px;
+    position: fixed;
+    top: 85vh;
+    z-index: 22;
+    right: 1.8vw;
+  }
   .pictures_home {
     position: absolute;
     right: 4vw;
@@ -488,6 +500,15 @@ header ul li .a1 {
     top: 0;
     width: 99.9vw;
     left: 0;
+    z-index: 110;
+  }
+  .up {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 88vh;
+    z-index: 22;
+    right: 3.8vw;
   }
   .logo {
     font-size: 27px;
@@ -531,14 +552,14 @@ header ul li .a1 {
     display: block;
     position: absolute;
     left: 35vw;
-    top: -25rem;
+    top: -28rem;
     width: 65vw;
   }
   .header_contain ul li {
     margin-top: 22px;
   }
   .header_contain ul li a {
-    color: #241b1b;
+    color: #000000;
     font-size: 19px;
     padding: -25px;
     width: -5rem;
@@ -559,6 +580,9 @@ header ul li .a1 {
   .header_contain ul i {
     color: #000000;
   }
+  li a #search {
+    color: #000000;
+  }
   .icone_menu i {
     position: relative;
     float: right;
@@ -573,10 +597,10 @@ header ul li .a1 {
     height: 24.5rem;
   }
   .h2 {
-    transform: translateY(28rem);
+    transform: translateY(31rem);
     position: absolute;
     top: 2.6rem;
-    transition: 0.06s;
+    transition: 0.02s;
   }
   .pictures_home {
     position: absolute;
@@ -1323,6 +1347,7 @@ header ul li .a1 {
   }
   .avis .slider {
     border-radius: 7px;
+    z-index: 10;
     width: 90vw;
     height: 20rem;
     position: absolute;
@@ -1345,11 +1370,7 @@ header ul li .a1 {
     left: 7vw;
   }
   .avis .slider .slides .quote_d {
-    width: 27px;
-    height: 27px;
-    position: absolute;
-    top: 30.7rem;
-    left: 68vw;
+    display: none;
   }
   .avis .slider .slides .item {
     display: none;
@@ -1362,16 +1383,16 @@ header ul li .a1 {
   .avis .slider .slides .item h1 {
     position: absolute;
     left: 6vw;
-    top: 12rem;
+    top: 9rem;
     font-size: 26px;
     color: #000;
     font-family: "coneria_script_demoregular";
     font-weight: 1000;
   }
   .avis .slider .slides .item p {
-    margin-left: -88vw;
-    width: 60vw;
-    margin-top: 2rem;
+    margin-left: -92vw;
+    width: 72vw;
+    margin-top: -1rem;
   }
   .galeriePhoto {
     position: absolute;
@@ -1689,7 +1710,19 @@ header ul li .a1 {
     opacity: 1;
   }
 }
+header {
+  z-index: 90;
+}
+
 @media screen and (min-width: 500px) and (max-width: 1024px) {
+  .up {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 90vh;
+    z-index: 22;
+    right: 4.7vw;
+  }
   #user {
     position: relative;
     left: 72vw;
@@ -1716,6 +1749,7 @@ header ul li .a1 {
     position: fixed;
     top: 0;
     width: 100vw;
+    z-index: 90;
     left: 0;
   }
   .logo {
@@ -2603,7 +2637,7 @@ header ul li .a1 {
   .avis .slider .slides .item h1 {
     position: absolute;
     left: 7vw;
-    top: 10rem;
+    top: 9rem;
     font-size: 26px;
     color: #000;
     font-family: "coneria_script_demoregular";
@@ -2612,7 +2646,7 @@ header ul li .a1 {
   .avis .slider .slides .item p {
     margin-left: 0vw;
     width: 67vw;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .galeriePhoto {
     position: absolute;

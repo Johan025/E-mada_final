@@ -1,5 +1,16 @@
+header{
+   z-index: 90;
+}
 @media screen and (min-width: 500px) and (max-width: 1024px) {
-   
+  .up{
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 90vh;
+    z-index: 22;
+    right: 4.7vw;
+    }
+  
   #user{
     position: relative;
     left: 72vw;
@@ -27,6 +38,7 @@ img{
       position:fixed;
       top: 0;
       width: 100vw;
+      z-index: 90;
       left:0;
     }
     
@@ -1003,7 +1015,7 @@ img{
                   h1{
                      position: absolute;
                      left: 7vw;
-                       top: 10rem;
+                       top: 9rem;
                     font-size: 26px;
                      color: #000;
                      font-family:  'coneria_script_demoregular';
@@ -1013,7 +1025,7 @@ img{
                      p{
                        margin-left: 0vw;
                        width: 67vw;
-                       margin-top: 2rem;
+                       margin-top: 1rem;
                         }
   
               }

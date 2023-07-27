@@ -56,7 +56,7 @@ $coms= $requetex->fetchAll();
 ?>
 
 <!-- couverture -->
-<img src="./" alt="">
+<img src="./assets/image/up.png" class="up" id="scrollButton" alt="">
   <div class="pictures_home"> 
           <img src="./assets/image/couvertureSud.jpg" class="d-block w-100" alt="...">
           <img src="./assets/image/alley-respons.jpg" class="d-block w-100" alt="...">
@@ -412,7 +412,6 @@ $coms= $requetex->fetchAll();
     <div class="logo"> <img src="assets/image/logo_.png" alt=""> E-MADA <span>VISIT</span></div>
   </header>
 
-<div class="up"><img src="assets/image/up.png" class="up-" alt=""></div>
   
   <script src="./../javascript/TypeWriter.js"></script>
   <script src="./../javascript/scrollingEffect2.js"></script>
@@ -423,6 +422,7 @@ $coms= $requetex->fetchAll();
 <script src="../javascript/carousel.js"></script>
 <script src="../javascript/tritmorial.js"></script>
 <script src="../javascript/galerieEffect.js"></script>
+<script  src="./../javascript/button_scroll.js"></script>
 
 </body>
 
