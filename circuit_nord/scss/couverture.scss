@@ -1,4 +1,14 @@
 @media screen and (min-width: 1024px) {
+    .up{
+        width: 52px;
+            height: 52px;
+            position: fixed;
+            top: 85vh;
+            z-index: 22;
+            right: 1.8vw;
+            
+        }
+   
     #map{
         width: 32vw;
         position: absolute;

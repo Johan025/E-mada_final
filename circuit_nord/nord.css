@@ -41,6 +41,10 @@
   font-family: "alegreyaregular";
 }
 
+.up{
+   cursor: pointer;
+}
+
 .header {
   background-color: #f2f2f2;
   position: fixed;
@@ -176,6 +180,14 @@ header ul li .a1 {
 }
 
 @media screen and (min-width: 1024px) {
+  .up {
+    width: 52px;
+    height: 52px;
+    position: fixed;
+    top: 85vh;
+    z-index: 22;
+    right: 1.8vw;
+  }
   #map {
     width: 32vw;
     position: absolute;
@@ -739,6 +751,14 @@ header ul li .a1 {
     z-index: 20;
     border: 2px solid;
   }
+  .up {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 88vh;
+    z-index: 22;
+    right: 3.8vw;
+  }
   .header {
     position: fixed;
     top: 0;
@@ -1283,6 +1303,14 @@ header ul li .a1 {
     top: 337rem;
     z-index: 20;
     border: 2px solid;
+  }
+  .up {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 90vh;
+    z-index: 22;
+    right: 4.7vw;
   }
   .header {
     position: fixed;

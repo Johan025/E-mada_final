@@ -175,8 +175,20 @@ header ul li .a1 {
   top: 65rem;
   background-color: #697278;
 }
+.up{
+  cursor: pointer;
+}
+
 
 @media screen and (min-width: 1024px) {
+  .up {
+    width: 52px;
+    height: 52px;
+    position: fixed;
+    top: 85vh;
+    z-index: 22;
+    right: 1.8vw;
+  }
   #map {
     width: 32vw;
     position: absolute;
@@ -532,6 +544,14 @@ header ul li .a1 {
     top: 565rem;
     z-index: 20;
     border: 2px solid;
+  }
+  .up {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 88vh;
+    z-index: 22;
+    right: 3.8vw;
   }
   .header {
     position: fixed;
@@ -1349,6 +1369,14 @@ header ul li .a1 {
     left: 5%;
     width: 90vw;
   }
+  .up {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 88vh;
+    z-index: 22;
+    right: 3.8vw;
+  }
   .border_princ {
     width: 3px;
     height: 480rem;
@@ -1359,6 +1387,14 @@ header ul li .a1 {
   }
 }
 @media screen and (min-width: 500px) and (max-width: 1024px) {
+  .up {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    top: 90vh;
+    z-index: 22;
+    right: 4.7vw;
+  }
   #map {
     width: 87vw;
     position: absolute;

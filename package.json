@@ -25,7 +25,7 @@
   },
   "scripts": {
     "compile": "node-sass circuit_est/index_est.scss circuit_est/est.css",
-    "watch": "sass -w menu/menu.scss  menu/menu.css"
+    "watch": "sass -w Circuit_est/index_est.scss  Circuit_est/est.css"
   },
   "keywords": [],
   "author": "",
