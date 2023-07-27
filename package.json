@@ -25,7 +25,7 @@
   },
   "scripts": {
     "compile": "node-sass circuit_est/index_est.scss circuit_est/est.css",
-    "watch": "sass -w Circuit_est/index_est.scss  Circuit_est/est.css"
+    "watch": "sass -w recherche_hotel/recherche_hotel.scss  recherche_hotel/recherche_hotel.css"
   },
   "keywords": [],
   "author": "",

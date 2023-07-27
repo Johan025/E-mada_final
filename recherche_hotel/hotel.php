@@ -79,7 +79,7 @@ else{
                     
                     <h1 class="ddesc2">Liste des hotels correspondant à votre recherche pour "<?php echo "$nomVille"?>"</h1>
                     
-
+                    <a href="#result" id="resul">Afficher les résultats</a>
                     <input type="text" name="ville" id="champ_recherche" placeholder="Entrez nom ville">
                 
                     <a href="#affichage_"><input type="submit" value="Rechercher" name="search" class="rechercher" id="button_search"> </a>

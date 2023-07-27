@@ -18,8 +18,6 @@ session_start();
 
 
   //$_SESSION = array();
-
-
 //session_destroy();
 
 //header("Location: ../index.php");
@@ -60,7 +58,7 @@ $coms= $requetex->fetchAll();
   <div class="pictures_home"> 
           <img src="./assets/image/couvertureSud.jpg" class="d-block w-100" alt="...">
           <img src="./assets/image/alley-respons.jpg" class="d-block w-100" alt="...">
-          <img src="./assets/image/parallax.jpg" class="d-block w-100" alt="...">
+          <img src="./assets/image/sainte-marie.jpg" class="d-block w-100" alt="...">
          
 </div>
 

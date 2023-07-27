@@ -68,9 +68,9 @@ echo("erreur nous n' avons pas trouvé la ville");
 
                       <h3 class="p2">Résultat de votre Recherche</h3>
 
-                      <h1 class="ddesc2">Liste des cooperatives correspondant à votre recherche pour "..."</h1>
+                      <h1 class="ddesc2">Liste des cooperatives correspondant à votre recherche pour "<?php echo "$depart"?>" à "<?php echo "$arrivee"?>"</h1>
 
-
+                      <a href="#resul" id="resul">Afficher les résultats</a>
                       <input type="text" name="depart" id="depart" placeholder="Point de départ">
                       <input type="text" name="arrivee" id="arrivée" placeholder="Arrivée">
 

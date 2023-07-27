@@ -363,7 +363,7 @@ header ul li .a1 {
 .couverture {
   position: absolute;
   top: 5rem;
-  width: 98.85vw;
+  width: 100vw;
   left: 0;
   height: 36.7rem;
 }
@@ -400,12 +400,21 @@ header ul li .a1 {
     height: 30rem;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     background-color: aliceblue;
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .contain .contain_ #resul {
+    font-size: 22px;
+    color: #d43606;
+    position: relative;
+    text-decoration: underline;
+    top: 20.6rem;
+    font-weight: bolder;
+    font-family: "Times New Roman", Times, serif;
   }
   .contain .contain_ .p1 {
     position: absolute;
@@ -464,14 +473,12 @@ header ul li .a1 {
     height: 20rem;
     position: absolute;
     top: 48rem;
-    color: #0c0c0c;
     left: -6.6vw;
     border: 2px solid black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 8px;
-    font-weight: 700;
+    border-radius: 15px;
     font-size: 27px;
-    background-color: #adaeaf;
+    font-weight: 800;
+    background-color: #c9c4c4;
   }
   .contain .contain_ input[type=submit] {
     position: absolute;
@@ -492,14 +499,14 @@ header ul li .a1 {
     font-family: "Times New Roman", Times, serif;
     position: absolute;
     color: #363535;
-    top: 21rem;
+    top: 22rem;
     left: 16rem;
   }
   .contain .contain_ button {
     padding: 8px;
     font-size: 18px;
     position: absolute;
-    top: 26rem;
+    top: 25.5rem;
     left: 11rem;
     background-color: rgba(37, 78, 122, 0);
     border: 1px solid black;

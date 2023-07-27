@@ -127,8 +127,8 @@ if (isset($_SESSION['nom_utilisateur'])){
 <div class="desc">
       <h1 class="hide_">Bienvenue sur E-MADA VISIT </h1>
       <p class="hide_1">Un site web qui vous montrera la beauté de l ' île de Madagascar</p>
-      <button id="sign"class="hide_1">S' inscrire à nous</button>
-      <button  id="login" class="hide_1">Se connecter</button>
+      <button id="sign"class="hide_1">Commencer</button>
+     
     </div>
 </div>
 
@@ -160,13 +160,6 @@ if (isset($_SESSION['nom_utilisateur'])){
 <script src="./javascript/loginEffect.js"></script>
 <script src="./javascript/ScrollingEffect.js"></script>
 <script src="./javascript/scrollingEffect2.js"></script>
-<script>
-    function handleSubmit(event){
-     
-  //   event.preventDefault();
 
-
- }
-</script>
 </body>
 </html>

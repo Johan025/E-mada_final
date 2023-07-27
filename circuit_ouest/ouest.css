@@ -189,6 +189,8 @@ header ul li .a1 {
     z-index: 22;
     right: 1.8vw;
   }
+
+
   #map {
     width: 32vw;
     position: absolute;
@@ -199,6 +201,7 @@ header ul li .a1 {
     z-index: 20;
     border: 2px solid;
   }
+  
   .ouest_couverture .couverture_ouest {
     position: relative;
     top: 8rem;

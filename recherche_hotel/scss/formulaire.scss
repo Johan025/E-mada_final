@@ -34,14 +34,25 @@
                    
                    .contain_{
                         width: 35rem;
-                       // display: none;
                         height: 30rem;
                         border-top-left-radius: 25px;
                         border-bottom-left-radius: 25px;
+                        border-top-right-radius: 12px;
+                        border-bottom-right-radius: 12px;
                         background-color: aliceblue;
                         position: absolute;
                         right: 0;
                         top: 0;
+
+                        #resul{
+                           font-size: 22px;
+                           color: #d43606;
+                            position: relative;
+                            text-decoration: underline;
+                            top: 20.6rem;
+                            font-weight: bolder;
+                        font-family: 'Times New Roman', Times, serif;
+                        }
 
                         .p1{
                             position: absolute;
@@ -106,12 +117,15 @@
                      #affichage_{
                         width: 38vw;
                         height: 20rem;
+                        
                         position: absolute; 
                         top: 48rem;
                         left: -6.6vw;
                         border: 2px solid black;
                         border-radius: 15px;
-                        background-color: #707881;
+                        font-size: 27px;
+                        font-weight: 800;
+                        background-color: #c9c4c4;
                    }
       
                          input[type=submit]{
@@ -135,7 +149,7 @@
                             font-family: 'Times New Roman', Times, serif;
                             position: absolute;
                             color: #363535;
-                            top: 21rem;
+                            top: 22rem;
                             left: 16rem;
                          }
       
@@ -143,7 +157,7 @@
                             padding: 8px;
                             font-size: 18px;
                             position: absolute;
-                            top: 26rem;
+                            top: 25.5rem;
                             left: 11rem;
                             background-color: #254e7a00;
                             border: 1px solid black;
